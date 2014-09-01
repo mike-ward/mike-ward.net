@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Linq;
 using Nancy.Blog;
 using Nancy.Bootstrapper;
 using Nancy.Conventions;
@@ -19,11 +21,17 @@ namespace Mike_Ward.Net
             {
                 Title = "Mike-Ward.Net",
                 Description = ".NET, Technology, Life, Whatever",
-                BaseUri = new Uri("http://localhost:12116/blog"),
+                BaseUri = new Uri("http://localhost:12116/blog/"),
                 Author = "Mike Ward",
                 Langauge = "en-US",
                 Copyright = "Copyright (C) 2014 - Mike Ward"
             };
+
+            var rootPath = container.Resolve<IRootPathProvider>().GetRootPath();
+
+            blog.Posts = Directory.GetFiles(Path.Combine(rootPath, "Blog/"), "*.md")
+                .Select(file => Post.Read(File.OpenRead(file)));
+
             container.Register<IBlog>(blog);
         }
 

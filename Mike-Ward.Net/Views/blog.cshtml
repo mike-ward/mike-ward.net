@@ -1,6 +1,19 @@
-﻿@{
+﻿@using System.Linq
+@{
   Layout = "master.cshtml";
   ViewBag.Title = "Blog";
 }
 
-Blog
+<section>
+  @foreach (var post in Enumerable.Take(Enumerable.Skip(Model.Posts, ViewBag.Index), ViewBag.PageLength))
+  {
+    <article>
+      <h2><a href="@Model.PermaLink(post)">@post.Title</a></h2>
+      <div>
+        @Html.Raw(post.Html())
+      </div>
+      <div class="blog-date">@post.Created.ToString("d MMM yyyy")</div>
+    </article>
+  }
+  <p><a href="@ViewBag.Prev">previous</a>  | <a href="@ViewBag.Next">next</a></p>
+</section>

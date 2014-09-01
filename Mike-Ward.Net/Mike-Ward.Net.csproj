@@ -83,7 +83,6 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\nancy-logo.png" />
     <Content Include="css\highlight-vs.min.css" />
     <Content Include="css\pure-min.css" />
     <Content Include="js\highlight.min.js" />
@@ -100,6 +99,7 @@
     <Content Include="Views\blog.cshtml" />
     <Content Include="Views\master.cshtml" />
     <Content Include="Views\blog-archive.cshtml" />
+    <Content Include="Blog\Post00874.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
