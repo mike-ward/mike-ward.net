@@ -23,8 +23,8 @@ namespace Mike_Ward.Net.Modules
             const int pageLength = 3;
             Context.ViewBag.Index = index;
             Context.ViewBag.PageLength = pageLength;
-            Context.ViewBag.Prev = Math.Max(index - pageLength, 0);
-            Context.ViewBag.Next = Math.Min(blog.Posts.Count() - 1, index + pageLength);
+            Context.ViewBag.Prev = blog.BaseUri + Math.Max(index - pageLength, 0).ToString(CultureInfo.InvariantCulture);
+            Context.ViewBag.Next = blog.BaseUri + Math.Min(blog.Posts.Count() - 1, index + pageLength).ToString(CultureInfo.InvariantCulture);
             return View[blog];
         }
 
@@ -34,8 +34,8 @@ namespace Mike_Ward.Net.Modules
             Context.ViewBag.PageLength = pageLength;
             var index = blog.IndexFromSlug(slug);
             Context.ViewBag.Index = index;
-            Context.ViewBag.Prev = blog.Posts.ElementAt(Math.Max(0, index - pageLength)).Slug;
-            Context.ViewBag.Next = blog.Posts.ElementAt(Math.Min(blog.Posts.Count() - 1, index + pageLength)).Slug;
+            Context.ViewBag.Prev = blog.BaseUri + blog.Posts.ElementAt(Math.Max(0, index - pageLength)).Slug;
+            Context.ViewBag.Next = blog.BaseUri + blog.Posts.ElementAt(Math.Min(blog.Posts.Count() - 1, index + pageLength)).Slug;
             return View[blog];
         }
 

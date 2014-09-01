@@ -1,0 +1,93 @@
+﻿html, body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  font-family: Verdana, sans-serif;
+}
+
+#content {
+  width: 1028px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+.site-title {
+  color: #666;
+}
+
+#topbar {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: .5pc;
+}
+
+  #topbar a {
+    color: #999;
+    padding-right: 1pc;
+  }
+
+    #topbar a:hover {
+      color: #333;
+      text-decoration: none;
+    }
+
+img {
+  border-style: none;
+}
+
+a, a:link, a:visited {
+  color: #2B547E;
+  text-decoration: none;
+}
+
+  a:hover {
+    color: #222;
+    text-decoration: underline;
+  }
+
+.left {
+  float: left;
+  width: 728px;
+  margin-top: 1pc;
+  margin-bottom: 1pc;
+  padding-right: 13px;
+  border-right: solid #ddd 1px;
+}
+
+.right {
+  margin-top: 1pc;
+  margin-bottom: 1pc;
+  margin-left: 755px;
+}
+
+article {
+  margin-bottom: 4pc;
+  border-bottom: black double;
+}
+
+.hljs {
+  background-color: #f6f6f9;
+  font-size: 11pt;
+}
+
+.blog-date {
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 1pc;
+}
+
+
+footer {
+  clear: both;
+  background-color: #f6f6f9;
+  text-align: center;
+  font-size: smaller;
+  padding-top: 1pc;
+  padding-bottom: 1pc;
+  background: #eaf3fa;
+  border-top: 1px solid #ccc;
+  margin: 0;
+}

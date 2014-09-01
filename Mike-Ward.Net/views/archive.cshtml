@@ -11,13 +11,12 @@
     <h2>@yearGroup.Key</h2>
     foreach (var monthGroup in yearGroup.Value)
     {
-      <h3>@monthGroup.Key</h3>
-      <ul>
+      <p>
         @foreach (var post in monthGroup.Value)
         {
-          <li>@post.Created.ToString("dd")&nbsp;&nbsp;&nbsp;<a href="@post.PermaLink">@post.Title</a></li>
+          <div>@post.Created.ToString("dd-MM-yyyy")&nbsp;&nbsp;&nbsp;<a href="@post.PermaLink">@post.Title</a></div>
         }
-      </ul>
+      </p>
     }
   }
 </section>
