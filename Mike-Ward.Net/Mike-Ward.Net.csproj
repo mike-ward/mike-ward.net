@@ -85,21 +85,22 @@
   <ItemGroup>
     <Content Include="css\highlight-vs.min.css" />
     <Content Include="css\pure-min.css" />
+    <Content Include="css\site.css" />
     <Content Include="js\highlight.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bootstrapper.cs" />
-    <Compile Include="Modules\BlogModule.cs" />
-    <Compile Include="Modules\SiteModule.cs" />
+    <Compile Include="modules\BlogModule.cs" />
+    <Compile Include="modules\SiteModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="Views\blog.cshtml" />
-    <Content Include="Views\master.cshtml" />
-    <Content Include="Views\blog-archive.cshtml" />
-    <Content Include="Blog\Post00874.md" />
+    <Content Include="views\blog.cshtml" />
+    <Content Include="views\master.cshtml" />
+    <Content Include="views\archive.cshtml" />
+    <Content Include="blog\Post00874.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -108,7 +109,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
+    <Folder Include="models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

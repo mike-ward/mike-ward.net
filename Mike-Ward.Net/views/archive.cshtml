@@ -1,0 +1,23 @@
+﻿@{
+  Layout = "master.cshtml";
+  ViewBag.Title = "Blog Archive";
+}
+
+<h1>Archive</h1>
+
+<section>
+  @foreach (var yearGroup in Model)
+  {
+    <h2>@yearGroup.Key</h2>
+    foreach (var monthGroup in yearGroup.Value)
+    {
+      <h3>@monthGroup.Key</h3>
+      <ul>
+        @foreach (var post in monthGroup.Value)
+        {
+          <li>@post.Created.ToString("dd")&nbsp;&nbsp;&nbsp;<a href="@post.PermaLink">@post.Title</a></li>
+        }
+      </ul>
+    }
+  }
+</section>
