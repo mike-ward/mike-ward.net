@@ -13,7 +13,7 @@ namespace Mike_Ward.Net.Modules
         {
             Get["blog/"] = p => ShowBlog(blog, 0);
             Get["blog/page/{index:int}"] = p => ShowBlog(blog, p.index);
-            Get["blog/post/{year:int}/{month:int}/{day:int}/{slug:string}"] = p => ShowArticle(blog, p.year, p.month, p.day, p.slug);
+            Get["blog/post/{year:int}/{month:int}/{day:int}/{slug}"] = p => ShowArticle(blog, p.year, p.month, p.day, p.slug);
             Get["blog/archive"] = p => ShowArchive(blog);
             Get["blog/rss"] = p => blog.Rss();
         }
@@ -47,11 +47,8 @@ namespace Mike_Ward.Net.Modules
             var previous = blog.Posts.ElementAt(Math.Max(0, index - pageLength));
             var next = blog.Posts.ElementAt(Math.Min(blog.Posts.Count() - 1, index + pageLength));
 
-            Func<Post, string> link = p => string.Format("{0}/post/{1}/{2}/{3}/{4}", 
-                blog.BaseUri, p.Created.Year, p.Created.Month, p.Created.Day, p.Slug);
-
-            Context.ViewBag.Prev = link(previous);
-            Context.ViewBag.Next = link(next);
+            Context.ViewBag.Prev = previous.PermaLink;
+            Context.ViewBag.Next = next.PermaLink;
             return View[blog];
         }
 

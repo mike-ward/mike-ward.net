@@ -8,7 +8,7 @@
   @foreach (var post in Enumerable.Take(Enumerable.Skip(Model.Posts, ViewBag.Index), ViewBag.PageLength))
   {
     <article>
-      <h2><a href="@Model.PermaLink(post)">@post.Title</a></h2>
+      <h2><a href="@post.PermaLink">@post.Title</a></h2>
       <div>
         @Html.Raw(post.Html())
       </div>
