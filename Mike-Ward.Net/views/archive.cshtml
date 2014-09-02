@@ -14,7 +14,7 @@
       <p>
         @foreach (var post in monthGroup.Value)
         {
-          <div>@post.Created.ToString("dd-MM-yyyy")&nbsp;&nbsp;&nbsp;<a href="@post.PermaLink">@post.Title</a></div>
+          <div>@post.Created.ToString("MM-dd-yyyy")&nbsp;&nbsp;&nbsp;<a href="@post.PermaLink">@post.Title</a></div>
         }
       </p>
     }

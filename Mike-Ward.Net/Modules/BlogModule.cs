@@ -45,10 +45,10 @@ namespace Mike_Ward.Net.Modules
                 .GroupBy(post => post.Created.Year)
                 .ToDictionary(yg => yg.Key, yg => yg
                     .GroupBy(mg => mg.Created.Month)
-                    .OrderBy(mg => mg.Key)
+                    .OrderByDescending(mg => mg.Key)
                     .ToDictionary(
                         mg => CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(mg.Key),
-                        mg => mg.OrderBy(d => d.Created)))
+                        mg => mg.OrderByDescending(d => d.Created)))
                 ];
         }
     }
