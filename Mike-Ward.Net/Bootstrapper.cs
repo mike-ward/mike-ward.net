@@ -21,7 +21,7 @@ namespace Mike_Ward.Net
             {
                 Title = "Mike-Ward.Net",
                 Description = ".NET, Technology, Life, Whatever",
-                BaseUri = new Uri("http://localhost:12116/blog/"),
+                BaseUri = new Uri("http://localhost:12116/blog"),
                 Author = "Mike Ward",
                 Langauge = "en-US",
                 Copyright = "Copyright (C) 2014 - Mike Ward"
