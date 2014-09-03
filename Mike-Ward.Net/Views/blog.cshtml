@@ -5,7 +5,7 @@
 }
 
 <section>
-  @foreach (var post in Enumerable.Take(Enumerable.Skip(Model.Posts, ViewBag.Index), ViewBag.PageLength))
+  @foreach (var post in Enumerable.Take(Enumerable.Skip(Model.Blog.Posts, ViewBag.Index), ViewBag.PageLength))
   {
     <article>
       <h2><a href="@post.PermaLink">@post.Title</a></h2>
