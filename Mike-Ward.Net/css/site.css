@@ -63,6 +63,10 @@ a, a:link, a:visited {
   margin-left: 755px;
 }
 
+.syndication-icons {
+  text-align: center;
+}
+
 article {
   margin-bottom: 4pc;
   border-bottom: black double;
@@ -79,6 +83,10 @@ article {
   margin-bottom: 1pc;
 }
 
+.recent-post {
+  line-height: 2;
+  border-bottom: solid #ccc 1px;  
+}
 
 footer {
   clear: both;

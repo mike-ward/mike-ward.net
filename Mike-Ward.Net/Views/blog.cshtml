@@ -17,3 +17,14 @@
   }
   <p><a href="@ViewBag.Prev">previous</a>  | <a href="@ViewBag.Next">next</a></p>
 </section>
+
+@section sidebar {
+  <p><strong>Recent Posts</strong></p>
+  <p>
+    @foreach (var post in Enumerable.Take(Model.Blog.Posts, 5))
+    {
+      <div class="recent-post"><a href="@post.PermaLink">@post.Title</a></div>
+    }
+    <div class="recent-post"><a href="~/blog/archive">More... (@Model.Blog.Posts.Length)</a></div>
+  </p>
+}

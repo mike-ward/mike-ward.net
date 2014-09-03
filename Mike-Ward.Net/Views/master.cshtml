@@ -25,13 +25,16 @@
         @RenderBody()
       </div>
       <div class="right">
-        <div>
+        <div class="syndication-icons">
           <a href="http://feedproxy.google.com/MikeWardTechnologyBlog" title="RSS Feed" onclick="javascript:_gaq.push(['_trackEvent','social-link','http://feedproxy.google.com/MikeWardTechnologyBlog']);"><img src="~/content/images/rss-metro.png" alt="" width="48" height="48"></a>
           <a href="http://feedburner.google.com/fb/a/mailverify?uri=MikeWardTechnologyBlog&amp;loc=en_US" title="Email Feed" onclick="javascript:_gaq.push(['_trackEvent','social-link','http://feedburner.google.com/fb/a/mailverify?uri=MikeWardTechnologyBlog&amp;loc=en_US']);"><img src="~/content/images/email-metro.png" alt="" width="48px" height="48px"></a>
           <a href="https://twitter.com/mikeward_aa" title="Follow &#64;mikeward_aa" onclick="javascript:_gaq.push(['_trackEvent','social-link','http://twitter.com']);"><img src="~/content/images/twitter.png" alt="" width="48" height="48"></a>
           <a href="http://stackoverflow.com/users/1032172/mike-ward" title="Follow on Stackoverflow.com" onclick="javascript:_gaq.push(['_trackEvent','social-link','http://stackoverflow.com']);"><img src="~/content/images/stackoverflow.png" alt="" width="48" height="48"></a>
         </div>
         <p>.Net, Technology, Life, Whatever</p>
+        <div>
+          @RenderSection("sidebar", false)
+        </div>
       </div>
     </div>
     <footer>
