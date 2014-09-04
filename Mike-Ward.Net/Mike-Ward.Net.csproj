@@ -1051,6 +1051,7 @@
     <Content Include="blog\Post00943.md" />
     <Content Include="blog\Post00944.md" />
     <Content Include="views\vscoloroutput.cshtml" />
+    <Content Include="views\tweetz.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
