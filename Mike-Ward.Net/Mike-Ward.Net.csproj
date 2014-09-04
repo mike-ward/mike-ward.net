@@ -1053,6 +1053,8 @@
     <Content Include="views\tweetz.cshtml" />
     <Content Include="views\deskdrive.cshtml" />
     <Content Include="views\simplyweather.cshtml" />
+    <Content Include="views\freesnap.cshtml" />
+    <Content Include="views\calendar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

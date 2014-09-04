@@ -11,6 +11,8 @@
             Get["/tweetz"] = p => View["tweetz"];
             Get["/simplyweather"] = p => View["simplyweather"];
             Get["/vscoloroutput"] = p => View["vscoloroutput"];
+            Get["/freesnap"] = p => View["freesnap"];
+            Get["/calendar"] = p => View["calendar"];
         }
     }
 }
