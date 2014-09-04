@@ -24,7 +24,7 @@ namespace Mike_Ward.Net.models
             blog.Author = "Mike Ward";
             blog.Langauge = "en-US";
             blog.Copyright = "Copyright (C) 2014 - Mike Ward";
-            blog.Posts = Directory.GetFiles(Path.Combine(rootPathProvider.GetRootPath(), "Blog/"), "*.md")
+            blog.Posts = Directory.GetFiles(Path.Combine(rootPathProvider.GetRootPath(), "Blog/"), "Post*.md")
                 .Select(file => Post.Read(File.OpenRead(file)));
         }
     }
