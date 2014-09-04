@@ -38,6 +38,11 @@ img {
   border-style: none;
 }
 
+  img[title="sw-screen-shot"] {
+    margin-left: 30%;
+    border: 1px solid black;
+  }
+
 a, a:link, a:visited {
   color: #00c;
   text-decoration: none;
@@ -85,7 +90,7 @@ article {
 
 .recent-post {
   line-height: 2;
-  border-bottom: solid #ccc 1px;  
+  border-bottom: solid #ccc 1px;
 }
 
 footer {
