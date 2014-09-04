@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 using Nancy;
-using Nancy.Blog;
+using Nancy.Markdown.Blog;
 
 namespace Mike_Ward.Net.models
 {
