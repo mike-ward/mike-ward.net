@@ -7,6 +7,7 @@
         public SiteModule()
         {
             Get["/"] = p => Response.AsRedirect("~/blog");
+            Get["/vscoloroutput"] = p => View["vscoloroutput"];
         }
     }
 }
