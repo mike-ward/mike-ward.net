@@ -28,7 +28,7 @@ Registry entries are not removed so later installations will reuse these setting
 
 VSColorOutput hooks into the the classifier chain of Visual Studio. This allows VSColorOutput to monitor every line sent to the output window.
 A list of classifiers, consisting of regular expressions and classifications is checked.
-The first matching expression determines the classification. If no patterns match, then line is classified as BuildText.
+The first matching expression determines the classification. If no patterns match, then line is classified as **BuildText**.
 
 From here, Visual Studio does the heavy lifting of mapping the classification to a color. Colors are stored in the registry.
 
@@ -66,7 +66,8 @@ Its default color is ""Gray"". I've found this helps to highlight the other clas
 
 The Tools|Options|VSColorOutput dialog contains settings.
 You can add, delete or edit the patterns. Patterns are regular expressions.
-The regular expressions use the [.NET form](http://msdn.microsoft.com/en-us/library/hs600312.aspx),
+The regular expressions use the .NET form
+[http://msdn.microsoft.com/en-us/library/hs600312.aspx](http://msdn.microsoft.com/en-us/library/hs600312.aspx),
 which varies slightly from those used by Ruby, JavaScript, Python, etc.
 
 ![screen shot of VSColorOutput options dialog](http://mike-ward.net/content/images/vscoloroutput/vscoloroutputoptions.png)

@@ -1,7 +1,7 @@
 ﻿html, body {
   margin: 0;
   padding: 0;
-  line-height: 1.4;
+  line-height: 1.5;
   font-family: Verdana, sans-serif;
 }
 
@@ -39,7 +39,7 @@ img {
 }
 
 a, a:link, a:visited {
-  color: navy;
+  color: #00c;
   text-decoration: none;
 }
 
