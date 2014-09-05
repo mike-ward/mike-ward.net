@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="CalendarGadget.Skin">
+  <BackgroundImage>
+    <OnClick>None</OnClick>
+    <Name>Background</Name>
+    <Location>
+      <X>10</X>
+      <Y>10</Y>
+    </Location>
+    <Size>
+      <Width>150</Width>
+      <Height>20</Height>
+    </Size>
+    <Font>
+      <FontFamily>Microsoft Sans Serif</FontFamily>
+      <GraphicsUnit>Pixel</GraphicsUnit>
+      <Size>10</Size>
+      <Style>Regular</Style>
+    </Font>
+    <Color>NamedColor:White</Color>
+    <BackColor>NamedColor:Transparent</BackColor>
+    <StringFormat>
+      <FormatFlags>NoWrap</FormatFlags>
+      <Alignment>Center</Alignment>
+      <LineAlignment>Center</LineAlignment>
+      <HotkeyPrefix>None</HotkeyPrefix>
+      <Trimming>Character</Trimming>
+    </StringFormat>
+    <MonthOffset>0</MonthOffset>
+    <Visible>true</Visible>
+    <CharacterCase>Normal</CharacterCase>
+    <TodayLock>false</TodayLock>
+    <ToolTip />
+    <TimeZone>0</TimeZone>
+    <UseTimeZone>false</UseTimeZone>
+    <ImageNames>
+      <string>Background</string>
+    </ImageNames>
+  </BackgroundImage>
+  <Images>
+    <ImageHolder>
+      <Name>Background</Name>
+      <Image>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</Image>
+    </ImageHolder>
+  </Images>
+  <Controls>
+    <ControlBase xsi:type="AnalogClockControl">
+      <OnClick>None</OnClick>
+      <Name>Analog Clock1</Name>
+      <Location>
+        <X>10</X>
+        <Y>11</Y>
+      </Location>
+      <Size>
+        <Width>278</Width>
+        <Height>175</Height>
+      </Size>
+      <Font>
+        <FontFamily>Microsoft Sans Serif</FontFamily>
+        <GraphicsUnit>Pixel</GraphicsUnit>
+        <Size>10</Size>
+        <Style>Regular</Style>
+      </Font>
+      <Color>NamedColor:White</Color>
+      <BackColor>NamedColor:Transparent</BackColor>
+      <StringFormat>
+        <FormatFlags>NoWrap</FormatFlags>
+        <Alignment>Center</Alignment>
+        <LineAlignment>Center</LineAlignment>
+        <HotkeyPrefix>None</HotkeyPrefix>
+        <Trimming>Character</Trimming>
+      </StringFormat>
+      <MonthOffset>0</MonthOffset>
+      <Visible>true</Visible>
+      <CharacterCase>Normal</CharacterCase>
+      <TodayLock>true</TodayLock>
+      <ToolTip />
+      <TimeZone>0</TimeZone>
+      <UseTimeZone>false</UseTimeZone>
+      <Show5MinuteTicks>true</Show5MinuteTicks>
+      <FiveMinuteTickRatio>1</FiveMinuteTickRatio>
+      <Show1MinuteTicks>true</Show1MinuteTicks>
+      <OneMinuteTickRatio>1</OneMinuteTickRatio>
+      <TicksThickness>2</TicksThickness>
+      <HourColor>NamedColor:Maroon</HourColor>
+      <MinuteColor>NamedColor:Black</MinuteColor>
+      <SecondColor>NamedColor:Red</SecondColor>
+      <TicksColor>NamedColor:Black</TicksColor>
+      <NumberCircleRatio>0.7</NumberCircleRatio>
+      <NumberCircleOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </NumberCircleOffset>
+      <ShowNumbers>true</ShowNumbers>
+      <HourHandOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </HourHandOffset>
+      <MinuteHandOffset>
+        <X>0</X>
+        <Y>0</Y>
+      </MinuteHandOffset>
+      <HourHandImage />
+      <MinuteHandImage />
+    </ControlBase>
+    <ControlBase xsi:type="TitleControl">
+      <OnClick>None</OnClick>
+      <Name>Title</Name>
+      <Location>
+        <X>18</X>
+        <Y>14</Y>
+      </Location>
+      <Size>
+        <Width>120</Width>
+        <Height>30</Height>
+      </Size>
+      <Font>
+        <FontFamily>Microsoft Sans Serif</FontFamily>
+        <GraphicsUnit>Pixel</GraphicsUnit>
+        <Size>18</Size>
+        <Style>Bold</Style>
+      </Font>
+      <Color>NamedColor:White</Color>
+      <BackColor>NamedColor:Transparent</BackColor>
+      <StringFormat>
+        <FormatFlags>NoWrap</FormatFlags>
+        <Alignment>Near</Alignment>
+        <LineAlignment>Center</LineAlignment>
+        <HotkeyPrefix>None</HotkeyPrefix>
+        <Trimming>Character</Trimming>
+      </StringFormat>
+      <MonthOffset>0</MonthOffset>
+      <Visible>true</Visible>
+      <CharacterCase>Normal</CharacterCase>
+      <TodayLock>false</TodayLock>
+      <ToolTip />
+      <TimeZone>0</TimeZone>
+      <UseTimeZone>false</UseTimeZone>
+      <TitleStyle>FullName</TitleStyle>
+      <ImageName />
+    </ControlBase>
+    <ControlBase xsi:type="WeekdaysControl">
+      <OnClick>None</OnClick>
+      <Name>Weekdays</Name>
+      <Location>
+        <X>19</X>
+        <Y>45</Y>
+      </Location>
+      <Size>
+        <Width>150</Width>
+        <Height>20</Height>
+      </Size>
+      <Font>
+        <FontFamily>Microsoft Sans Serif</FontFamily>
+        <GraphicsUnit>Pixel</GraphicsUnit>
+        <Size>9</Size>
+        <Style>Regular</Style>
+      </Font>
+      <Color>NamedColor:White</Color>
+      <BackColor>NamedColor:Transparent</BackColor>
+      <StringFormat>
+        <FormatFlags>NoWrap</FormatFlags>
+        <Alignment>Center</Alignment>
+        <LineAlignment>Center</LineAlignment>
+        <HotkeyPrefix>None</HotkeyPrefix>
+        <Trimming>Character</Trimming>
+      </StringFormat>
+      <MonthOffset>0</MonthOffset>
+      <Visible>true</Visible>
+      <CharacterCase>Normal</CharacterCase>
+      <TodayLock>false</TodayLock>
+      <ToolTip />
+      <TimeZone>0</TimeZone>
+      <UseTimeZone>false</UseTimeZone>
+      <CellSize>
+        <Width>21</Width>
+        <Height>18</Height>
+      </CellSize>
+      <WeekdayStyle>TwoLetters</WeekdayStyle>
+      <ImageName />
+    </ControlBase>
+    <ControlBase xsi:type="MonthControl">
+      <OnClick>None</OnClick>
+      <Name>Month</Name>
+      <Location>
+        <X>21</X>
+        <Y>67</Y>
+      </Location>
+      <Size>
+        <Width>150</Width>
+        <Height>111</Height>
+      </Size>
+      <Font>
+        <FontFamily>Microsoft Sans Serif</FontFamily>
+        <GraphicsUnit>Pixel</GraphicsUnit>
+        <Size>14</Size>
+        <Style>Italic</Style>
+      </Font>
+      <Color>NamedColor:White</Color>
+      <BackColor>NamedColor:Transparent</BackColor>
+      <StringFormat>
+        <FormatFlags>NoWrap</FormatFlags>
+        <Alignment>Center</Alignment>
+        <LineAlignment>Center</LineAlignment>
+        <HotkeyPrefix>None</HotkeyPrefix>
+        <Trimming>Character</Trimming>
+      </StringFormat>
+      <MonthOffset>0</MonthOffset>
+      <Visible>true</Visible>
+      <CharacterCase>Normal</CharacterCase>
+      <TodayLock>false</TodayLock>
+      <ToolTip />
+      <TimeZone>0</TimeZone>
+      <UseTimeZone>false</UseTimeZone>
+      <CellSize>
+        <Width>21</Width>
+        <Height>18</Height>
+      </CellSize>
+      <CircleToday>true</CircleToday>
+      <CircleThickness>2</CircleThickness>
+      <DayImageName />
+      <EventImageName />
+      <TodayImageName />
+      <TodayFont>
+        <FontFamily>Microsoft Sans Serif</FontFamily>
+        <GraphicsUnit>Pixel</GraphicsUnit>
+        <Size>10</Size>
+        <Style>Bold</Style>
+      </TodayFont>
+      <EventFont>
+        <FontFamily>Microsoft Sans Serif</FontFamily>
+        <GraphicsUnit>Pixel</GraphicsUnit>
+        <Size>10</Size>
+        <Style>Italic</Style>
+      </EventFont>
+      <TodayColor>NamedColor:White</TodayColor>
+      <EventColor>NamedColor:White</EventColor>
+      <MonthStyle>SevenBySix</MonthStyle>
+      <ShowGrid>false</ShowGrid>
+      <GridColor>NamedColor:White</GridColor>
+    </ControlBase>
+    <ControlBase xsi:type="YearControl">
+      <OnClick>None</OnClick>
+      <Name>Year</Name>
+      <Location>
+        <X>134</X>
+        <Y>14</Y>
+      </Location>
+      <Size>
+        <Width>30</Width>
+        <Height>30</Height>
+      </Size>
+      <Font>
+        <FontFamily>Microsoft Sans Serif</FontFamily>
+        <GraphicsUnit>Pixel</GraphicsUnit>
+        <Size>10</Size>
+        <Style>Bold</Style>
+      </Font>
+      <Color>NamedColor:White</Color>
+      <BackColor>NamedColor:Transparent</BackColor>
+      <StringFormat>
+        <FormatFlags>NoWrap</FormatFlags>
+        <Alignment>Center</Alignment>
+        <LineAlignment>Center</LineAlignment>
+        <HotkeyPrefix>None</HotkeyPrefix>
+        <Trimming>Character</Trimming>
+      </StringFormat>
+      <MonthOffset>0</MonthOffset>
+      <Visible>true</Visible>
+      <CharacterCase>Normal</CharacterCase>
+      <TodayLock>false</TodayLock>
+      <ToolTip />
+      <TimeZone>0</TimeZone>
+      <UseTimeZone>false</UseTimeZone>
+      <ImageName />
+    </ControlBase>
+    <ControlBase xsi:type="MonthControl">
+      <OnClick>None</OnClick>
+      <Name>PreviousMonth</Name>
+      <Location>
+        <X>195</X>
+        <Y>25</Y>
+      </Location>
+      <Size>
+        <Width>86</Width>
+        <Height>72</Height>
+      </Size>
+      <Font>
+        <FontFamily>Microsoft Sans Serif</FontFamily>
+        <GraphicsUnit>Pixel</GraphicsUnit>
+        <Size>8</Size>
+        <Style>Regular</Style>
+      </Font>
+      <Color>NamedColor:White</Color>
+      <BackColor>NamedColor:Transparent</BackColor>
+      <StringFormat>
+        <FormatFlags>NoWrap</FormatFlags>
+        <Alignment>Center</Alignment>
+        <LineAlignment>Center</LineAlignment>
+        <HotkeyPrefix>None</HotkeyPrefix>
+        <Trimming>Character</Trimming>
+      </StringFormat>
+      <MonthOffset>-1</MonthOffset>
+      <Visible>true</Visible>
+      <CharacterCase>Normal</CharacterCase>
+      <TodayLock>false</TodayLock>
+      <ToolTip />
+      <TimeZone>0</TimeZone>
+      <UseTimeZone>false</UseTimeZone>
+      <CellSize>
+        <Width>12</Width>
+        <Height>12</Height>
+      </CellSize>
+      <CircleToday>true</CircleToday>
+      <CircleThickness>2</CircleThickness>
+      <DayImageName />
+      <EventImageName />
+      <TodayImageName />
+      <TodayFont>
+        <FontFamily>Microsoft Sans Serif</FontFamily>
+        <GraphicsUnit>Pixel</GraphicsUnit>
+        <Size>10</Size>
+        <Style>Bold</Style>
+      </TodayFont>
+      <EventFont>
+        <FontFamily>Microsoft Sans Serif</FontFamily>
+        <GraphicsUnit>Pixel</GraphicsUnit>
+        <Size>10</Size>
+        <Style>Italic</Style>
+      </EventFont>
+      <TodayColor>NamedColor:White</TodayColor>
+      <EventColor>NamedColor:White</EventColor>
+      <MonthStyle>SevenBySix</MonthStyle>
+      <ShowGrid>false</ShowGrid>
+      <GridColor>NamedColor:White</GridColor>
+    </ControlBase>
+    <ControlBase xsi:type="MonthControl">
+      <OnClick>None</OnClick>
+      <Name>NextMonth</Name>
+      <Location>
+        <X>195</X>
+        <Y>116</Y>
+      </Location>
+      <Size>
+        <Width>86</Width>
+        <Height>72</Height>
+      </Size>
+      <Font>
+        <FontFamily>Microsoft Sans Serif</FontFamily>
+        <GraphicsUnit>Pixel</GraphicsUnit>
+        <Size>8</Size>
+        <Style>Regular</Style>
+      </Font>
+      <Color>NamedColor:White</Color>
+      <BackColor>NamedColor:Transparent</BackColor>
+      <StringFormat>
+        <FormatFlags>NoWrap</FormatFlags>
+        <Alignment>Center</Alignment>
+        <LineAlignment>Center</LineAlignment>
+        <HotkeyPrefix>None</HotkeyPrefix>
+        <Trimming>Character</Trimming>
+      </StringFormat>
+      <MonthOffset>1</MonthOffset>
+      <Visible>true</Visible>
+      <CharacterCase>Normal</CharacterCase>
+      <TodayLock>false</TodayLock>
+      <ToolTip />
+      <TimeZone>0</TimeZone>
+      <UseTimeZone>false</UseTimeZone>
+      <CellSize>
+        <Width>12</Width>
+        <Height>12</Height>
+      </CellSize>
+      <CircleToday>true</CircleToday>
+      <CircleThickness>2</CircleThickness>
+      <DayImageName />
+      <EventImageName />
+      <TodayImageName />
+      <TodayFont>
+        <FontFamily>Microsoft Sans Serif</FontFamily>
+        <GraphicsUnit>Pixel</GraphicsUnit>
+        <Size>10</Size>
+        <Style>Bold</Style>
+      </TodayFont>
+      <EventFont>
+        <FontFamily>Microsoft Sans Serif</FontFamily>
+        <GraphicsUnit>Pixel</GraphicsUnit>
+        <Size>10</Size>
+        <Style>Italic</Style>
+      </EventFont>
+      <TodayColor>NamedColor:White</TodayColor>
+      <EventColor>NamedColor:White</EventColor>
+      <MonthStyle>SevenBySix</MonthStyle>
+      <ShowGrid>false</ShowGrid>
+      <GridColor>NamedColor:White</GridColor>
+    </ControlBase>
+    <ControlBase xsi:type="TitleControl">
+      <OnClick>None</OnClick>
+      <Name>PreviousTitle</Name>
+      <Location>
+        <X>195</X>
+        <Y>10</Y>
+      </Location>
+      <Size>
+        <Width>84</Width>
+        <Height>14</Height>
+      </Size>
+      <Font>
+        <FontFamily>Microsoft Sans Serif</FontFamily>
+        <GraphicsUnit>Pixel</GraphicsUnit>
+        <Size>10</Size>
+        <Style>Regular</Style>
+      </Font>
+      <Color>NamedColor:White</Color>
+      <BackColor>NamedColor:Transparent</BackColor>
+      <StringFormat>
+        <FormatFlags>NoWrap</FormatFlags>
+        <Alignment>Center</Alignment>
+        <LineAlignment>Center</LineAlignment>
+        <HotkeyPrefix>None</HotkeyPrefix>
+        <Trimming>Character</Trimming>
+      </StringFormat>
+      <MonthOffset>-1</MonthOffset>
+      <Visible>true</Visible>
+      <CharacterCase>Normal</CharacterCase>
+      <TodayLock>false</TodayLock>
+      <ToolTip />
+      <TimeZone>0</TimeZone>
+      <UseTimeZone>false</UseTimeZone>
+      <TitleStyle>FullName</TitleStyle>
+      <ImageName />
+    </ControlBase>
+    <ControlBase xsi:type="TitleControl">
+      <OnClick>None</OnClick>
+      <Name>NextTitle</Name>
+      <Location>
+        <X>195</X>
+        <Y>98</Y>
+      </Location>
+      <Size>
+        <Width>84</Width>
+        <Height>17</Height>
+      </Size>
+      <Font>
+        <FontFamily>Microsoft Sans Serif</FontFamily>
+        <GraphicsUnit>Pixel</GraphicsUnit>
+        <Size>10</Size>
+        <Style>Regular</Style>
+      </Font>
+      <Color>NamedColor:White</Color>
+      <BackColor>NamedColor:Transparent</BackColor>
+      <StringFormat>
+        <FormatFlags>NoWrap</FormatFlags>
+        <Alignment>Center</Alignment>
+        <LineAlignment>Center</LineAlignment>
+        <HotkeyPrefix>None</HotkeyPrefix>
+        <Trimming>Character</Trimming>
+      </StringFormat>
+      <MonthOffset>1</MonthOffset>
+      <Visible>true</Visible>
+      <CharacterCase>Normal</CharacterCase>
+      <TodayLock>false</TodayLock>
+      <ToolTip />
+      <TimeZone>0</TimeZone>
+      <UseTimeZone>false</UseTimeZone>
+      <TitleStyle>FullName</TitleStyle>
+      <ImageName />
+    </ControlBase>
+  </Controls>
+</Skin>

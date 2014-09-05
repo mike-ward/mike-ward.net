@@ -84,6 +84,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="content\BlogetUserGuide.html" />
+    <Content Include="content\downloads\CalendarSetup.exe" />
+    <Content Include="content\downloads\CalendarSetup64.exe" />
+    <Content Include="content\downloads\DeskDriveSetup.exe" />
+    <Content Include="content\downloads\DeskDriveSetup185.exe" />
+    <Content Include="content\downloads\DeskDriveSetup64.exe" />
+    <Content Include="content\downloads\downloads.aspx" />
+    <Content Include="content\downloads\DtoFChart.htm" />
+    <Content Include="content\downloads\notify.wav" />
+    <Content Include="content\downloads\SimplyWeatherSetup.exe" />
+    <Content Include="content\downloads\tweetzsetup.exe" />
     <Content Include="content\images\404.png" />
     <Content Include="content\images\about\family.jpg" />
     <Content Include="content\images\ajax-loader.gif" />
@@ -1686,6 +1696,39 @@
     <Content Include="content\images\deskdrive\Thumbs.db" />
     <Content Include="content\images\freesnap\Thumbs.db" />
     <Content Include="content\images\tweetz\Thumbs.db" />
+    <Content Include="content\downloads\AdSensor.gadget" />
+    <Content Include="content\downloads\bgs.zip" />
+    <Content Include="content\downloads\Bloget.zip" />
+    <Content Include="content\downloads\Bloget_Source_Beta_1.zip" />
+    <Content Include="content\downloads\Calculator.gadget" />
+    <Content Include="content\downloads\CalendarGadget.msi" />
+    <Content Include="content\downloads\CalendarSetup.msi" />
+    <Content Include="content\downloads\CalendarSetup64.msi" />
+    <Content Include="content\downloads\cg\bigclock.cgs" />
+    <Content Include="content\downloads\cg\blackglass.cgs" />
+    <Content Include="content\downloads\cg\firstclock.cgs" />
+    <Content Include="content\downloads\cg\grayclock2.cgs" />
+    <Content Include="content\downloads\cg\grayclock3.cgs" />
+    <Content Include="content\downloads\cg\mountain.cgs" />
+    <Content Include="content\downloads\cg\purplehaze.cgs" />
+    <Content Include="content\downloads\cg\scenic.cgs" />
+    <Content Include="content\downloads\cg\todayis.cgs" />
+    <Content Include="content\downloads\cg\yuckyblue.cgs" />
+    <Content Include="content\downloads\deskview.zip" />
+    <Content Include="content\downloads\FreeSnap.msi" />
+    <Content Include="content\downloads\FreeSnap64.msi" />
+    <Content Include="content\downloads\jslint.zip" />
+    <Content Include="content\downloads\MarketReport.gadget" />
+    <Content Include="content\downloads\SimpleZip.zip" />
+    <Content Include="content\downloads\SimplyWeather.gadget" />
+    <Content Include="content\downloads\Stopwatch.gadget" />
+    <Content Include="content\downloads\tweetc.zip" />
+    <Content Include="content\downloads\tweetz.gadget" />
+    <Content Include="content\downloads\tweetz3.gadget" />
+    <Content Include="content\downloads\tweetz31.3.1.6.1.gadget" />
+    <Content Include="content\downloads\tweetz31.gadget" />
+    <Content Include="content\downloads\VSColorOutput.vsix" />
+    <Content Include="content\downloads\VSColorOutputf.vsix" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1693,9 +1736,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="content\download\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
