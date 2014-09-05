@@ -83,7 +83,11 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\images\404.png" />
     <Content Include="content\images\about\family.jpg" />
+    <Content Include="content\images\ajax-loader.gif" />
+    <Content Include="content\images\beta-badge.gif" />
+    <Content Include="content\images\beta-badge.png" />
     <Content Include="content\images\blog\0916bb4fcc1a_1223A\twitter_https.jpg" />
     <Content Include="content\images\blog\6a5112d864e2_F76B\ScreenShot001.png" />
     <Content Include="content\images\blog\AdsensorAGoogleAdSenseGadgetthatactually_8F79\adsensor.png" />
@@ -628,6 +632,9 @@
     <Content Include="content\images\blog\YellowstoneDay9and10_10C60\CIMG1840_thumb.jpg" />
     <Content Include="content\images\blog\YellowstoneDay9and10_10C60\CIMG1919.jpg" />
     <Content Include="content\images\blog\YellowstoneDay9and10_10C60\CIMG1919_thumb.jpg" />
+    <Content Include="content\images\blueonion.jpg" />
+    <Content Include="content\images\btn_donateCC_LG.gif" />
+    <Content Include="content\images\btn_donateCC_LG.png" />
     <Content Include="content\images\calendargadget\cglogo.png" />
     <Content Include="content\images\calendargadget\collage.png" />
     <Content Include="content\images\calendar\appearance.png" />
@@ -640,6 +647,9 @@
     <Content Include="content\images\deskdrive\USB_Blue.ico" />
     <Content Include="content\images\deskdrive\USB_Blue.png" />
     <Content Include="content\images\email-metro.png" />
+    <Content Include="content\images\envelope-icon.gif" />
+    <Content Include="content\images\envelope-icon.png" />
+    <Content Include="content\images\favicon.ico" />
     <Content Include="content\images\freesnap\5.gif" />
     <Content Include="content\images\freesnap\5.png" />
     <Content Include="content\images\freesnap\5star.gif" />
@@ -666,10 +676,16 @@
     <Content Include="content\images\gadgets\simplyweather.png" />
     <Content Include="content\images\gadgets\stopwatch.png" />
     <Content Include="content\images\gadgets\tweetz.png" />
+    <Content Include="content\images\googleplus.png" />
+    <Content Include="content\images\mobile-icon.png" />
+    <Content Include="content\images\rss-icon.png" />
     <Content Include="content\images\rss-metro.png" />
+    <Content Include="content\images\rss.gif" />
+    <Content Include="content\images\rss.png" />
     <Content Include="content\images\simply_weather\simplyweather.png" />
     <Content Include="content\images\simply_weather\swsettings.png" />
     <Content Include="content\images\stackoverflow.png" />
+    <Content Include="content\images\tweetzdesktop.png" />
     <Content Include="content\images\tweetz\logo.png" />
     <Content Include="content\images\tweetz\tweetz-docked.png" />
     <Content Include="content\images\tweetz\tweetz-features.png" />
