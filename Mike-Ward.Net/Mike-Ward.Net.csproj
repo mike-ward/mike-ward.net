@@ -1055,6 +1055,10 @@
     <Content Include="views\simplyweather.cshtml" />
     <Content Include="views\freesnap.cshtml" />
     <Content Include="views\calendar.cshtml" />
+    <Content Include="views\gadgets.cshtml" />
+    <Content Include="views\calendargadget.cshtml" />
+    <Content Include="views\about.cshtml" />
+    <Content Include="views\downloads.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

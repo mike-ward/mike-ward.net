@@ -13,6 +13,10 @@
             Get["/vscoloroutput"] = p => View["vscoloroutput"];
             Get["/freesnap"] = p => View["freesnap"];
             Get["/calendar"] = p => View["calendar"];
+            Get["/gadgets"] = p => View["gadgets"];
+            Get["/calendargadget"] = p => View["calendargadget"];
+            Get["/downloads"] = p => View["downloads"];
+            Get["/about"] = p => View["about"];
         }
     }
 }
