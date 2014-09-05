@@ -13,7 +13,7 @@ namespace Mike_Ward.Net.Modules
         {
             Get["blog/"] = p => ShowBlog(model, 0);
             Get["blog/page/{index:int}"] = p => ShowBlog(model, p.index);
-            Get["blog/post/{year:int}/{month:int}/{day:int}/{slug}"] = p => ShowArticle(model, p.year, p.month, p.day, p.slug) ?? 404;
+            Get["blog/post/{year:int}/{month:int}/{day:int}/{slug}"] = p => ShowPost(model, p.year, p.month, p.day, p.slug) ?? 404;
             Get["blog/archive"] = p => ShowArchive(model);
             Get["blog/rss"] = p => model.Blog.Rss();
         }
@@ -29,7 +29,7 @@ namespace Mike_Ward.Net.Modules
             return View[model];
         }
 
-        private Negotiator ShowArticle(IBlogModel model, int year, int month, int day, string slug)
+        private Negotiator ShowPost(IBlogModel model, int year, int month, int day, string slug)
         {
             const int pageLength = 1;
             Context.ViewBag.PageLength = pageLength;
