@@ -13,7 +13,7 @@ namespace Mike_Ward.Net.Modules
         {
             Get["blog/"] = p => ShowBlog(model, 0);
             Get["blog/page/{index:int}"] = p => ShowBlog(model, p.index);
-            Get["blog/post/{year:int}/{month:int}/{day:int}/{slug}"] = p => ShowArticle(model, p.year, p.month, p.day, p.slug);
+            Get["blog/post/{year:int}/{month:int}/{day:int}/{slug}"] = p => ShowArticle(model, p.year, p.month, p.day, p.slug) ?? 404;
             Get["blog/archive"] = p => ShowArchive(model);
             Get["blog/rss"] = p => model.Blog.Rss();
         }
@@ -42,7 +42,9 @@ namespace Mike_Ward.Net.Modules
                     day == a.post.Created.Day &&
                     slug.Equals(a.post.Slug, StringComparison.InvariantCultureIgnoreCase));
 
-            var index = post != null ? post.index : 0;
+            if (post == null) return null;
+
+            var index = post.index; 
             Context.ViewBag.Index = index;
             var previous = model.Blog.Posts.ElementAt(Math.Max(0, index - pageLength));
             var next = model.Blog.Posts.ElementAt(Math.Min(model.Blog.Posts.Count() - 1, index + pageLength));
