@@ -1729,6 +1729,7 @@
     <Content Include="content\downloads\tweetz31.gadget" />
     <Content Include="content\downloads\VSColorOutput.vsix" />
     <Content Include="content\downloads\VSColorOutputf.vsix" />
+    <Content Include="blog\Post00945.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
