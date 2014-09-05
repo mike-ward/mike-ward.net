@@ -17,6 +17,7 @@
             Get["/calendargadget"] = p => View["calendargadget"];
             Get["/downloads"] = p => View["downloads"];
             Get["/about"] = p => View["about"];
+            Get["/installmonetizer"] = p => View["installmonetizer"];
         }
     }
 }

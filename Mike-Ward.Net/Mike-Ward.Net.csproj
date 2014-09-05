@@ -1059,6 +1059,7 @@
     <Content Include="views\calendargadget.cshtml" />
     <Content Include="views\about.cshtml" />
     <Content Include="views\downloads.cshtml" />
+    <Content Include="views\installmonetizer.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
