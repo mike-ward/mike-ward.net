@@ -21,7 +21,7 @@
 @section sidebar {
   <p><strong>Recent Posts</strong></p>
   <p>
-    @foreach (var post in Enumerable.Take(Model.Blog.Posts, 5))
+    @foreach (var post in Enumerable.Take(Model.Blog.Posts, 7))
     {
       <div class="recent-post"><a href="@post.PermaLink">@post.Title</a></div>
     }
