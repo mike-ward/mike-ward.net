@@ -9,6 +9,7 @@
             Get["/"] = p => Response.AsRedirect("~/blog");
             Get["/deskdrive"] = p => View["deskdrive"];
             Get["/tweetz"] = p => View["tweetz"];
+            Get["/tweetz-help"] = p => View["tweetz-help"];
             Get["/simplyweather"] = p => View["simplyweather"];
             Get["/vscoloroutput"] = p => View["vscoloroutput"];
             Get["/freesnap"] = p => View["freesnap"];

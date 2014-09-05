@@ -1,0 +1,114 @@
+﻿@using Nancy.Markdown.Blog
+@{
+  Layout = "master.cshtml";
+  ViewBag.Title = "Tweetz Help";
+}
+
+@Html.Markdown(@"
+## Tweetz Help
+
+This page is a work in progress. Suggestions and corrections are always welcomed (especially when they're accompanied with a donation &lt;wink&gt;). - Mike
+
+### Getting Started
+
+Tweetz requires Windows Vista or Windows 7 and an Internet connection
+
+- Download the latest version and install it.
+- After the gadget installs, it should automatically start up and present a login page. Click the Get PIN button. _Tweetz uses an advanced version of authentication that does not use or store your password._  
+![example of get_pin](http://mike-ward.net/content/images/tweetz/tweetz-getpin.png)
+- Your browser should appear. If you're already logged into twitter, you'll see a page asking for your permission to access your twitter account. Click ""Allow""  
+![example twitter security](http://mike-ward.net/content/images/tweetz/twitter-allow.png)
+- Next you'll see a PIN number. Copy it (Ctrl+C)  
+![example login](http://mike-ward.net/content/images/tweetz/twitter-pin.png)
+- ... and paste it into Tweetz  
+![example login](http://mike-ward.net/content/images/tweetz/tweetz-login.png)
+- Click the login button (Note: PIN numbers can only be used once. If you close the gadget, you'll have to get a new PIN)
+
+### Overview
+
+Tweetz is an advanced twitter client comparable to many desktop and commercial applications. Here's what it looks like:
+
+In most regards Tweetz works like other twitter clients you may have used. Because it's a gadget, it also has a few advantages in how it works with Windows 7 Aero Peek.
+
+### Shortcuts
+
+Main Gadget
+
+ Ctrl+D Show markup (useful for writing themes)
+
+ Ctrl+Q Change themes
+
+ Ctrl+S Compose a new tweet
+
+ PgUp Scroll up one tweet
+
+ PgDn Scroll down one tweet
+
+ Up Arrow Scroll up one tweet
+
+ Down Arrow Scroll down one tweet
+
+ Home Scroll to top (first tweet)
+
+ End Scroll to bottom (last tweet)
+
+Compose Tweets
+
+ Ctrl+K Shorten urls
+
+ Ctrl+S Send tweet
+
+ Esc Cancel
+
+Selected Tweet (Same as Context Menu)
+
+ R Reply
+
+ Shift+R Reply to all @mention in tweet
+
+ M Send a direct message to tweet author
+
+ T Retweet (old school)
+
+ Shift-T Retweet (new style)
+
+ F Mark as favorite
+
+ Ctrl+C Copy tweet to clipboard
+
+### Scrolling
+
+You can scroll by using the scrollbar, mouse-wheel, page up and page down keys, and the arrow keys. The gadget must have input focus for these actions.
+
+You can get the mouse-wheel to scroll the gadget without changing focus by using [WizMouse](http://antibody-software.com/web/software/software/wizmouse-makes-your-mouse-wheel-work-on-the-window-under-the-mouse/) or[KatMouse](http://ehiti.de/katmouse/). Both programs are free.
+
+### Themes
+
+Tweetz comes with 3 builtin themes. You can select the next theme by pressing Ctrl+Q.
+
+Tweetz uses Cascading Style Sheets (CSS) for styling. It's pretty easy to modify an existing theme. Designed something awesome? Send it to me and I'll include it in the next release.
+
+### Localization (Languages and Cultures)
+
+Tweetz has been translated into many languages. Language selection is detected automatically based on your computer's settings.
+
+Don't see support for you language and culture? No problem, just open the locale.js file in gadget folder and translate the phrases to your liking. Again, just sent it to me (mike@mike-ward.net) and I'll include it in the next release.
+
+### FAQ
+
+Can Tweetz handle multiple accounts?
+
+No. But you can open multiple instances of Tweetz, each accessing a different account.
+
+Tweetz is a dumb name. Do you plan on changing it?
+
+Dumber than what? Twitter? How about Google? I know let's make an online book store called Amazon. Tell you what, when Google wakes up and changes it name to something more corporate, I'll follow suit.
+
+What happened to the rounded borders in the earlier versions?
+
+They died. Seriously, I like rounded corners also but the gadget platform does not support the CSS border-radius style. That leaves bitmaps. Bitmaps do not scale well and there's a bug in the gadget platform that won't allow background bitmaps to be stretched without introducing magenta artifacts. In earlier versions I restricted height changes to every 50 pixels and supplied 20 different bitmaps, one for each size. It was a pain in the rear to do these and with the introduction of themes, it only got worse.
+
+Tweetz stopped working. What happened?
+
+You abused the gadget and now it hates you. On a more serious note, twitter sometimes goes down (shocking!). It's usually only out of service for a few minutes. In the meantime, go play on Facebook.
+")

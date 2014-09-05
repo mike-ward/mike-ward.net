@@ -1060,6 +1060,7 @@
     <Content Include="views\about.cshtml" />
     <Content Include="views\downloads.cshtml" />
     <Content Include="views\installmonetizer.cshtml" />
+    <Content Include="views\tweetz-help.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
