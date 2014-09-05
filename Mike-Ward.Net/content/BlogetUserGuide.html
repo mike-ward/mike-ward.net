@@ -1,0 +1,1019 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+  <meta content="text/html; charset=us-ascii" http-equiv="content-type" />
+  <title>Bloget User Guide</title>
+  <meta content="Blue Onion Software" name="author" />
+  <style type="text/css">
+    body      { counter-reset:chapter }
+    body      { font-family:helvetica, sans-serif; font-size:1em; width:770px; margin-left:auto; margin-right:auto }
+    li        { margin-top:0.5em }
+    h1        { font-size:150%; page-break-before:always; counter-reset:section }
+    h1:before { content: counter(chapter) ". "; counter-increment:chapter }
+    h2        { font-size:120%; }
+    h2:before { content: counter(chapter) "." counter(section) " "; counter-increment:section }
+    h3        { font-size:110%; font-style:italic; }
+    code, blockquote      
+              { display:block; margin:1pc; padding:1pc; background-color:#dddfff }
+    dt        { font-weight:bold; }
+    dd        { margin:0 0 1pc 0; }
+    .toc      { font-size:150%; page-break-before:always; }
+    .title    { font-size:180%; font-weight:bold }
+  </style>
+</head>
+<body>
+  <p class="title">Bloget&trade; User Manual</p>
+  <p>An ASP.Net Web Log Control</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>Copyright 2008 Blue Onion Software<br />
+    All Rights Reserved</p>
+  <p class="toc"><a id="contents" />Table of Contents</p>
+  <p><a href="#preface"><strong>Preface</strong></a></p>
+  <p><a href="#introduction"><strong>Introduction</strong></a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#aboutbloget">About Bloget</a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#aboutbos">About Blue Onion Software</a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#programrequirements">Program Requirements</a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#installation">Installation</a></p>
+  <p><a href="#usingbloget"><strong>Using Bloget</strong></a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#overview">Overview of a Blog</a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#bloget_control">Bloget Control</a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#title_control">BlogTitle Control</a><br />    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#categories_control">Categories Control</a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#recent_posts">Recent Posts Control</a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#archive_control">Archive Control</a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#blogroll_control">Blogroll Control</a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#membership">Membership Services</a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#RSSFeeds">RSS Feeds</a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#rpc">Remote Procedure Calls (MetaWeblog and
+      Pingback)</a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#blogml">BlogML</a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#comments">Comments</a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#logging">Logging</a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#lostpasswords">Lost Passwords</a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#dataformats">Data Formats</a><br />
+  </p>
+  <p><a href="#legal"><strong>Legal Information</strong></a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#license">Bloget Freeware License Agreement</a><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#copyright">Copyright and Trademark Notices</a><br />
+  </p>
+  <p><a href="#technicalsupport"><strong>Technical Support</strong></a></p>
+  <p>&nbsp;</p>
+  <h1><a id="preface" />Preface</h1>
+  <p>I recently read a blog article about how writing one's own blogging engine is equivalent
+    to writing yesterday's "Hello World" program. Everyone does one at some point. So
+    here I am with my version of a blogging engine. My "interpretation" is a bit different
+    than others perhaps in that I've expressed my engine as an ASP.NET user control.
+    This packaging has advantages and disadvantages and you'll have to decide if it's
+    right for you. One thing I can say is it has been fun to write and I've learned
+    much about ASP.NET, a platform I have not programmed in before. I hope you find
+    it useful and fun as well and always, send feedback. - Mike</p>
+  <h1><a id="introduction" />Introduction</h1>
+  <p>While developing the Blue Onion Software Web site I ran into an interesting problem.
+    At one point I wanted to add a blog only to find that there was no blog control
+    included with ASP.Net. A quick survey of the Internet revealed that there really
+    wasn't anything much in the way of ASP.Net blog controls available. Furthermore,
+    the blogging applications that did exist were designed for multi-author systems
+    requiring database support and administration overhead that I really didn't want
+    to deal with. Wasn't there a simple blogging control I could just add to my existing
+    page layouts and that didn't require an expensive SQL Server and an investment in
+    time to learn new templates syntaxes or setup user accounts? I couldn't find anything
+    satisfactory so I bought a book on developing ASP. NET controls and went to work.
+  </p>
+  <p>I set few goals up front, which I've tried to adhere to: </p>
+  <ul>
+    <li>It had to be simple to install. If you look at a control like FreeTextBox it requires
+      you to copy a single assembly to your /bin directory and to add two lines of code
+      to your ASP.Net page. I wanted the same for Bloget. </li>
+    <li>It should use plain text files to store data. Don't get me wrong, databases have
+      their uses, but a single user Web log doesn't seem like one of those uses. SQL Server
+      is expensive to own, setup and operate. If you are using an inexpensive hosting
+      service, it generally doesn't provide SQL Server support or if offered, it's often
+      at additional cost. Databases are almost always administered separately with another
+      program also provided by the ISP. And backing up is a chore as well. Again, it just
+      seemed like a lot of work for a something so simple. </li>
+    <li>It had to have easy to use backup feature. </li>
+    <li>It had to have many of the features of modern blogging software like categories
+      (sometimes called tags), posting comments and of course RSS. However, I wasn't going
+      to try to go feature for feature with the big boys. I wanted something useful and
+      light. For instance, many blogs have a calendar which highlight the days that have
+      postings. Is this really a useful item? &nbsp;</li>
+    <li>It had to be fast. I know you hear this all the time. What I mean by fast is it
+      has to be responsive. That means making intelligent use of caching &nbsp;and avoiding
+      being stupid when possible. </li>
+    <li>And most of all, it should just work. </li>
+  </ul>
+  <h2><a id="aboutbloget" />About Bloget</h2>
+  <p>Bloget is a Web log (often referred to as just 'blog') control for
+    use in ASP.Net 2.0 Web sites. Bloget is implemented as a control meaning you have
+    to insert it into an ASP.Net 2.0 Web page in much the same way you insert other
+    ASP.Net controls. This allows you to integrate your blog into your Web site rather
+    than designing your Web site around the blog software.</p>
+  <p>Bloget is a whimsical name which is designed to make you feel good about the product
+    and inspire you to throw wads of money at the author (did it work?). </p>
+  <h2><a id="aboutbos" />About Blue Onion Software</h2>
+  <p>Blue Onion Software is a somewhat less whimsical name for a group of products I've
+    written over time and which I give away for free including Calendar Gadget&reg;,
+    FreeSnap&trade;, DeskDrive&trade;, Calendar (no I'm not repeating myself) and of
+    course Bloget&trade;. In return, you the grateful user shower the author with money
+    by clicking some of the advertisements on the <a href="http://blueonionsoftware.com">
+      Blue Onion Software Web site</a> (Hint!) or by donating money. I do it for fun
+    but every little bit does help. </p>
+  <h2><a id="programrequirements" />Program Requirements</h2>
+  <ul>
+    <li>ASP.Net 2.0 (1.1 won't work, don't try, don't ask, don't say I didn't tell you)
+    </li>
+    <li>A willingness to forgive the author for blunders, missteps, omissions and sometimes
+      just plain stupidity. </li>
+  </ul>
+  <h2><a id="installation" />Installation</h2>
+  <p><strong>Step 1:</strong><br />
+    Copy the Bloget.dll&nbsp; assembly to the /Bin folder of your ASP.Net 2.0 Web site.
+    If you don't have a /Bin folder, simply create one. </p>
+  <p><strong>Step 2:</strong><br />
+    If you site does not have one, create an /App_Data folder. Bloget requires read/write
+    access to this folder.</p>
+  <blockquote>Depending on your hosting environment this can be done in several ways.
+    Many hosting providers provide a control panel where folder <span lang="EN" style="font-size: 12pt;
+      font-family: 'Trebuchet MS'; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman';
+      mso-ansi-language: EN; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">permissions
+    </span>can be set.
+    If you have access to Windows security options on your host you can set up permissions
+    so only IIS and ASP.NET processes have write access. On IIS 5.0 (Windows 2000) the
+    account used to execute Web applications (IWAM_xxx or IUSR_xxx) needs read/write/modify
+    permissions. The ASP.NET worker process, usually <strong>{machine name}\ASP.NET</strong>
+    on IIS 5.0 (Windows 2000) or <strong>NETWORK SERVICE</strong> on IIS 6.0 (Windows
+    2003) also needs read/write/modify permissions.</blockquote>
+  <p><strong>Step 3:<br />
+  </strong>Create or use an existing .aspx Web page and add the following two lines
+    of code. </p>
+  <p>The first line goes near the top of the page usually just under the Page directive.
+  </p>
+  <code>&lt;%@ Register TagPrefix=&quot;bloget&quot; Namespace=&quot;BlueOnionSoftware&quot;
+    Assembly=&quot;Bloget&quot;%&gt;</code> <p>And further down the page where you want
+      the blog to appear:</p>
+  <code>&lt;bloget:Bloget runat=&quot;server&quot; ID=&quot;bloget&quot; DataContext="~/App_Data/Bloget.xml"/&gt;</code>
+  <p><strong>Step 4:</strong><br />
+    Open the Web page in your browser and revel in the glory of your blog. Actually,
+    you'll see a license agreement. Basically it says you're responsible for your own
+    Web site and that you do not hold the author and Blue Onion Software liable for
+    anything no matter how miserable things become for you. </p>
+  <p>After you accept the license agreement you'll see your first posting. Well OK,
+    it's my posting but it has some really useful stuff in it to help you start using
+    your blog and it only begs for money a little at the end. </p>
+  <p><strong>Step 5:<br />
+  </strong>Proceed to the Administration Panel (hint, there's a link in the first posting).
+    The default password is &quot;Bloget&quot; (pretty clever, eh?). At a minimum, you
+    should change this password immediately. If not others, less friendly than I will
+    plunder your blog and lay waste to it faster than a pizza delivery driver on a Friday
+    night. </p>
+  <p>It's worth taking the time to fill out the RSS section at this time since you'll
+    more than likely want to produce an RSS feed for your site. The Title and Description
+    appear in the RSS. The blog link is just that, the Web address of your blog. Again
+    this only for the RSS feed. </p>
+  <p><strong>Step 6:</strong><br />
+    Start posting! Returning to the posting in your blog, you'll see links for adding
+    a new posting. Add a few test entries to get a feel for how the process works (you
+    can remove them later). You can add additional controls, enable RSS, Pingbacks and
+    MetaWeblog. See the related sections for more information.&nbsp;</p>
+  <p><strong>Step 7:<br />
+  </strong>Think kind thoughts about the author. Feel an overwhelming urge to go to
+    the <a href="http://blueonionsoftware.com">Blue Onion Software Web site</a> and
+    click the advertisements. Notice the &quot;Donate&quot; button. Contribute $5 and
+    enjoy the endorphin rush from a good deed done. </p>
+  <!-- Using Bloget -->
+  <h1><a id="usingbloget" />Using Bloget</h1>
+  <h2><a id="overview" />Overview of a Blog</h2>
+  <p>Most blogging engines today can be characterized as Web applications. You download,
+    install and "your site" is up an running. This is a great approach if all you want
+    is Blog and a few other pages. Bloget takes a different approach and is implemented
+    as a control (actually a collection of controls). As such, you have to add it to
+    an existing Web application structure. Like all design designs, this one has both
+    strengths and weaknesses. On the plus side, you can plug Bloget into existing sites
+    and have a fine degree of control over appearance and interaction. On the downside,
+    you have to decide what that appearance will look like.</p>
+  <p>One of the unique aspects of Bloget is that you can express an entire blog in a single file. The tag
+    line <em>"One file, one binary, one blog"</em> expresses this intent. The <em>One file</em> is the ASPX
+    page you intend to display your blog in. <em>One binary</em> refers to the one binary (Bloget.dll) you
+    need to add to your Web application's /Bin directory. There are no complicated install routines, database
+    setups or Web.config modifications required. Of course <em>"One blog"</em> refers to the blog you produce
+    with Bloget.</p>
+  <p>Because Bloget is so simple to install, it can be integrated into many places. Often, Bloget is used
+    as a running descriptive log for build environments. As changes to the build configuration are made,
+    the configuration manager can add blog entries describing the changes instead of circulating emails.
+    Bloget can easily integrate into Web based systems like Cruise Control.</p>
+    <p>Membership support is supplied by ASP.NET's membership services. This means you 
+        can use existing ASP.NET 2.0 membership providers with Bloget. See Membership 
+        Services for more details.</p>
+  <p>RSS feeds are automatically available in Bloget. RSS feeds are 2.0 compliant. In addition, RSS feeds
+    support templates so allowing you to control the appearance and content of feeds without the use of
+    plugins like other blog engines sometime employ.</p>
+  <p>Bloget blogs also support MetaWeblog API. This allows you to use offline blog authoring tools like
+    Windows Live Writer and BlogJet.</p>
+  <p>Bloget does not have user accounts (I'm reconsidering this one). It is not a multiple author blog (also
+    on my list). This makes
+    sense when you consider it's a "control" and not an application. That said, it is
+    possible to have multiple blogs by simply replicating the blog structure described
+    above and pointing to a different data file.</p>
+  <h2><a id="bloget_control" />Bloget Control</h2>
+  <p>The Bloget control is the most important control. It displays postings, indexes,
+    allows editing, displays logs, etc. It's essentially an entire blogging system in
+    a single control. It is controlled by using query parameters and can be extensively
+    modified using templates.</p>
+  <p>Bloget is controlled through CGI query parameters. The parameters are:</p>
+  <ul>
+    <li>m = (Bloget mode)
+    <dl>
+      <dt>edit</dt><dd>Edit a single blog entry. If <strong>p</strong> is specified, the
+        blog entry corresponding to the <strong>p</strong> ID is displayed for edit. If
+        no <strong>p</strong> entry is specified, then a new entry is presented for edit.</dd>
+      <dt>admin</dt><dd>Display the administration form. A password challenge is issued
+        if you are not logged in.</dd><dt>index</dt><dd>Lists all entries in reverse chronological
+          order. Can be controlled using the <strong>p</strong> and <strong>c</strong> parameters.</dd>
+      <dt>drafts</dt><dd>Lists all blog entries marked as draft. A password challenge is
+        issued if you are not logged in.</dd>
+      <dt>licenseagreement</dt><dd>Displays the license agreement </dd>
+      <dt>login</dt><dd>Displays the login form. </dd>
+      <dt>logout</dt><dd>Logout current user.</dd>
+      <dt>log</dt><dd>Display event log</dd>
+      <dt>rss</dt><dd>Display rss feed. For feeds by category use c (example: mysite?m=rpc&amp;c=2).</dd>
+      <dt>rpc</dt><dd>RPC (Remote Procedure Call) Service Url</dd>
+      <dt>search</dt><dd>o is the query </dd>
+    </dl>
+    </li>
+    <li>p = The ID of the post.</li>
+    <li>s = The index of the first item to display. Used for paging with modes that list
+      blog entries.</li>
+    <li>c = The ID of the category to filter by. Categories (often referred to as Tags)
+      are logical groupings of blog entries. They are defined by the blog author.</li>
+    <li>o = Sort order - ASC or DESC (Log View only)</li>
+  </ul>
+  <p>Parameters can be prefixed with a string value which is useful if should you have
+    more than one Bloget control rendered on a page. It can be overridden using the
+    <strong>Prefix</strong> property. For example:</p>
+  <code>&lt;bloget:BlogetBlog runat=&quot;server&quot; DataContext="~/App_Data/Bloget.xml"
+    Prefix=&quot;bloget&quot; /&gt;</code> <p>You can set the target link of the links
+      in your blog by using the <strong>Url</strong> parameter. <strong>Url</strong> 
+        overrides the link setting in the blog&#39;s settings.</p>
+  <h3>Templates</h3>
+  <p>Out of the box, Bloget provides a useable, if somewhat plain, blog. However, the
+    appearance of Bloget can be customized through the use of templates. Templates are
+    HTML elements that define the layout of a particular portion of Bloget. Here's an
+    example:</p>
+  <code>&lt;bloget:BlogetBlog runat=&quot;server&quot; ID=&quot;bloget&quot; DataContext="~/App_Data/Bloget.xml"&gt;<br />
+    <br />
+    &nbsp; &lt;ItemTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;p&gt;<br />
+    &nbsp; &nbsp; &nbsp; &lt;a href=&quot;&lt;%#Container.PostLink%&gt;&quot; style="font-size:x-large"&gt;<br />
+    &nbsp; &nbsp; &nbsp; &lt;%#Container.PostTitle%&gt;&lt;/a&gt;&lt;br/&gt;<br />
+    &nbsp; &nbsp; &nbsp; &lt;%#Container.PostCreated.ToString("r")%&gt;<br />
+    &nbsp; &nbsp; &lt;/p&gt;<br />
+    &nbsp; &nbsp; &lt;div&gt;&lt;%#Container.PostDescription%&gt;&lt;/div&gt;<br />
+    &nbsp; &nbsp; &lt;p&gt;<br />
+    &nbsp; &nbsp; &nbsp; &lt;asp:HyperLink runat=&quot;server&quot; NavigateUrl=&quot;&lt;%#Container.PostEditLink%&gt;&quot;
+    <br />
+    &nbsp; &nbsp; &nbsp; &nbsp; Text=&quot;edit&quot; Visible=&quot;&lt;%#Container.LoggedIn%&gt;&quot;/&gt;<br />
+    &nbsp; &nbsp; &nbsp; &lt;asp:Literal runat=&quot;server&quot; Text=&quot; | &quot;
+    Visible=&quot;&lt;%#Container.LoggedIn%&gt;&quot;/&gt;<br />
+    &nbsp; &nbsp; &nbsp; &lt;a href=&quot;&lt;%#Container.PostLink%&gt;&quot;&gt;comments
+    (&lt;%#Container.PostCommentCount%&gt;)&lt;/a&gt;<br />
+    &nbsp; &nbsp; &lt;/p&gt;<br />
+    &nbsp; &lt;/ItemTemplate&gt;<br />
+    <br />
+    &nbsp; &lt;ItemSeparatorTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;hr/&gt;&lt;hr/&gt;<br />
+    &nbsp; &lt;/ItemSeparatorTemplate&gt;<br />
+    <br />
+    &nbsp; &lt;CommentHeaderTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;p style=&quot;font-size:x-large; font-weight:bold; letter-spacing:1em&quot;&gt;Comments&lt;/p&gt;<br />
+    &nbsp; &lt;/CommentHeaderTemplate&gt;<br />
+    <br />
+    &nbsp; &lt;CommentTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;div style=&quot;background:aliceblue; padding-left:10px; padding-right:10px;
+    <br />
+    &nbsp; &nbsp;&nbsp; margin-bottom:1em; border:solid thin blue;&quot;&gt;<br />
+    &nbsp; &nbsp; &nbsp; &lt;p&gt;&lt;b&gt;&lt;%#Container.CommentTitle%&gt;&lt;/b&gt;&lt;/p&gt;<br />
+    &nbsp; &nbsp; &nbsp; &lt;div&gt;&lt;%#Container.CommentDescription%&gt;&lt;/div&gt;<br />
+    &nbsp; &nbsp; &nbsp; &lt;p style=&quot;color:Gray;&quot;&gt;&lt;%#Container.CommentAuthor%&gt;
+    |&nbsp;<br />
+    &nbsp; &nbsp; &nbsp; &nbsp; &lt;%#Container.CommentDate.ToString("r")%&gt;<br />
+    &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br />
+    &nbsp; &nbsp; &lt;/div&gt;<br />
+    &nbsp; &lt;/CommentTemplate&gt;<br />
+    <br />
+    &nbsp; &lt;IndexTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostCreated.ToString(&quot;MM-dd-yyyy&quot;)%&gt;
+    &nbsp;&nbsp;<br />
+    &nbsp; &nbsp; &lt;asp:HyperLink runat=&quot;server&quot; NavigateUrl=&quot;&lt;%#Container.PostLink%&gt;&quot;&nbsp;<br />
+    &nbsp; &nbsp; &nbsp; Text=&quot;&lt;%#Container.PostTitle%&gt;&quot; /&gt;<br />
+    &nbsp; &nbsp; &lt;br/&gt;<br />
+    &nbsp; &lt;/IndexTemplate&gt;<br />
+    <br />
+    &nbsp; &lt;IndexYearSeparatorTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;p style=&quot;letter-spacing:1em; color:Gray; font-size:large;
+    text-align:center&quot;&gt;<br />
+    &nbsp; &nbsp; &nbsp; &lt;%#Container.PostCreated.ToString("yyyy")%&gt;<br />
+    &nbsp; &nbsp; &lt;/p&gt;<br />
+    &nbsp; &lt;/IndexYearSeparatorTemplate&gt;<br />
+    <br />
+    &nbsp; &lt;IndexMonthSeparatorTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;p style=&quot;font-weight:bold; background:aliceblue&quot;&gt;<br />
+    &nbsp; &nbsp; &nbsp; &lt;%#Container.PostCreated.ToString("MMMM")%&gt;<br />
+    &nbsp; &nbsp; &lt;/p&gt;<br />
+    &nbsp;&nbsp; &lt;/IndexMonthSeparatorTemplate&gt;<br />
+    <br />
+    &lt;/bloget:Bloget&gt;</code> <p>If you have used any of the ASP.NET server controls
+      that supports templates like the GridView or DataList control, the above example
+      should look familiar. (note to self, this section needs to be expanded greatly).
+      There are a large number of items from your blog that can be referenced. Please
+      refer to the example web site and intellisense to discover these items.</p>
+  <p>The declarative syntax for Bloget is as follows:</p>
+  <code>&lt;bloget:Bloget<br />
+    &nbsp; DataContext="string"<br />
+    &nbsp; ShowOnly="<strong>None</strong>|Blog|View|Edit|Admin|Index|Categories|Drafts<br />
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; |LicenseAgreement|Login|Logout|EventLog"<br />
+    &nbsp; Prefix="string"<br />
+    &nbsp; Url="string"<br />
+    <br />
+    &nbsp; &lt;TitleTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogTitle%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogDescription%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogCopyright%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogWebMaster%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogLoggedin%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogMode%&gt;<br />
+    &nbsp; &lt;/TitleTemplate&gt;<br />
+    <br />
+    &nbsp; &lt;FooterTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogTitle%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogDescription%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogCopyright%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogWebMaster%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogLoggedin%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogMode%&gt;<br />
+    &nbsp; &lt;/FooterTemplate&gt;<br />
+    <br />
+    &nbsp; &lt;PostTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogTitle%&gt; ...<br />
+    &nbsp; &nbsp; &lt;%#Container.PostID%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostTitle%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostTitleUrlEncoded%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostCreated%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostLink%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostEditLink%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostPermaLink%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostPermaLinkUrlEncoded%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostTags%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostTagLinks%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostExcerpt(maxCharacters)%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostDescription%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostCommentCount%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostPingbackCount%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostSourceLink%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostSourceTitle%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostEnclosureName%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostEnclosureNameSize%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostEnclosureLink%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostEnclosureType%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostEnclosureLength%&gt;<br />
+    &nbsp; &lt;/PostTemplate&gt;<br />
+    <br />
+    &nbsp; &lt;PostSeperatorTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogTitle%&gt; ...<br />
+    &nbsp; &nbsp; &lt;%#Container.PostID%&gt; ...<br />
+    &nbsp; &lt;/PostSeperatorTemplate&gt;<br />
+    <br />
+    &nbsp; &lt;CommentHeaderTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogTitle%&gt; ...<br />
+    &nbsp; &nbsp; &lt;%#Container.PostID%&gt; ...<br />
+    &nbsp; &nbsp; &lt;%#Container.CommentTitle%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.CommentDate%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.CommentAuthor%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.CommentEmail%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.CommentText%&gt;<br />
+    &nbsp; &lt;/CommentHeaderTemplate&gt;<br />
+    <br />
+    &nbsp; &lt;CommentTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogTitle%&gt; ...<br />
+    &nbsp; &nbsp; &lt;%#Container.PostID%&gt; ...<br />
+    &nbsp; &nbsp; &lt;%#Container.CommentTitle%&gt; ...<br />
+    &nbsp; &lt;/CommentTemplate&gt;<br />
+    <br />
+    &nbsp; &lt;PingbackHeaderTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogTitle%&gt; ...<br />
+    &nbsp; &nbsp; &lt;%#Container.PostID%&gt; ...<br />
+    &nbsp; &lt;/PingbackHeaderTemplate&gt;<br />
+    <br />
+    &nbsp; &lt;PingbackTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogTitle%&gt; ...<br />
+    &nbsp; &nbsp; &lt;%#Container.PostID%&gt; ...<br />
+    &nbsp; &nbsp; &lt;%#Container.PingBackLink%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PingBackDate%&gt;<br />
+    &nbsp; &lt;/PingbackTemplate&gt;<br />
+    <br />
+    &nbsp; &lt;IndexHeaderTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogTitle%&gt; ...<br />
+    &nbsp; &nbsp; &lt;%#Container.PostID%&gt; ...<br />
+    &nbsp; &nbsp; &lt;%#Container.PostID%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostTitle%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostTitleUrlEncoded%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostCreated%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostLink%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostEditLink%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostPermaLink%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostPermaLinkUrlEncoded%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostTags%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostTagLinks%&gt;<br />
+    &nbsp; &lt;/IndexHeaderTemplate&gt;<br />
+    <br />
+    &nbsp; &lt;IndexMonthSeparatorTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogTitle%&gt; ...<br />
+    &nbsp; &nbsp; &lt;%#Container.PostID%&gt; ... &lt;%#Container.PostTagLinks%&gt;<br />
+    &nbsp; &lt;/IndexMonthSeparatorTemplate&gt;<br />
+    <br />
+    &nbsp; &lt;IndexYearSeparatorTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogTitle%&gt; ...<br />
+    &nbsp; &nbsp; &lt;%#Container.ItemID%&gt; ... &lt;%#Container.ItemTagLinks%&gt;<br />
+    &nbsp; &lt;/IndexYearSeparatorTemplate&gt;<br />
+    <br />
+    &nbsp; &lt;IndexFooterTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogTitle%&gt; ...<br />
+    &nbsp; &nbsp; &lt;%#Container.PostID%&gt; ... &lt;%#Container.PostTagLinks%&gt;<br />
+    &nbsp; &lt;/IndexFooterTemplate&gt;<br />
+    <br />
+    &nbsp; &lt;SearchResultsTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.PostID%&gt; ... &lt;%#Container.PostTagLinks%&gt;<br />
+    &nbsp; &lt;/SearchResultsTemplate&gt;<br />
+    <br />
+    &lt;/bloet:Bloget&gt;</code><h2>Title Control</h2>
+    <p>The Title control can be used to display the title of your blog. In its default
+      configuration it places the title of the blog in an H1 element and the description
+      in a paragraph element. It can be enhanced with a stylesheet or customized using
+      a template. The Title is invoked as follows:</p>
+  <p><code>&lt;bloget:BlogetTitle runat="server" ID="myId" DataContext="~/App_Data/Bloget.xml"&gt;</code>
+    It can be customized using a template. For example:</p>
+  <p><code>&lt;bloget:BlogetTitle runat="server" DataContext="~/App_Data/Blog/Bloget.xml"&gt;
+    <br />
+    &nbsp; &lt;HeaderTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;h1&gt;<br />
+    &nbsp; &nbsp; &nbsp; &lt;%#Container.BlogTitle%&gt;<br />
+    &nbsp; &nbsp; &lt;/h1&gt;<br />
+    &nbsp; &nbsp; &lt;p&gt;<br />
+    &nbsp; &nbsp; &nbsp; &lt;%#Container.BlogDescription%&gt;&lt;br /&gt;<br />
+    &nbsp; &nbsp; &nbsp; &lt;small&gt;&lt;%#Container.BlogCopyright%&gt;&lt;/small&gt;<br />
+    &nbsp; &nbsp; &lt;/p&gt;<br />
+    &nbsp; &lt;/HeaderTemplate&gt;<br />
+    &lt;/bloget:BlogetTitle&gt;</code> Declarative syntax:</p>
+  <p><code>&lt;bloget:BlogetTitle<br />
+    &nbsp; DataContext="string"<br />
+    &nbsp; Prefix="string"<br />
+    <br />
+    &nbsp; &lt;TitleTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogTitle%&gt; ...<br />
+    &nbsp; &lt;/TitleTemplate&gt;<br />
+    &lt;/bloget:BlogetTitle&gt;</code> </p>
+  <p></p>
+<h2><a id="categories_control" />Categories Control</h2>
+  <p>Bloget supports categories (sometimes called tags). You can associate one or more
+    categories with any blog entry. The Category control lists all categories present
+    in the blog and their respective entry counts. The Category control is invoked as
+    follows:</p>
+  <code>&lt;bloget:BlogetCategory runat="server" ID="myId" DataContext="~/App_Data/Bloget.xml"&gt;</code>
+  <p>It can be customized using a template. For example:</p>
+  <code>&lt;bloget:BlogetCategory runat="server" ID="blogetCategory" DataContext="~/App_Data/Bloget.xml"&gt;<br />
+    &nbsp; &lt;CategoryTemplate&gt;
+    <br />
+    &nbsp; &nbsp; &amp;bull; &lt;a href="DefaultWithTemplates.aspx?c=&lt;%#Container.CategoryId%&gt;"&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.CategoryName%&gt; (&lt;%#Container.CategoryCount%&gt;)&lt;/a&gt;&lt;br/&gt;<br />
+    &nbsp; &lt;/CategoryTemplate&gt;<br />
+    &lt;/bloget:BlogetCategory&gt;</code> <p>Declarative syntax:</p>
+  <code>&lt;bloget:BlogetCategory<br />
+    &nbsp; DataContext="string"<br />
+    &nbsp; Prefix="string"<br />
+    &nbsp; Url="string"<br />
+    <br />
+    &nbsp; &lt;CategoryTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogTitle%&gt; ...<br />
+    &nbsp; &nbsp; &lt;%#Container.CategoryName%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.CategoryId%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.CategoryCount%&gt;<br />
+    &nbsp; &lt;/CategoryTemplate&gt;<br />
+    &lt;/bloget:BlogetCategory&gt;</code> <h2><a id="recent_posts" />Recent Posts Control</h2>
+  <p>The recent posts control lists the most recent posts in the blog. It can be filtered
+    by category. Here's an example:</p>
+  <code>&lt;bloget:BlogetRecent runat="server" ID="myId" DataContext="~/App_Data/Bloget.xml"/&gt;</code>
+  <p>It can be customized using the <strong>&lt;IndexTemplate&gt;</strong> template.</p>
+  <h2><a id="archive_control" />Archive Control</h2>
+  <p>The archive control displays a list of links by months that contain blog postings.
+    The control display a month/year list but can be customized in a fashion similar
+    to other Bloget controls using templates. Below is an example of customized archive
+    control. The <strong>Length</strong> parameter limits the number of entries to display.</p>
+  <code>&lt;bloget:BlogetArchive runat="server" DataContext="~/App_Data/Bloget.xml" Length="12"&gt;<br />
+    &nbsp; &lt;ArchiveTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;a href="&lt;%#Container.ArchiveLink%&gt;"&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.ArchiveDate.ToString("Y")%&gt;&lt;/a&gt;&lt;br/&gt;<br />
+    &nbsp; &lt;/ArchiveTemplate&gt;<br />
+    &lt;/bloget:BlogetArchive&gt;</code> <p>Declarative syntax:</p>
+  <code>&lt;bloget:BlogetArchive<br />
+    &nbsp; DataContext="string"<br />
+    &nbsp; Prefix="string"<br />
+    &nbsp; Url="string"<br />
+    <br />
+    &nbsp; &lt;ArchiveTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogTitle%&gt; ...<br />
+    &nbsp; &nbsp; &lt;%#Container.ArchiveDate%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.ArchiveLink%&gt;<br />
+    &nbsp; &lt;/ArchiveTemplate&gt;<br />
+    &lt;/bloget:BlogetArchive&gt;</code> <h2><a id="blogroll_control" />Blog Roll Control</h2><p>The Blog Roll control displays a list links to other resources you think you're readers
+      might be interested in. The Blog Roll control takes a URI to an <a href="http://en.wikipedia.org/wiki/OPML">
+        OPML</a> file. OPML files are commonly used to export blog lists from news aggregators
+      like Bloglines. The two URI types recognized by Blog Roll control are http:// and
+      file://. Here's an example.</p>
+  <p><code>&lt;bloget:BlogetBlogRoll runat="server" ID="blogroll" DataContext="~/App_Data/Blog/Bloget.xml"&nbsp;<br />
+    &nbsp;Uri="http://www.bloglines.com/export?id=blueonionsoftware" /&gt;</code> Blog
+    Roll will parse the OPML file at the given Uri and display it. It checks this address
+    every 6 hours and updates the blog accordingly. Two other parameters can be added.
+    <strong>Length</strong> controls the number of links to display. If you're like
+    me, you probably read a large number of blogs. Displaying a hundred or more blogs
+    may not be what you want. In conjunction with the Length parameter you can specify
+    <strong>Random=true</strong> which will select a random links from the OPML file.</p>
+  <p>Like all Bloget controls, customizations using templates are supported. Here's
+    an example:</p>
+  <p><code>&lt;bloget:BlogetBlogRoll runat="server" ID="blogroll" DataContext="~/App_Data/Blog/Bloget.xml"
+    <br />
+    &nbsp;Uri="http://www.bloglines.com/export?id=blueonionsoftware"&gt;
+    <br />
+    &nbsp; &lt;BlogRollTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;img src="Images/arrow.png" alt="" /&gt;<br />
+    &nbsp; &nbsp; &lt;asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="&lt;%#Container.BlogRollHtmlUrl%&gt;"
+    <br />
+    &nbsp; &nbsp;&nbsp; Text="&lt;%#Container.BlogRollTitle%&gt;" /&gt;&lt;br /&gt;<br />
+    &nbsp; &lt;/BlogRollTemplate&gt;<br />
+    &lt;/bloget:BlogetBlogRoll&gt; </code>And finally, the declarative syntax:</p>
+  <p><code>&lt;bloget:BlogetBlogRoll<br />
+    &nbsp; DataContext="string"<br />
+    &nbsp; Prefix="string"<br />
+    &nbsp; Url="string"<br />
+    <br />
+    &nbsp; &lt;BlogRollTemplate&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogTitle%&gt; ...<br />
+    <br />
+    &nbsp; &nbsp; &lt;%#Container.BlogRollTitle%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogRollHtmlUrl%&gt;<br />
+    &nbsp; &nbsp; &lt;%#Container.BlogRollXmlUrl%&gt;<br />
+    &nbsp; &lt;/BlogRollTemplate&gt;<br />
+    &lt;/bloget:BlogetBlogRoll&gt; </code></p>
+  <h2>Search Control</h2>
+    <p>&nbsp;</p>
+    <h2>Contact Control</h2>
+    <p>&nbsp;</p>
+  <h2><a id="Membership"></a>Membership Services</h2>
+  <p>Membership services are configured and serviced using ASP.NET's membership 
+      services. Membership services conduct authentication and authorization using a 
+      provider model. The provider model allows for different backend's that supply 
+      authentication, authorization and profile information. Out of the box, ASP.NET 
+      supplies </p>
+    <div class="introduction">
+        <p>
+            ASP.NET membership gives you a built-in way to validate and store user 
+            credentials. ASP.NET membership therefore helps you manage user authentication 
+            in your Web sites. You can use ASP.NET membership with ASP.NET Forms 
+            authentication or with the ASP.NET login controls to create a complete system 
+            for authenticating users.</p>
+        <p>
+            ASP.NET membership supports facilities for:</p>
+        <ul>
+            <li>
+                    Creating new users and passwords.
+            </li>
+            <li>
+                    Storing membership information (user names, passwords, and supporting data) in 
+                    Microsoft SQL Server, Active Directory, or an alternative data store.
+            </li>
+            <li>
+                    Authenticating users who visit your site. You can authenticate users 
+                    programmatically, or you can use the ASP.NET login controls to create a complete 
+                    authentication system that requires little or no code.
+            </li>
+            <li>
+                    Managing passwords, which includes creating, changing, and resetting them . 
+                    Depending on membership options you choose, the membership system can also 
+                    provide an automated password-reset system that takes a user-supplied question 
+                    and response.
+            </li>
+            <li>Exposing a unique identification for authenticated users that you can use in 
+                your own applications and that also integrates with the ASP.NET personalization 
+                and role-management (authorization) systems.</li>
+            <li>Specifying a custom membership provider, which allows you to substitute your own 
+                code to manage membership and maintain membership data in a custom data store</li>
+        </ul>
+    </div>
+    <p>
+        You configure the membership system in your application's Web.config file. The 
+        easiest way to configure and manage membership is with the Web Site 
+        Administration Tool, which provides a wizard-based interface. As part of 
+        membership configuration, you specify:</p>
+<ul>
+    <li>
+            What membership provider to use. (This typically also specifies what database to 
+            store membership information in.)
+    </li>
+    <li>
+            Password options such as encryption and whether to support password recovery 
+            based on a user-specific question.
+    </li>
+    <li>
+            Users and passwords. If you are using the Web Site Administration Tool, you can 
+            create and manage users directly. Otherwise, you must call membership functions 
+            to create and manage users programmatically
+    </li>
+</ul>
+    <p>Bloget also supplies an XML based provider model. The XML provider only uses files. Bloget&#39;s 
+      membership provider is configured like any other membership provider in your application&#39;s 
+      Web.config file. Bloget&#39;s membership provider is great for discount hosting services that don&#39;t 
+      offer SQL or ActiveDirectory services.</p>
+  <h2><a id="RSSFeeds"></a>RSS Feeds</h2>
+  <p>Adding an RSS feed is simple and automatic.By default, the 10
+    most recent blog entries are included in the feed. The number of entries can be
+    adjusted using the <b>Admin</b> panel. You can produce feeds for categories
+    using query parameters. For instance, to generate a feed for category 2: </p>
+  <code>http://yoursite.com/Blog.aspx?m=rss&amp;c=2</code> Bloget produces valid RSS 2.0.<p>The content
+    of an RSS feed can be enhanced using templates. This allows you to place additional content (like ads)
+    for instance directly in
+    feeds. Here's an example.</p>
+
+  <p><code>      
+  &lt;RssContentTemplate&gt;<br />
+    &nbsp;
+  &lt;%#Container.PostContent%&gt;<br />
+    &nbsp;
+  &lt;div&gt;<br />
+    &nbsp; &nbsp; &lt;a href="http://www.pheedo.com/click.phdo?x=62927&amp;u=&lt;%#Container.PostID%&gt;"&gt;<br />
+    &nbsp; &nbsp; &lt;img src="http://www.pheedo.com/img.phdo?x=62927&amp;u=&lt;%#Container.PostID%&gt;"
+    /&gt;&lt;/a&gt;<br />
+    &nbsp;
+  &lt;/div&gt;<br />
+    &nbsp;
+  &lt;div&gt;<br />
+    &nbsp; &nbsp;
+  powered by &lt;a href="http://blueonionsoftware.com/bloget.aspx"&gt;Bloget&lt;/a&gt;<br />
+    &nbsp; &nbsp; - &lt;i&gt;"One File, One Binary,
+  One Blog"&lt;/i&gt;<br />
+    &nbsp; &lt;/div&gt;<br />
+  &lt;/RssContentTemplate&gt;<br />
+ </code>
+</p>
+
+  <h2><a id="rpc" />Remote Procedure Calls (MetaWeblog and Pingback)</h2>
+  <p>Bloget supports the MetaWeblog and Pingback API's. These API's allow your blog
+    controlled by sending XML-RPC commands. Many third-party tools and popular Web sites
+    (like Digg) can interact with blogs that support these API's. The procedure for
+    enabling RPC in bloget is similar to RSS example above. You will create a new Web
+    page and with only the following two lines.</p>
+  <code>http://yoursite.com/Blog.aspx?m=rpc</code>
+  <p><a href="http://www.xmlrpc.com/metaWeblogApi">MetaWeblog</a> is a standard client-server
+    <a href="http://en.wikipedia.org/wiki/Application_programming_interface" title="Application programming interface">
+      application programming interface</a> for <a href="http://en.wikipedia.org/wiki/Weblog"
+        title="Weblog">weblog</a> (blog) publishing. It is built on <a href="http://en.wikipedia.org/wiki/XML-RPC"
+          title="XML-RPC">XML-RPC</a>. MetaWeblog API was designed to address limitations
+    of <a href="http://en.wikipedia.org/wiki/Blogger.com" title="Blogger.com">Blogger</a>
+    API.</p>
+  <p>On the administration screen you will need to add several pieces of information
+    to enable MetaWeblog services. They are:</p>
+  <ul>
+    <li>RPC Service Url - This is the Url of the page that contains the BlogetRpc control.
+      <span style="text-decoration: underline">The RPC Service Url is required if you intend
+        to accept Pingbacks</span>. It's important that this address is complete and include
+      the "http://" portion.</li>
+    <li>Image Folder - The folder where you want images uploaded. This a the folder name
+      on the server, not the Url. You should specify the address using virtual path syntax
+      common in all ASP.NET controls. For example, if the folder on your server was /Images,
+      you would enter "~/Images/".</li>
+    <li>Image Url - This is the Url of image folder you just specified. It's important
+      that this address is complete and include the "http://" portion.</li>
+  </ul>
+  <p>Owing to the fact that Bloget is a user control the blog
+    ID is always the same for these API's. It is:</p>
+  <ul>
+    <li>Blog ID = 1</li>
+  </ul>
+  <p>The he password is unique and it is the same one that is used to access the Administration
+    areas of your blog.</p>
+  <p>The following MetaWeblog commands are supported:p>
+  <ul>
+    <li>metaWeblog.newPost</li>
+    <li>metaWeblog.editPost</li>
+    <li>metaWeblog.getPost</li>
+    <li>metaWeblog.getCategories</li>
+    <li>metaWeblog.getRecentPosts</li>
+    <li>metaWeblog.newMediaObject</li>
+    <li>blogger.deletePost</li>
+    <li>blogger.getUsersBlogs</li>
+    <li>blogger.getUserInfo</li>
+  </ul>
+  <p>Pingback is an automatic mechanism that enables authors to keep track of who is
+    linking to, or referring to their articles. Pingbacks are automatic and require
+    no user intervention when enabled. You can choose to display pingbacks in your blog.
+    Pingbacks are also logged. There are two components to Pingbacks. When you post
+    an article, Bloget will scan the article for links and attempt to "Ping" those links.
+    The result of the ping attempt is logged.</p>
+  <p>Pingbacks are listed in blog entry page under the comments section.</p>
+  <p>Once you have updated these fields, you should be able to user third-party off
+    line blogging tools like BlogJet and Windows Live Writer. To make using these features
+    even easier, the blogging community has developed a standard API for detecting MetaWeblog
+    enabled blogs called <a href="http://cyber.law.harvard.edu/blogs/gems/tech/rsd.html">
+      Really Simple Discoverability</a> (RSD). RSD is well, really simple to implement.</p>
+  <p>In Bloget, the Administration panel has a checkbox for enabling RSD. Check it and
+    Bloget does the rest.</p>
+  <h2><a id="blogml" />BlogML</h2>
+  <p><a href="http://blogml.com">BlogML</a> is an XML format for storing the entire
+    content of a blog. You can use BlogML as a way to archive the contents of blogs
+    or to act as a standard format for transferring content from one blog to another
+    - this could include migrating a blog from one blogging engine to another. There
+    are currently several blogging engines that provide support for BlogML including:</p>
+  <ul>
+    <li>Community Server</li>
+    <li>Das Blog</li>
+    <li>Subtext</li>
+    <li>SingleUserBlog</li>
+    <li>And of course - Bloget</li>
+  </ul>
+  <p>There are also implementations that exist for converting Blogger content to BlogML.</p>
+  <p>Navigate to the Administration screen. Near the bottom you'll find import and export
+    controls. Exporting will produce an BlogML compliant XML file. If you have blogs
+    elsewhere that support BlogML, export them and then import them to Bloget.</p>
+  <h2><a id="comments" />Comments</h2>
+  <p>Like most good blogging engines, you can allow users to leave comments on you postings.
+    You can enable comments on a per posting basis or on globally. When enabled, postings
+    will include an area near the bottom of the post where the user can submit his comment.
+    Comments are a mixed blessing. On the good side, they allow interaction with your
+    readers and can add value to your blog. On the bad side, there is comment spam.
+    Comment spam usually does not pertain to your post but instead contains links and
+    <span lang="EN" style="font-size: 12pt; font-family: 'Trebuchet MS'; mso-fareast-font-family: 'Times New Roman';
+      mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN; mso-fareast-language: EN-US;
+      mso-bidi-language: AR-SA">advertisements </span>to other sites. Often these spam comments are inserted by other programs
+    called robots or spam-bots.</p>
+  <p>Bloget takes some basic measures to suppress these messages but is by no means
+    bullet proof. In addition to turning-off comments, you can limit the number of comments
+    per posting and the amount of time the posting will accept comments. Also you can
+    easily delete comments by viewing the posting while logged-in. You'll see a delete
+    button under each comment entry that allows you to quickly remove any offending
+    comment.</p>
+  <p>To further combat spam-bots, Bloget requires confirmation from the comment author.
+    This requires Javascript to be enabled. Most spam-bots do not support Javascript
+    and thus will fail to post a comment.</p>
+  <p>Bloget also rejects comments that have hyperlinks in them.&nbsp;</p>
+  <h2><a id="logging" />Logging</h2>
+  <p>Bloget logs significant events such as new postings, changes to administration
+    settings, comments, pingbacks, etc. Log files are saved in <strong>"~/App_Data/yyyy-mm-dd.bloget.log"</strong>
+    where "yyyy-mm-dd" is the date in sortable format. You can change the name and location
+    where log files are saved by adding a entry to the <strong>&lt;appSettings&gt;</strong>
+    section of your Web.Config file. This folder path must start with <strong>"~"</strong>
+    or it will be rejected and files will go to the default location. Furthermore, the
+    <strong>path must exist and be writable</strong> (Bloget will not automatically
+    create the folder).</p>
+  <code>&lt;add key="BlogetLogFolder" value="~/App_Data/Logs/" /&gt;</code> <p>All entries
+    start with a 3 digit code indicating the category of the log message followed by
+    the time, control ID and message. The category codes are as follows:</p>
+  <table border="1" summary="Description of logging codes">
+    <caption></caption>
+    <tr>
+      <td style="width: 100px; height: 26px;">
+        <strong>Code</strong></td>
+      <td style="width: 337px; height: 26px;">
+        <strong>Category</strong></td>
+    </tr>
+    <tr>
+      <td style="width: 100px">
+        100</td>
+      <td style="width: 337px">
+        Error</td>
+    </tr>
+    <tr>
+      <td style="width: 100px">
+        200</td>
+      <td style="width: 337px">
+        Authorization</td>
+    </tr>
+    <tr>
+      <td style="width: 100px">
+        201</td>
+      <td style="width: 337px">
+        Administration</td>
+    </tr>
+    <tr>
+      <td style="width: 100px; height: 26px;">
+        300</td>
+      <td style="width: 337px; height: 26px;">
+        Remote Procedure Call (RPC) Request</td>
+    </tr>
+    <tr>
+      <td style="width: 100px">
+        301</td>
+      <td style="width: 337px">
+        pingback.ping</td>
+    </tr>
+    <tr>
+      <td style="width: 100px; height: 26px;">
+        302</td>
+      <td style="width: 337px; height: 26px;">
+        RPC request accepted</td>
+    </tr>
+    <tr>
+      <td style="width: 100px; height: 26px">
+        303</td>
+      <td style="width: 337px; height: 26px">
+        RPC request rejected</td>
+    </tr>
+    <tr>
+      <td style="width: 100px; height: 26px">
+        400</td>
+      <td style="width: 337px; height: 26px">
+        Posting</td>
+    </tr>
+    <tr>
+      <td style="width: 100px">
+        401</td>
+      <td style="width: 337px">
+        Ping </td>
+    </tr>
+  </table>
+  <h2><a id="lostpasswords" />Lost Passwords</h2>
+  <p>If you forget your password, you're doomed. Well not really, but there is no 
+      password recovery. You'll have to open the Xml file in the AppData folder and 
+      edit it. Here's a sample XML provider data file that comes with the standard 
+      distribution. </p>
+  <code>&lt;?xml version="1.0" encoding="utf-8"?&gt;<br/>
+    &lt;users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:blueonionsoftware-com:bloget:user:data"&gt;<br/>
+    &nbsp;
+    &lt;User&gt;<br/>
+    &nbsp;&nbsp;&nbsp;
+    &lt;id&gt;1280d92b-12a2-4f69-a72d-d866f6c2a998&lt;/id&gt;<br/>
+    &nbsp;&nbsp;&nbsp;
+    &lt;username&gt;admin&lt;/username&gt;<br/>
+    &nbsp;&nbsp;&nbsp;
+    &lt;email&gt;example@example.com&lt;/email&gt;<br/>
+    &nbsp;&nbsp;&nbsp;
+    &lt;comment /&gt;<br/>
+    &nbsp;&nbsp;&nbsp;
+    &lt;password&gt;x61Ey612Kl2gpFL56FT9weDnpSo4AV8j8+qx2AuTHdRyY036xxzTTrw10Wq3+4qQyB+XURPWx1ONxp3Y3pB37A==&lt;/password&gt;<br/>
+    &nbsp;&nbsp;&nbsp;
+    &lt;locked&gt;false&lt;/locked&gt;<br/>
+    &nbsp;&nbsp;&nbsp;
+    &lt;question /&gt;<br/>
+    &nbsp;&nbsp;&nbsp;
+    &lt;answer /&gt;<br/>
+    &nbsp;&nbsp;&nbsp;
+    &lt;lastLogin&gt;2008-01-03T00:11:01.5998672Z&lt;/lastLogin&gt;<br/>
+    &nbsp;&nbsp;&nbsp;
+    &lt;lastActivity&gt;2008-01-03T00:11:01.5998672Z&lt;/lastActivity&gt;<br/>
+    &nbsp;&nbsp;&nbsp;
+    &lt;lastPasswordChange&gt;0001-01-01T00:00:00&lt;/lastPasswordChange&gt;<br/>
+    &nbsp;&nbsp;&nbsp;
+    &lt;lastLockedOut&gt;0001-01-01T00:00:00&lt;/lastLockedOut&gt;<br/>
+    &nbsp;&nbsp;&nbsp;
+    &lt;createdOn&gt;2007-11-15T00:51:01.9804Z&lt;/createdOn&gt;<br/>
+    &nbsp;&nbsp;&nbsp;
+    &lt;active&gt;true&lt;/active&gt;<br/>
+    &nbsp;
+    &lt;/User&gt;<br/>
+    &lt;/users&gt;<br/></code>
+  <p>This will reset the password to "admin&quot;</p>
+  <h2><a id="dataformats" />Data Formats</h2>
+  <p>Bloget uses a data provider type mechanism. Currently, the only data provider is an XML, file based 
+    provider but if you look at the code I think you&#39;ll see that a data provider is a simple item to 
+    implement. I chose to stick with an object model which will make things slighty more interesting for 
+    anyone writing a database provider.</p>
+  <p>In the XML data provider, all data in Bloget are stored in files using XML. The specifics of the formats
+    are not all that interesting. How the files relate to each other is more important.
+    The file specified in the Bloget <span lang="EN" style="font-size: 12pt; font-family: 'Trebuchet MS';
+      mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman';
+      mso-ansi-language: EN; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">declaration
+    </span>is the main file and contains information
+    that pertains to the entire blog. In addition, it contains an index of all the blog
+    entries. Blog entries are identified by a computer generated number called a GUID
+    (Global Unique Identifier). A GUID is a 128-bit integer (16 bytes) that can be used
+    across all computers and networks wherever a unique identifier is required. Such
+    an identifier has a very low probability of being duplicated.</p>
+  <p>The Bloget index contains the title of the blog entry, the identifier (the GUID),
+    the date it was created, the date it was last updated, and a list of category ID's.
+    The actual blog entry and <span lang="EN" style="font-size: 12pt; font-family: 'Trebuchet MS';
+      mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman';
+      mso-ansi-language: EN; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">associated
+    </span>comments are stored in a separate file. The
+    name of the file is the blog entry identifier (again, the GUID), prefixed with the
+    letter 'C'. It is stored in the same directory as the Bloget main file.</p>
+  <p>You might ask yourself if a system like this is scalable. Honestly, I don't know. I found that scaling
+    is as much trial and error as it is design (those of you who have done this know what I mean). Still,
+    I do take some measures to make Bloget efficient. I routinely test Bloget with 10,000 blog postings
+    to test response times and stability. On occasion, I've bumped this up to 100,000 postings. I would
+    wager that most blogs have fewer postings than than my tests. Bloget takes full advantage of ASP.NET's
+    caching facilities. If a posting is accessed frequently, it likely will be in the cache.</p>
+  <p>Bloget also tries very hard not to corrupt files. All files are serialized in memory, reparsed to check
+    validity and then committed to disk. Backup files are created of the previous version as further insurance.
+    This works well for Blogs because most file operations are read. File writing is are less frequent.
+    To date, I have not lost a single posting. Of course your milage may vary but consider I use this software
+    every day for my own blog.</p>
+  <!-- Legal -->
+  <h1><a id="legal" />Legal Information</h1>
+  <h2><a id="license" />Bloget Freeware License Agreement</h2>
+  <p>September 19, 2006</p>
+  <p>By using, copying, or distributing the accompanying software you indicate your
+    acceptance of the following Bloget Freeware License Agreement. If you do not agree
+    to any of the terms of this License, then do not use, copy, or distribute Bloget.</p>
+  <p>1. LICENSE. Blue Onion Software hereby grants you a non-exclusive, transferable
+    license to use its software product and accompanying documentation on the following
+    terms. You may:</p>
+  <p>a. use Bloget on any computer in your possession;<br />
+    b. make copies of Bloget; and</p>
+  <p>(i) You may NOT distribute the software by any means; You may NOT charge any amount
+    for distributing Bloget. You are specifically prohibited from charging, or requesting
+    donations, for any such copies, however made, and from distributing the software
+    and or documentation with other products (commercial or otherwise) without prior
+    written permission. You may NOT distribute Bloget as part of or in a bundle or package
+    with any other product;</p>
+  <p>(ii) You may NOT sublicense, rent or lease any portion of Bloget;</p>
+  <p>2. LIMITATIONS ON LICENSE. You shall not make use of the Blue Onion Software name
+    and/or any trademarks, service marks, trade dress adopted and/or used by Blue Onion
+    Software.</p>
+  <p>3. TITLE. Title, ownership rights, and intellectual property rights in and to Bloget,
+    and each copy thereof (including all copyrights therein), shall remain in Blue Onion
+    Software. Bloget is protected by the copyright laws of the United States and international
+    copyright treaties.</p>
+  <p>4. WARRANTY AND LIMITATION OF LIABILITY. Bloget is free of charge, and there is
+    no warranty for the software. Blue Onion Software provides the software 'as is,'
+    and Blue Onion Software disclaims all conditions and warranties of any kind, either
+    express, implied, statutory, or otherwise, including, but not limited to, any conditions
+    or implied warranties of merchantability, satisfactory quality, and fitness for
+    a particular purpose. Should the software prove defective, you assume the cost of
+    all necessary servicing, repair or correction. </p>
+  <p>Under no circumstances and under no legal theory, tort, contract, or otherwise,
+    shall Blue Onion Software be liable to you or any other person for any general,
+    direct, indirect, special, incidental, consequential, or other damages of any character
+    arising out of this agreement or the use of or inability to use the software, including
+    but not limited to personal injury, loss of profits, loss of data, output from the
+    software or data being rendered inaccurate, failure of the software to operate with
+    any other programs, damages for loss of goodwill, business interruption, computer
+    failure or malfunction, or any and all other damages or losses of whatever nature,
+    even if Blue Onion Software has been informed of the possibility of such damages.</p>
+  <p>5. INDEMNIFICATION. You shall defend, indemnify and hold harmless Blue Onion Software,
+    from any claim, demand, liability, damage award, suit, judgment, or other legal
+    action (including reasonable attorney's fees) arising out of your use, distribution,
+    modification, or duplication of Bloget.</p>
+  <p>6. TERMINATION. The license granted hereunder is effective until terminated by
+    Blue Onion Software. You may terminate it at any time by destroying Bloget. This
+    license will terminate automatically if you fail to comply with the limitations
+    described above. On termination, you must destroy all copies of Bloget. The termination
+    of your license will not result in the termination of the licenses of any distributees
+    who have received rights to Bloget through you so long as they are in compliance
+    with the provisions of this Agreement.</p>
+  <p>7. EXPORT CONTROLS. None of Bloget or underlying information or technology may
+    be downloaded or otherwise exported or re-exported into (or to a national or resident
+    of) any country in violation of the laws and administrative regulations of the United
+    States relating to the control of exports of commodities and technical data. By
+    downloading or using Bloget, you are agreeing to the foregoing and you are representing
+    and warranting that you are not located in, under the control of, or a national
+    or resident of any such country.</p>
+  <p>8. MISCELLANEOUS. This agreement represents the complete agreement concerning this
+    license between the parties and supersedes all prior agreements and representations
+    between them. It may not be amended. If any provision of this agreement is held
+    to be unenforceable for any reason, this agreement shall terminate. This agreement
+    shall be governed by and construed under MI law as such law applies to agreements
+    between MI residents entered into and to be performed within MI, except as governed
+    by U.S. federal law. </p>
+  <h2><a id="copyright" />Copyright and Trademark Notices</h2>
+  <p>Bloget is Copyright &copy; Blue Onion Software 2006. All rights reserved. The documentation
+    and all computer files are also Copyright &copy; Blue Onion Software 2006. All rights
+    reserved. Bloget&trade; is a trademark of Blue Onion Software. The trademarks are
+    the property of Blue Onion Software. All other trademarks are the property of their
+    respective owners.</p>
+  <h1><a id="technicalsupport" />Technical Support</h1>
+  <p>If you have a question about Bloget, first look in HELP.TXT or consult online help.
+    If you cannot find the answer, you can send electronic mail to <a href="mailto:mike@blueonionsoftware.com">
+      mike@blueonionsoftware.com</a>. Be prepared to send the following information:</p>
+  <ol>
+    <li>The version number of Bloget that you are using.</li>
+    <li>The type of hardware that you are using.</li>
+    <li>The exact wording of any messages that appeared on your screen.</li>
+    <li>A description of what happened and what you were doing when the problem occurred.</li>
+    <li>A description of how you tried to solve the problem.</li>
+  </ol>
+  <p>For additional information, send electronic mail to mike@blueonionsoftware.com</p>
+</body>
+</html>

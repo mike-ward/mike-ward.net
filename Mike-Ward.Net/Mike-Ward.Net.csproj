@@ -83,6 +83,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\BlogetUserGuide.html" />
     <Content Include="content\images\404.png" />
     <Content Include="content\images\about\family.jpg" />
     <Content Include="content\images\ajax-loader.gif" />
@@ -646,6 +647,7 @@
     <Content Include="content\images\deskdrive\deskdrivelogo.png" />
     <Content Include="content\images\deskdrive\USB_Blue.ico" />
     <Content Include="content\images\deskdrive\USB_Blue.png" />
+    <Content Include="content\images\downloads\file-download.png" />
     <Content Include="content\images\email-metro.png" />
     <Content Include="content\images\envelope-icon.gif" />
     <Content Include="content\images\envelope-icon.png" />
@@ -702,6 +704,8 @@
     <Content Include="content\images\vscoloroutput\vscoloroutputlogo.png" />
     <Content Include="content\images\vscoloroutput\vscoloroutputoptions.png" />
     <Content Include="content\images\vscoloroutput\vscoloroutputpatterns.png" />
+    <Content Include="content\Michael-R-Ward-Resume.htm" />
+    <Content Include="content\PageNotFound.html" />
     <Content Include="css\highlight-vs.min.css" />
     <Content Include="css\pure-min.css" />
     <Content Include="css\site.css" />
