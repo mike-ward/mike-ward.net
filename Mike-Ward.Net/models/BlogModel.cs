@@ -15,7 +15,7 @@ namespace Mike_Ward.Net.models
     public class BlogModel : IBlogModel, IDisposable
     {
         public IBlog Blog { get; private set; }
-        private readonly FileSystemWatcher _fileSystemWatcher;
+        private readonly FileSystemWatcher _watchBlogPosts;
         private bool _disposed;
 
         public BlogModel(IBlog blog, IRootPathProvider rootPathProvider)
@@ -23,7 +23,11 @@ namespace Mike_Ward.Net.models
             Blog = blog;
             blog.Title = "Mike-Ward.Net";
             blog.Description = ".NET, Technology, Life, Whatever";
+#if DEBUG
             blog.BaseUri = new Uri("http://localhost:12116/blog");
+#else
+            blog.BaseUri = new Uri("http://mike-ward.net/blog");
+#endif
             blog.Author = "Mike Ward";
             blog.Langauge = "en-US";
             blog.Copyright = "Copyright (C) 2014 - Mike Ward";
@@ -31,9 +35,9 @@ namespace Mike_Ward.Net.models
             var path = Path.Combine(rootPathProvider.GetRootPath(), "Blog/");
             blog.Posts = ReadPosts(path);
 
-            _fileSystemWatcher = new FileSystemWatcher(path) {NotifyFilter = NotifyFilters.LastWrite};
-            _fileSystemWatcher.Changed += (sender, args) => ReadPosts(path);
-            _fileSystemWatcher.EnableRaisingEvents = true;
+            _watchBlogPosts = new FileSystemWatcher(path) {NotifyFilter = NotifyFilters.LastWrite};
+            _watchBlogPosts.Changed += (sender, args) => Blog.Posts = ReadPosts(path);
+            _watchBlogPosts.EnableRaisingEvents = true;
         }
 
         private static IEnumerable<Post> ReadPosts(string path)
@@ -53,7 +57,7 @@ namespace Mike_Ward.Net.models
         {
             if (_disposed) return;
             _disposed = true;
-            _fileSystemWatcher.Dispose();
+            _watchBlogPosts.Dispose();
         }
     }
 }
