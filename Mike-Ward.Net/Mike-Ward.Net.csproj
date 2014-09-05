@@ -83,14 +83,70 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\images\about\family.jpg" />
+    <Content Include="content\images\calendargadget\cglogo.png" />
+    <Content Include="content\images\calendargadget\collage.png" />
+    <Content Include="content\images\calendar\appearance.png" />
+    <Content Include="content\images\calendar\calendar.png" />
+    <Content Include="content\images\calendar\calendarlogo.png" />
+    <Content Include="content\images\calendar\events.png" />
+    <Content Include="content\images\calendar\weeknumbers.png" />
+    <Content Include="content\images\deskdrive\deskdrive.png" />
+    <Content Include="content\images\deskdrive\deskdrivelogo.png" />
+    <Content Include="content\images\deskdrive\USB_Blue.ico" />
+    <Content Include="content\images\deskdrive\USB_Blue.png" />
     <Content Include="content\images\email-metro.png" />
+    <Content Include="content\images\freesnap\5.gif" />
+    <Content Include="content\images\freesnap\5.png" />
+    <Content Include="content\images\freesnap\5star.gif" />
+    <Content Include="content\images\freesnap\5star.png" />
+    <Content Include="content\images\freesnap\5staraward.png" />
+    <Content Include="content\images\freesnap\5star_2.gif" />
+    <Content Include="content\images\freesnap\5star_2.png" />
+    <Content Include="content\images\freesnap\award-1.gif" />
+    <Content Include="content\images\freesnap\award-1.png" />
+    <Content Include="content\images\freesnap\compwise.gif" />
+    <Content Include="content\images\freesnap\compwise.png" />
+    <Content Include="content\images\freesnap\emazing.gif" />
+    <Content Include="content\images\freesnap\emazing.png" />
+    <Content Include="content\images\freesnap\favorite.gif" />
+    <Content Include="content\images\freesnap\favorite.png" />
+    <Content Include="content\images\freesnap\freesnaphelp.png" />
+    <Content Include="content\images\freesnap\freesnaplogo.png" />
+    <Content Include="content\images\freesnap\keyboard.png" />
+    <Content Include="content\images\freesnap\webattack35.gif" />
+    <Content Include="content\images\freesnap\webattack35.png" />
+    <Content Include="content\images\gadgets\calculator.png" />
+    <Content Include="content\images\gadgets\calendar.png" />
+    <Content Include="content\images\gadgets\marketreport.png" />
+    <Content Include="content\images\gadgets\simplyweather.png" />
+    <Content Include="content\images\gadgets\stopwatch.png" />
+    <Content Include="content\images\gadgets\tweetz.png" />
     <Content Include="content\images\rss-metro.png" />
+    <Content Include="content\images\simply_weather\simplyweather.png" />
+    <Content Include="content\images\simply_weather\swsettings.png" />
     <Content Include="content\images\stackoverflow.png" />
+    <Content Include="content\images\tweetz\logo.png" />
+    <Content Include="content\images\tweetz\tweetz-docked.png" />
+    <Content Include="content\images\tweetz\tweetz-features.png" />
+    <Content Include="content\images\tweetz\tweetz-getpin.png" />
+    <Content Include="content\images\tweetz\tweetz-login.png" />
+    <Content Include="content\images\tweetz\tweetz-overview.png" />
+    <Content Include="content\images\tweetz\tweetz-send.png" />
+    <Content Include="content\images\tweetz\tweetz-settings.png" />
+    <Content Include="content\images\tweetz\twitter-allow.png" />
+    <Content Include="content\images\tweetz\twitter-pin.png" />
     <Content Include="content\images\twitter.png" />
+    <Content Include="content\images\vscoloroutput\vscoloroutput.png" />
+    <Content Include="content\images\vscoloroutput\vscoloroutputcolors.png" />
+    <Content Include="content\images\vscoloroutput\vscoloroutputlogo.png" />
+    <Content Include="content\images\vscoloroutput\vscoloroutputoptions.png" />
+    <Content Include="content\images\vscoloroutput\vscoloroutputpatterns.png" />
     <Content Include="css\highlight-vs.min.css" />
     <Content Include="css\pure-min.css" />
     <Content Include="css\site.css" />
     <Content Include="js\highlight.min.js" />
+    <Content Include="robots.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -1061,6 +1117,11 @@
     <Content Include="views\downloads.cshtml" />
     <Content Include="views\installmonetizer.cshtml" />
     <Content Include="views\tweetz-help.cshtml" />
+    <Content Include="content\images\calendar\Thumbs.db" />
+    <Content Include="content\images\calendargadget\Thumbs.db" />
+    <Content Include="content\images\deskdrive\Thumbs.db" />
+    <Content Include="content\images\freesnap\Thumbs.db" />
+    <Content Include="content\images\tweetz\Thumbs.db" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1068,7 +1129,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="content\download\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
