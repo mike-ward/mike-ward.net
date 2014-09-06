@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.Linq;
-using Mike_Ward.Net.models;
+using Mike_Ward.Net.Models;
 using Nancy;
 using Nancy.Responses;
 using Nancy.Responses.Negotiation;

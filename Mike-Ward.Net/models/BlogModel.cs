@@ -5,7 +5,7 @@ using System.Linq;
 using Nancy;
 using Nancy.Markdown.Blog;
 
-namespace Mike_Ward.Net.models
+namespace Mike_Ward.Net.Models
 {
     public interface IBlogModel
     {

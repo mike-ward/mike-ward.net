@@ -723,12 +723,14 @@
     <Content Include="js\disqus.js" />
     <Content Include="js\highlight.min.js" />
     <Content Include="robots.txt" />
+    <Content Include="views\pagenotfound.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bootstrapper.cs" />
     <Compile Include="models\BlogModel.cs" />
     <Compile Include="modules\BlogModule.cs" />
+    <Compile Include="modules\PageNotFoundHandler.cs" />
     <Compile Include="modules\SiteModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
