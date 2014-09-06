@@ -80,7 +80,7 @@ article {
 
 .hljs {
   background-color: #f6f6f9;
-  font-size: 11pt;
+  font-size: 80%;
 }
 
 .blog-date {
@@ -91,7 +91,7 @@ article {
 
 .blog-comment-button {
   float: left;
-  font-size: smaller;
+  font-size: 80%;
 }
 
 .recent-post {
@@ -103,7 +103,7 @@ footer {
   clear: both;
   background-color: #f6f6f9;
   text-align: center;
-  font-size: smaller;
+  font-size: 90%;
   padding-top: 1pc;
   padding-bottom: 1pc;
   background: #eaf3fa;
@@ -111,3 +111,8 @@ footer {
   margin: 0;
 }
 
+@media (max-device-width: 799px) {
+  #content {
+    width: 768px;
+  }
+}
