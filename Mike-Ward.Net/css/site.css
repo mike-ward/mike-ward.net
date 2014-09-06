@@ -111,8 +111,22 @@ footer {
   margin: 0;
 }
 
-@media (max-device-width: 799px) {
+@media (max-device-width: 1040px) {
+  body, html {
+    margin: 0.2pc;
+  }
+
   #content {
-    width: 768px;
+    width: auto;
+  }
+
+  .left {
+    float: none;
+    width: auto;
+    padding-right: 0;
+    border-right: none;
+  }
+  .right {
+    margin-left: 0;
   }
 }
