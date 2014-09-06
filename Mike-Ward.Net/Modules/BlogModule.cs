@@ -3,6 +3,7 @@ using System.Globalization;
 using System.Linq;
 using Mike_Ward.Net.models;
 using Nancy;
+using Nancy.Responses;
 using Nancy.Responses.Negotiation;
 
 namespace Mike_Ward.Net.Modules
@@ -11,11 +12,15 @@ namespace Mike_Ward.Net.Modules
     {
         public BlogModule(IBlogModel model)
         {
-            Get["blog/"] = p => ShowBlog(model, 0);
-            Get["blog/page/{index:int}"] = p => ShowBlog(model, p.index);
-            Get["blog/post/{year:int}/{month:int}/{day:int}/{slug}"] = p => ShowPost(model, p.year, p.month, p.day, p.slug) ?? 404;
-            Get["blog/archive"] = p => ShowArchive(model);
-            Get["blog/rss"] = p => model.Blog.Rss();
+            Get["/blog"] = p => ShowBlog(model, 0);
+            Get["/blog/posts/{index:int}"] = p => ShowBlog(model, p.index);
+            Get["/blog/post/{year:int}/{month:int}/{day:int}/{slug}"] = p => ShowPost(model, p.year, p.month, p.day, p.slug) ?? 404;
+            Get["/blog/archives"] = p => ShowArchive(model);
+            Get["/blog/rss"] = p => model.Blog.Rss();
+
+            // Legacy
+            Get["/blog.aspx"] = p => Response.AsRedirect("blog", RedirectResponse.RedirectType.Permanent);
+            Get["/blog/post/{id:int}/{slug}"] = p => LegacyPermaLink(model, p.slug.Value);
         }
 
         private Negotiator ShowBlog(IBlogModel model, int index)
@@ -23,7 +28,7 @@ namespace Mike_Ward.Net.Modules
             const int pageLength = 3;
             Context.ViewBag.Index = index;
             Context.ViewBag.PageLength = pageLength;
-            Func<int, string> link = p => string.Format("{0}/page/{1}", model.Blog.BaseUri, p);
+            Func<int, string> link = p => string.Format("{0}/posts/{1}", model.Blog.BaseUri, p);
             Context.ViewBag.Prev = link(Math.Max(index - pageLength, 0));
             Context.ViewBag.Next = link(Math.Min(model.Blog.Posts.Count() - 1, index + pageLength));
             return View[model];
@@ -65,6 +70,12 @@ namespace Mike_Ward.Net.Modules
                         mg => CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(mg.Key),
                         mg => mg.OrderByDescending(d => d.Created)))
                 ];
+        }
+
+        private Response LegacyPermaLink(IBlogModel model, string slug)
+        {
+            var post = model.Blog.Posts.FirstOrDefault(p => slug.Equals(p.Slug, StringComparison.InvariantCultureIgnoreCase));
+            return (post != null) ? Response.AsRedirect(post.PermaLink) : 404;
         }
     }
 }
