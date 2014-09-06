@@ -41,6 +41,7 @@ strong {
 
 img {
   border-style: none;
+  max-width: 100%;
 }
 
   img[title="sw-screen-shot"] {
@@ -126,6 +127,7 @@ footer {
     padding-right: 0;
     border-right: none;
   }
+
   .right {
     margin-left: 0;
   }
