@@ -1,4 +1,6 @@
-﻿namespace Mike_Ward.Net
+﻿using Nancy.Responses;
+
+namespace Mike_Ward.Net
 {
     using Nancy;
 
@@ -19,6 +21,8 @@
             Get["/downloads"] = p => View["downloads"];
             Get["/about"] = p => View["about"];
             Get["/installmonetizer"] = p => View["installmonetizer"];
+            Get["/robots.txt"] = p => new GenericFileResponse("robots.txt");
+
         }
     }
 }

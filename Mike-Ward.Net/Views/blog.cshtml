@@ -27,6 +27,6 @@
     {
       <div class="recent-post"><a href="@post.PermaLink">@post.Title</a></div>
     }
-    <div class="recent-post"><a href="~/blog/archives">More... (@Model.Blog.Posts.Length)</a></div>
+    <div class="recent-post"><a href="~/blog/archives">More... (@Enumerable.Count(Model.Blog.Posts))</a></div>
   </p>
 }
