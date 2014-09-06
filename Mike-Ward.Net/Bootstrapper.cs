@@ -1,5 +1,6 @@
 ﻿using Nancy;
 using Nancy.Conventions;
+using Nancy.Diagnostics;
 using Nancy.Pile;
 
 namespace Mike_Ward.Net
@@ -22,6 +23,11 @@ namespace Mike_Ward.Net
                 {
                     "*.js"
                 });
+        }
+
+        protected override DiagnosticsConfiguration DiagnosticsConfiguration
+        {
+            get { return new DiagnosticsConfiguration { Password = @"GizmoGlen90" }; }
         }
     }
 }
