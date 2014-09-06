@@ -689,6 +689,7 @@
     <Content Include="content\images\gadgets\simplyweather.png" />
     <Content Include="content\images\gadgets\stopwatch.png" />
     <Content Include="content\images\gadgets\tweetz.png" />
+    <Content Include="content\images\github.png" />
     <Content Include="content\images\googleplus.png" />
     <Content Include="content\images\mobile-icon.png" />
     <Content Include="content\images\rss-icon.png" />
