@@ -720,6 +720,7 @@
     <Content Include="css\pure-min.css" />
     <Content Include="css\site.css" />
     <Content Include="js\analytics.js" />
+    <Content Include="js\disqus.js" />
     <Content Include="js\highlight.min.js" />
     <Content Include="robots.txt" />
     <Content Include="Web.config" />

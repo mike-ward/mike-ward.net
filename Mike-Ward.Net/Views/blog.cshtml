@@ -12,6 +12,8 @@
       <div>
         @Html.Raw(post.Html())
       </div>
+      <button onclick="load_disqus(@post.Slug, @post.Slug);" class="pure-button blog-comment-button">Comments</button>
+      <div id="disqus_thread"></div>
       <div class="blog-date">@post.Created.ToString("d MMM yyyy")</div>
     </article>
   }

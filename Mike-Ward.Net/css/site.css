@@ -73,10 +73,6 @@ a, a:link, a:visited {
   margin-left: 755px;
 }
 
-.syndication-icons {
-  text-align: center;
-}
-
 article {
   margin-bottom: 4pc;
   border-bottom: black double;
@@ -91,6 +87,11 @@ article {
   font-weight: bold;
   text-align: right;
   margin-bottom: 1pc;
+}
+
+.blog-comment-button {
+  float: left;
+  font-size: smaller;
 }
 
 .recent-post {
