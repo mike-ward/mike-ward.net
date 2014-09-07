@@ -26,7 +26,7 @@ namespace Mike_Ward.Net.Models
 #if DEBUG
             blog.BaseUri = new Uri("http://localhost:12116/blog");
 #else
-            blog.BaseUri = new Uri("http://mike-ward.azurewebsites.net/blog");
+            blog.BaseUri = new Uri("http://mike-ward.net/blog");
 #endif
             blog.Author = "Mike Ward";
             blog.Langauge = "en-US";
