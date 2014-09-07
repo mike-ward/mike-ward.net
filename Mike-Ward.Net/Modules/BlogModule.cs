@@ -25,38 +25,40 @@ namespace Mike_Ward.Net.Modules
 
         private Negotiator ShowBlog(IBlogModel model, int index)
         {
-            const int pageLength = 3;
-            Context.ViewBag.Index = index;
-            Context.ViewBag.PageLength = pageLength;
+            const int postsToShow = 3;
+            var posts = model.Blog.Posts.Skip(index).Take(postsToShow);
+            if (!posts.Any()) return null;
+            var prev = index - postsToShow;
+            var next = index + postsToShow;
             Func<int, string> link = p => string.Format("{0}/posts/{1}", model.Blog.BaseUri, p);
-            Context.ViewBag.Prev = link(Math.Max(index - pageLength, 0));
-            Context.ViewBag.Next = link(Math.Min(model.Blog.Posts.Count() - 1, index + pageLength));
-            return View[model];
+            ViewBag.Title = model.Blog.Title;
+            ViewBag.Posts = posts;
+            ViewBag.Prev = prev >= 0 ? link(prev) : string.Empty;
+            ViewBag.Next = next < model.Blog.Posts.Count() ? link(next) : string.Empty;
+            ViewBag.PrevVisible = Visibility(ViewBag.Prev);
+            ViewBag.NextVisible = Visibility(ViewBag.Next);
+            return View[model.Blog];
         }
 
         private Negotiator ShowPost(IBlogModel model, int year, int month, int day, string slug)
         {
-            const int pageLength = 1;
-            Context.ViewBag.PageLength = pageLength;
-
             var post = model.Blog.Posts
-                .Select((p, i) => new {post = p, index = i})
-                .FirstOrDefault(a =>
-                    year == a.post.Created.Year &&
-                    month == a.post.Created.Month &&
-                    day == a.post.Created.Day &&
-                    slug.Equals(a.post.Slug, StringComparison.InvariantCultureIgnoreCase));
+                .FirstOrDefault(p =>
+                    year == p.Created.Year &&
+                    month == p.Created.Month &&
+                    day == p.Created.Day &&
+                    slug.Equals(p.Slug, StringComparison.InvariantCultureIgnoreCase));
 
             if (post == null) return null;
-
-            var index = post.index; 
-            Context.ViewBag.Index = index;
-            var previous = model.Blog.Posts.ElementAt(Math.Max(0, index - pageLength));
-            var next = model.Blog.Posts.ElementAt(Math.Min(model.Blog.Posts.Count() - 1, index + pageLength));
-
-            Context.ViewBag.Prev = previous.PermaLink;
-            Context.ViewBag.Next = next.PermaLink;
-            return View[model];
+            var prev = model.Blog.PreviousPost(post);
+            var next = model.Blog.NextPost(post);
+            ViewBag.Title = post.Title;
+            ViewBag.Posts = new[] { post };
+            ViewBag.Prev = prev != null ? prev.PermaLink : string.Empty;
+            ViewBag.Next = next != null ? next.PermaLink : string.Empty;
+            ViewBag.PrevVisible = Visibility(ViewBag.Prev);
+            ViewBag.NextVisible = Visibility(ViewBag.Next);
+            return View[model.Blog];
         }
 
         private Negotiator ShowArchive(IBlogModel model)
@@ -70,6 +72,11 @@ namespace Mike_Ward.Net.Modules
                         mg => CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(mg.Key),
                         mg => mg.OrderByDescending(d => d.Created)))
                 ];
+        }
+
+        private static string Visibility(string link)
+        {
+            return string.IsNullOrEmpty(link) ? "hidden" : "visible";
         }
 
         private Response LegacyPermaLink(IBlogModel model, string slug)

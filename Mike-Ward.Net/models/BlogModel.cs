@@ -21,7 +21,7 @@ namespace Mike_Ward.Net.Models
         public BlogModel(IBlog blog, IRootPathProvider rootPathProvider)
         {
             Blog = blog;
-            blog.Title = "Mike-Ward.Net";
+            blog.Title = "Blog";
             blog.Description = ".NET, Technology, Life, Whatever";
 #if DEBUG
             blog.BaseUri = new Uri("http://localhost:12116/blog");
