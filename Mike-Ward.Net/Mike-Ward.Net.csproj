@@ -1736,6 +1736,7 @@
     <Content Include="content\downloads\VSColorOutput.vsix" />
     <Content Include="content\downloads\VSColorOutputf.vsix" />
     <Content Include="blog\Post00945.md" />
+    <Content Include="blog\Post00946.md" />
     <None Include="Properties\PublishProfiles\mike-ward.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
