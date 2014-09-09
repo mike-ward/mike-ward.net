@@ -49,6 +49,10 @@ img {
     border: 1px solid black;
   }
 
+ul {
+  margin-left: -1em;
+}
+
 a, a:link, a:visited {
   color: #36b;
   text-decoration: none;
