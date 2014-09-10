@@ -1,8 +1,4 @@
-﻿@using System.Linq
-@{
-  Layout = "master.cshtml";
-}
-
+﻿@{ Layout = "master.cshtml"; }
 <section>
   @foreach (var post in ViewBag.Posts)
   {
@@ -26,10 +22,10 @@
 @section sidebar {
   <p><strong>Recent Posts</strong></p>
   <p>
-    @foreach (var post in Enumerable.Take(Model.Posts, 7))
+    @foreach (var post in @ViewBag.RecentPosts)
     {
       <div class="recent-post"><a href="@post.PermaLink">@post.Title</a></div>
     }
-    <div class="recent-post"><a href="~/blog/archives">More... (@Enumerable.Count(Model.Posts).ToString("n0"))</a></div>
+    <div class="recent-post"><a href="~/blog/archives">More... (@ViewBag.PostCount)</a></div>
   </p>
 }
