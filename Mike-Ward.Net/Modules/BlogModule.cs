@@ -12,6 +12,7 @@ namespace Mike_Ward.Net.Modules
     {
         public BlogModule(IBlogModel model)
         {
+            Get["/"] = p => ShowBlog(model, 0);
             Get["/blog"] = p => ShowBlog(model, 0);
             Get["/blog/posts/{index:int}"] = p => ShowBlog(model, p.index);
             Get["/blog/post/{year:int}/{month:int}/{day:int}/{slug}"] = p => ShowPost(model, p.year, p.month, p.day, p.slug) ?? 404;
@@ -33,7 +34,9 @@ namespace Mike_Ward.Net.Modules
             Func<int, string> link = p => string.Format("{0}/posts/{1}", model.Blog.BaseUri, p);
             ViewBag.Title = model.Blog.Title;
             ViewBag.Posts = posts;
-            ViewBag.Prev = prev >= 0 ? link(prev) : string.Empty;
+            ViewBag.Prev = (prev == 0) 
+                ? model.Blog.BaseUri.ToString() 
+                : (prev > 0) ? link(prev) : string.Empty;
             ViewBag.Next = next < model.Blog.Posts.Count() ? link(next) : string.Empty;
             SetCommonBlogProperties(model);
             return View[model.Blog];

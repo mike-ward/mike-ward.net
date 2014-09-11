@@ -8,7 +8,6 @@ namespace Mike_Ward.Net
     {
         public SiteModule()
         {
-            Get["/"] = p => Response.AsRedirect("~/blog");
             Get["/deskdrive"] = p => View["deskdrive"];
             Get["/tweetz"] = p => View["tweetz"];
             Get["/tweetz-help"] = p => View["tweetz-help"];
