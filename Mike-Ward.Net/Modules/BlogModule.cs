@@ -74,15 +74,15 @@ namespace Mike_Ward.Net.Modules
 
         private void SetCommonBlogProperties(IBlogModel model)
         {
-            ViewBag.PrevVisible = Visibility(ViewBag.Prev);
-            ViewBag.NextVisible = Visibility(ViewBag.Next);
+            ViewBag.DisablePrev = DisableButton(ViewBag.Prev);
+            ViewBag.DisableNext = DisableButton(ViewBag.Next);
             ViewBag.RecentPosts = model.Blog.Posts.Take(7);
             ViewBag.PostCount = model.Blog.Posts.Count().ToString("n0");
         }
 
-        private static string Visibility(string link)
+        private static string DisableButton(string link)
         {
-            return string.IsNullOrEmpty(link) ? "hidden" : "visible";
+            return string.IsNullOrEmpty(link) ? "disabled" : "";
         }
 
         private Response LegacyPermaLink(IBlogModel model, string slug)
