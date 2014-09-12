@@ -732,6 +732,7 @@
     <Compile Include="Bootstrapper.cs" />
     <Compile Include="models\BlogModel.cs" />
     <Compile Include="modules\BlogModule.cs" />
+    <Compile Include="modules\StaticContentConventionHelper.cs" />
     <Compile Include="modules\PageNotFoundHandler.cs" />
     <Compile Include="modules\SiteModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
