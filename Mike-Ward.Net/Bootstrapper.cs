@@ -15,6 +15,7 @@ namespace Mike_Ward.Net
             nancyConventions.StaticContentsConventions.Clear();
             nancyConventions.StaticContentsConventions.AddDirectoryWithExpiresHeader("content/images", TimeSpan.FromDays(365));
             nancyConventions.StaticContentsConventions.AddDirectory("content/downloads");
+            nancyConventions.StaticContentsConventions.AddDirectory("content/static");
 
             nancyConventions.StaticContentsConventions.StyleBundle("styles.css",
                 new[]

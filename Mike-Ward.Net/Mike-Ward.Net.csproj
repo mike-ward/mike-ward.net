@@ -84,7 +84,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="content\BlogetUserGuide.html" />
+    <Content Include="content\static\BlogetUserGuide.html" />
     <Content Include="content\downloads\CalendarSetup.exe" />
     <Content Include="content\downloads\CalendarSetup64.exe" />
     <Content Include="content\downloads\DeskDriveSetup.exe" />
@@ -717,8 +717,8 @@
     <Content Include="content\images\vscoloroutput\vscoloroutputlogo.png" />
     <Content Include="content\images\vscoloroutput\vscoloroutputoptions.png" />
     <Content Include="content\images\vscoloroutput\vscoloroutputpatterns.png" />
-    <Content Include="content\Michael-R-Ward-Resume.htm" />
-    <Content Include="content\PageNotFound.html" />
+    <Content Include="content\static\Michael-R-Ward-Resume.html" />
+    <Content Include="content\static\PageNotFound.html" />
     <Content Include="css\highlight-vs.min.css" />
     <Content Include="css\pure-min.css" />
     <Content Include="css\site.css" />
