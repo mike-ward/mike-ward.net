@@ -1742,6 +1742,7 @@
     <Content Include="blog\2014-09-12-Friday-Links-320.md" />
     <None Include="Properties\PublishProfiles\mike-ward - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\mike-ward - Web Deploy.pubxml" />
+    <Content Include="views\download.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

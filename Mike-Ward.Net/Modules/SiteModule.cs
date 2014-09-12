@@ -1,4 +1,5 @@
-﻿using Nancy.Responses;
+﻿using Microsoft.Ajax.Utilities;
+using Nancy.Responses;
 
 namespace Mike_Ward.Net
 {
@@ -22,6 +23,11 @@ namespace Mike_Ward.Net
             Get["/installmonetizer"] = p => View["installmonetizer"];
             Get["/robots.txt"] = p => new GenericFileResponse("robots.txt");
 
+            Get["/download/{cg?}/{file}"] = p =>
+            {
+                ViewBag.File = (p.cg != null) ? p.cg + "/" + p.file : p.file;
+                return View["download"];
+            };
         }
     }
 }
