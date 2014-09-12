@@ -13,27 +13,16 @@ namespace Mike_Ward.Net
         {
             base.ConfigureConventions(nancyConventions);
             nancyConventions.StaticContentsConventions.Clear();
-            nancyConventions.StaticContentsConventions.AddDirectoryWithExpiresHeader("content/images", TimeSpan.FromDays(365));
-            nancyConventions.StaticContentsConventions.AddDirectory("content/downloads");
             nancyConventions.StaticContentsConventions.AddDirectory("content/static");
-
-            nancyConventions.StaticContentsConventions.StyleBundle("styles.css",
-                new[]
-                {
-                    "css/pure-min.css",
-                    "css/*.css"
-                });
-
-            nancyConventions.StaticContentsConventions.ScriptBundle("scripts.js",
-                new[]
-                {
-                    "*.js"
-                });
+            nancyConventions.StaticContentsConventions.AddDirectory("content/downloads");
+            nancyConventions.StaticContentsConventions.AddDirectoryWithExpiresHeader("content/images", TimeSpan.FromDays(365));
+            nancyConventions.StaticContentsConventions.StyleBundle("styles.css", new[] { "css/pure-min.css", "css/*.css" });
+            nancyConventions.StaticContentsConventions.ScriptBundle("scripts.js", new[] { "*.js" });
         }
 
         protected override DiagnosticsConfiguration DiagnosticsConfiguration
         {
-            get { return new DiagnosticsConfiguration {Password = @"GizmoGlen90"}; }
+            get { return new DiagnosticsConfiguration { Password = @"GizmoGlen90" }; }
         }
     }
 }
