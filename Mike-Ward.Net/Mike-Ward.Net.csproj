@@ -90,7 +90,6 @@
     <Content Include="content\downloads\DeskDriveSetup.exe" />
     <Content Include="content\downloads\DeskDriveSetup185.exe" />
     <Content Include="content\downloads\DeskDriveSetup64.exe" />
-    <Content Include="content\downloads\downloads.aspx" />
     <Content Include="content\downloads\DtoFChart.htm" />
     <Content Include="content\downloads\notify.wav" />
     <Content Include="content\downloads\SimplyWeatherSetup.exe" />
