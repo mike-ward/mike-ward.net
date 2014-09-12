@@ -101,6 +101,7 @@
     <Content Include="content\images\beta-badge.gif" />
     <Content Include="content\images\beta-badge.png" />
     <Content Include="content\images\blog\0916bb4fcc1a_1223A\twitter_https.jpg" />
+    <Content Include="content\images\blog\2014-09-12-Friday-Links-320\starwars.jpg" />
     <Content Include="content\images\blog\6a5112d864e2_F76B\ScreenShot001.png" />
     <Content Include="content\images\blog\AdsensorAGoogleAdSenseGadgetthatactually_8F79\adsensor.png" />
     <Content Include="content\images\blog\AdsensorAGoogleAdSenseGadgetthatactually_8F79\adsensoran.png" />
@@ -1738,6 +1739,7 @@
     <Content Include="content\downloads\VSColorOutputf.vsix" />
     <Content Include="blog\Post00945.md" />
     <Content Include="blog\Post00946.md" />
+    <Content Include="blog\2014-09-12-Friday-Links-320.md" />
     <None Include="Properties\PublishProfiles\mike-ward - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\mike-ward - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">

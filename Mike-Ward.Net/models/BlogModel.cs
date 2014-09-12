@@ -43,7 +43,7 @@ namespace Mike_Ward.Net.Models
         private static IEnumerable<Post> ReadPosts(string path)
         {
             return Directory
-                .GetFiles(path, "Post*.md")
+                .GetFiles(path, "*.md")
                 .Select(file => Post.Read(File.OpenRead(file)));
         }
 
