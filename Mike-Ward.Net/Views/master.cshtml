@@ -70,7 +70,18 @@
     </div>
     <p>Copyright &copy; 2014, Mike Ward</p>
   </footer>
-  <script src="~/scripts.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
+  <script>
+    function loadScript(script) {
+      var element = document.createElement("script");
+      element.src = script;
+      document.body.appendChild(element);
+    }
+    function init(f) {
+      if (window.addEventListener) window.addEventListener("load", f, false);
+      else if (window.attachEvent) window.attachEvent("onload", f);
+      else window.onload = f;
+    }
+    init(function () { loadScript('/scripts.js'); });
+  </script>
 </body>
 </html>

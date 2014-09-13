@@ -724,6 +724,7 @@
     <Content Include="js\analytics.js" />
     <Content Include="js\disqus.js" />
     <Content Include="js\highlight.min.js" />
+    <Content Include="js\zload.js" />
     <Content Include="robots.txt" />
     <Content Include="views\pagenotfound.html" />
     <Content Include="Web.config" />
