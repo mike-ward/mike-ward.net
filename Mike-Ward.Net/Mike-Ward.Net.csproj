@@ -84,7 +84,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="blog\2014-09-12-Friday-Links-320.md" />
+    <Content Include="blog\2014-09-12-friday-links-320.md" />
     <Content Include="blog\2013-11-08-friday-links-277.md" />
     <Content Include="content\static\BlogetUserGuide.html" />
     <Content Include="content\downloads\CalendarSetup.exe" />
