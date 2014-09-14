@@ -2,7 +2,6 @@
 using Mike_Ward.Net.Modules;
 using Nancy;
 using Nancy.Conventions;
-using Nancy.Diagnostics;
 using Nancy.Pile;
 
 namespace Mike_Ward.Net
@@ -18,11 +17,6 @@ namespace Mike_Ward.Net
             nancyConventions.StaticContentsConventions.AddDirectoryWithExpiresHeader("content/images", TimeSpan.FromDays(365));
             nancyConventions.StaticContentsConventions.StyleBundle("styles.css", new[] { "css/pure-min.css", "css/*.css" });
             nancyConventions.StaticContentsConventions.ScriptBundle("scripts.js", new[] { "*.js" });
-        }
-
-        protected override DiagnosticsConfiguration DiagnosticsConfiguration
-        {
-            get { return new DiagnosticsConfiguration { Password = @"GizmoGlen90" }; }
         }
     }
 }
