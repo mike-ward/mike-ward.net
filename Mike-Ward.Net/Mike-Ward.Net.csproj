@@ -1759,6 +1759,7 @@
     <Content Include="blog\2014-08-30-tweetz-desktop-update---0-8-22.md" />
     <Content Include="blog\2014-09-05-friday-links-319.md" />
     <Content Include="blog\2014-09-09-introducing-nancy-markdown-blog.md" />
+    <Content Include="blog\2014-09-19-friday-links-321.md" />
     <None Include="Properties\PublishProfiles\mike-ward - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\mike-ward - Web Deploy.pubxml" />
     <Content Include="views\download.cshtml" />
