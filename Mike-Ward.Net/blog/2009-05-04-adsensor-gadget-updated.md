@@ -8,15 +8,15 @@ I introduced AdSensor a few weeks ago and have received “zero” feedback. I s
 
 As a quick review, the gadget looks like this.
 
-![adsensor](/cdn/images/blog/AdsensorAGoogleAdSenseGadgetthatactually_8F79/adsensor.png)
+![adsensor](http://az667460.vo.msecnd.net/cdn/images/blog/AdsensorAGoogleAdSenseGadgetthatactually_8F79/adsensor.png)
 
 If you’re not familiar with AdSense then it may look a bit confusing so here’s an annotated view.
 
-![adsensor-an](/cdn/images/blog/AdsensorAGoogleAdSenseGadgetthatactually_8F79/adsensoran.png)
+![adsensor-an](http://az667460.vo.msecnd.net/cdn/images/blog/AdsensorAGoogleAdSenseGadgetthatactually_8F79/adsensoran.png)
 
 As handy as this little gadget is I still found myself wanting to review the previous couple of days to watch for trends. So with a bit of fiddling, I added a “Flyout” dialog (that’s what they’re called in Sidebar gadgets) that shows the current month in a day by day format. Here’s a screen shot:
 
-![adsensor](/cdn/images/blog/AdSensorGadgetUpdated_122F6/adsensor.png)
+![adsensor](http://az667460.vo.msecnd.net/cdn/images/blog/AdSensorGadgetUpdated_122F6/adsensor.png)
 
 Click anywhere on the gadget to open the “Flyout”. Only the current month is shown.
 

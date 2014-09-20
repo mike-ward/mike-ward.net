@@ -10,7 +10,7 @@ There's an excellent article on Code Guru about [Writing your own COM Interop in
 
 To get an interface definition in C# for IShellDispatch, I fired up [Reflector](http://www.aisto.com/roeder/dotnet/) and loaded the Interop.Shell32.dll assembly that Visual Studio generated earlier.
 
-[![image](/cdn/images/blog/DeskDrive1.4.4Released_8162/image_thumb.png)](/cdn/images/blog/DeskDrive1.4.4Released_8162/image.png)
+[![image](http://az667460.vo.msecnd.net/cdn/images/blog/DeskDrive1.4.4Released_8162/image_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/DeskDrive1.4.4Released_8162/image.png)
 
 (Click to enlarge)
 

@@ -2,7 +2,7 @@ Friday Links #24
 2008-11-08T00:47:05
 [UrlScan 3.1: Wade Hilmo](http://blogs.iis.net/wadeh/archive/2008/10/31/urlscan-3-1.aspx) – Latest release has better protection for [SQL Injection Attacks](http://blogs.iis.net/wadeh/archive/2008/06/24/urlscan-v3-0-beta-release.aspx).
 
-![minicards](/cdn/images/blog/FridayLinks24_10F96/minicards.jpg) [MOO.com | We love to print](http://www.moo.com/products/) – From business cards to sticker books these guys print it all. I particular like their mini-cards. 50 cards, full color, different design on every card, $20. I’ve seen others hand these out and they are very impressive.
+![minicards](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks24_10F96/minicards.jpg) [MOO.com | We love to print](http://www.moo.com/products/) – From business cards to sticker books these guys print it all. I particular like their mini-cards. 50 cards, full color, different design on every card, $20. I’ve seen others hand these out and they are very impressive.
 
 [Featured Download: Live Mesh Adds Mac, Windows Mobile Clients](http://lifehacker.com/5074781/live-mesh-adds-mac-windows-mobile-clients) – While this service is still an early beta it really does the job when it comes to synchronizing computers. Did I mention that it is free?
 

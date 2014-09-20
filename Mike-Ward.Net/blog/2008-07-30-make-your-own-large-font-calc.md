@@ -8,6 +8,6 @@ Under the category of stupid programmer tricks:
   4. In the properties, modify Font(Size) for your favorite font and size 
   5. Close the solution, this will save the newly-modified exe
 
-[![image](/cdn/images/blog/Makeyourownlargefontcalc_C479/image_thumb.png)](/cdn/images/blog/Makeyourownlargefontcalc_C479/image.png)
+[![image](http://az667460.vo.msecnd.net/cdn/images/blog/Makeyourownlargefontcalc_C479/image_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/Makeyourownlargefontcalc_C479/image.png)
 
 I'm easily entertained.

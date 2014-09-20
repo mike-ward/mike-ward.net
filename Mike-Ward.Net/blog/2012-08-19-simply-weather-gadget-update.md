@@ -10,17 +10,17 @@ I've made a couple of changes.
 
 You can haz colors! No preset backgrounds means you can choose any color now. I've added a color selection dialog. Click the current-weather-condition to display the color selection dialog.
 
-![color1](/cdn/images/blog/Simply-Weather-Gadget-Update_7A07/color1.png)
+![color1](http://az667460.vo.msecnd.net/cdn/images/blog/Simply-Weather-Gadget-Update_7A07/color1.png)
 
 Clicking on either text box will bring up a color selector.
 
-![color2](/cdn/images/blog/Simply-Weather-Gadget-Update_7A07/color2.png)
+![color2](http://az667460.vo.msecnd.net/cdn/images/blog/Simply-Weather-Gadget-Update_7A07/color2.png)
 
 As you move the color selector around you'll see the gadget change colors. I've found I have a particular talent for creating some truly ugly color combinations. Hopefully you'll do better.
 
 I've also upgraded the tool tips on the gadget. Hover over the weather icons and to see the forecast weather condition. The old gadget also had this feature but the gadget had to have the focus for it to work. The new gadget works with or without having the focus.
 
-![tooltip](/cdn/images/blog/Simply-Weather-Gadget-Update_7A07/tooltip.png)
+![tooltip](http://az667460.vo.msecnd.net/cdn/images/blog/Simply-Weather-Gadget-Update_7A07/tooltip.png)
 
 The layout has been fixed to handle triple digit temperatures without cutting off part of the last digit.
 

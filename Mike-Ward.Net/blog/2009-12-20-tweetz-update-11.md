@@ -7,9 +7,9 @@ Just in time for Christmas, it’s an update to tweetz! (Well, OK, Christmas has
 
 And here are the screenshots
 
-![update](/cdn/images/blog/tweetzUpdate11_C1DA/update.jpg)
+![update](http://az667460.vo.msecnd.net/cdn/images/blog/tweetzUpdate11_C1DA/update.jpg)
 
-![sendonenter](/cdn/images/blog/tweetzUpdate11_C1DA/sendonenter.jpg)
+![sendonenter](http://az667460.vo.msecnd.net/cdn/images/blog/tweetzUpdate11_C1DA/sendonenter.jpg)
 
 The “Flyout” dialog (that’s what they’re called in gadget lingo) was necessary to get around a performance issue the gadget was experiencing. Over time, as more twitter updates arrive, the “Send Update” text box got unacceptably slow. There’s no reason code-wise why it should slow down but it happens none the less. Chalk it up to another one of those strange Windows gadget behaviors (and there are a lot of them, believe me).
 

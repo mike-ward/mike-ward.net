@@ -20,7 +20,7 @@ Friday Links #47
 
 [SQL SERVER - Introduction to JOINs - Basic of JOINs](http://blog.sqlauthority.com/2009/04/13/sql-server-introduction-to-joins-basic-of-joins/) – The best, simplest explanation of Left, Right, Inner, Outer and Full joins.
 
-![iamaKey_angle](/cdn/images/blog/FridayLinks47_124A9/iamaKey_angle.jpg)[LaCie - LaCie iamaKey USB Flash Drive](http://www.lacie.com/us/products/product.htm?pid=11225) - The key-shaped design is functional and memorable. One of the most durable and thinnest USB keys on the market.
+![iamaKey_angle](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks47_124A9/iamaKey_angle.jpg)[LaCie - LaCie iamaKey USB Flash Drive](http://www.lacie.com/us/products/product.htm?pid=11225) - The key-shaped design is functional and memorable. One of the most durable and thinnest USB keys on the market.
 
 [Computer Programming is Fun](http://www.devtopics.com/computer-programming-is-fun/) - This quote is from one of our industry’s groundbreaking books, [The Mythical Man-Month](http://www.amazon.com/gp/product/0201835959?ie=UTF8&tag=tvwelitowa-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0201835959) by Frederick P. Brooks, Jr. First published in 1974. The players have changed, the technology has certainly changed, but the joy of computer programming endures.
 

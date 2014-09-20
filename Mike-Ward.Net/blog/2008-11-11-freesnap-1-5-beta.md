@@ -1,6 +1,6 @@
 FreeSnap 1.5 Beta
 2008-11-11T02:02:13
-![beta](/cdn/images/blog/FreeSnap1.5Beta_117EF/beta.jpg)
+![beta](http://az667460.vo.msecnd.net/cdn/images/blog/FreeSnap1.5Beta_117EF/beta.jpg)
 
 Windows task switchers have always seemed more about the task switcher rather than switching tasks. For instance, the standard Alt-Tab feature in Windows XP and Vista provides thumbnail images of the applications. Personally, I can never make out what application belongs to what image and end up just trying them all until I find the one I’m looking for.
 

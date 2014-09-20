@@ -1,6 +1,6 @@
 FreeSnap 1.5 Beta 2
 2008-11-17T00:30:02
-![](/cdn/images/blog/FreeSnap1.5Beta_117EF/beta.jpg)
+![](http://az667460.vo.msecnd.net/cdn/images/blog/FreeSnap1.5Beta_117EF/beta.jpg)
 
 Last week, I [released beta 1](/blog/post/2008/11/11/freesnap-1-5-beta) which introduced a new style of task switching. Beta 2 includes additional features.
 
@@ -17,15 +17,15 @@ In the new version, the second key sequence will snap the opposite border to the
 
 To illustrate the process:
 
-[![one](/cdn/images/blog/FreeSnap1.5Beta2_108D3/one_thumb.jpg)](/cdn/images/blog/FreeSnap1.5Beta2_108D3/one.jpg)
+[![one](http://az667460.vo.msecnd.net/cdn/images/blog/FreeSnap1.5Beta2_108D3/one_thumb.jpg)](http://az667460.vo.msecnd.net/cdn/images/blog/FreeSnap1.5Beta2_108D3/one.jpg)
 
 Original
 
-[![two](/cdn/images/blog/FreeSnap1.5Beta2_108D3/two_thumb.jpg)](/cdn/images/blog/FreeSnap1.5Beta2_108D3/two.jpg)
+[![two](http://az667460.vo.msecnd.net/cdn/images/blog/FreeSnap1.5Beta2_108D3/two_thumb.jpg)](http://az667460.vo.msecnd.net/cdn/images/blog/FreeSnap1.5Beta2_108D3/two.jpg)
 
 Win + Left Arrow
 
-[![three](/cdn/images/blog/FreeSnap1.5Beta2_108D3/three_thumb.jpg)](/cdn/images/blog/FreeSnap1.5Beta2_108D3/three.jpg)
+[![three](http://az667460.vo.msecnd.net/cdn/images/blog/FreeSnap1.5Beta2_108D3/three_thumb.jpg)](http://az667460.vo.msecnd.net/cdn/images/blog/FreeSnap1.5Beta2_108D3/three.jpg)
 
 Win + Left Arrow again
 

@@ -28,7 +28,7 @@ Prepping to install Windows 7 while writing this. Multitasking, not just for com
 
 [By the Numbers: Energy-efficiency investments would pay huge dividends, says McKinsey & Company report](http://blogs.consumerreports.org/home/2009/08/mckinsey-energy-efficiency-unlocking-energy-efficiency-in-the-us-economy-report-solar-energy-renewab.html) - As the report details, an initial investment of $520 billion would be needed to reduce annual energy consumption by 23 percent by 2020, which translates into $1.2 trillion in savings and an end-use reduction of 9.1 quadrillion British thermal units. 
 
-![leaf-main2-525-web](/cdn/images/blog/FridayLinks63_141F3/leafmain2525web.jpg)[Test Drive: Nissan’s Leaf, The Electric Car’s First Shot at the Mainstream | Popular Science](http://www.popsci.com/cars/article/2009-08/hed-test-drive-nissan%E2%80%99s-leaf-electric-car%E2%80%99s-first-shot-mainstream-dek-nissan-going-manufacture-leaf-0) - Nissan is going to manufacture the Leaf in the thousands (maybe the hundreds of thousands). We took the first publicly drivable model for a spin.
+![leaf-main2-525-web](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks63_141F3/leafmain2525web.jpg)[Test Drive: Nissan’s Leaf, The Electric Car’s First Shot at the Mainstream | Popular Science](http://www.popsci.com/cars/article/2009-08/hed-test-drive-nissan%E2%80%99s-leaf-electric-car%E2%80%99s-first-shot-mainstream-dek-nissan-going-manufacture-leaf-0) - Nissan is going to manufacture the Leaf in the thousands (maybe the hundreds of thousands). We took the first publicly drivable model for a spin.
 
 [From Graphene To Graphane, Now The Possibilities Are Endless](http://www.sciencedaily.com/releases/2009/07/090731090011.htm) - Ever since graphene was discovered in 2004, this one-atom thick, super strong, carbon-based electrical conductor has been billed as a "wonder material" that some physicists think could one day replace silicon in computer chips.
 
@@ -52,7 +52,7 @@ Prepping to install Windows 7 while writing this. Multitasking, not just for com
 
 [Artificial Intelligence and Robotics: Toyota’s running humanoid robot](http://smart-machines.blogspot.com/2009/07/toyotas-running-humanoid-robot.html) - The robot takes a step every 340ms and has no contact with the ground for 100ms of that. Notice in the video how the robot remains balanced even after pushed by the human. Note: Not Honda, but Toyota. Check out the video!
 
-![Wink3](/cdn/images/blog/FridayLinks63_141F3/Wink3.png)[The Wink Glasses: As good as caffeine? | Health Tech - CNET News](http://news.cnet.com/8301-27083_3-10300029-247.html?part=rss&subj=news&tag=2547-1_3-0-5) - The USB-charged Wink Glasses are designed to keep you awake by making you refocus.
+![Wink3](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks63_141F3/Wink3.png)[The Wink Glasses: As good as caffeine? | Health Tech - CNET News](http://news.cnet.com/8301-27083_3-10300029-247.html?part=rss&subj=news&tag=2547-1_3-0-5) - The USB-charged Wink Glasses are designed to keep you awake by making you refocus.
 
 [Teague Unveils a Glowy New Bike Concept: The Pulse | Popular Science](http://www.popsci.com/gear-amp-gadgets/article/2009-08/teague-unveils-glowy-new-bike-concept-pulse) – I so want one of these…
 

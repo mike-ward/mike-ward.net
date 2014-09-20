@@ -4,7 +4,7 @@ Friday Links #48
 
 [Lifehacker - SkiniTunes is a Mini Interface for Your iTunes Collection – iTunes](http://lifehacker.com/5218759/skinitunes-is-a-mini-interface-for-your-itunes-collection) – A more compact frontend for iTunes.
 
-![madscientist](/cdn/images/blog/FridayLinks48_A307/madscientist.gif)[6 Cool Websites To Unleash The Mad Scientist Within You | MakeUseOf.com](http://www.makeuseof.com/tag/unleash-the-mad-scientist-within-you/) - Unleash the mad scientist within.
+![madscientist](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks48_A307/madscientist.gif)[6 Cool Websites To Unleash The Mad Scientist Within You | MakeUseOf.com](http://www.makeuseof.com/tag/unleash-the-mad-scientist-within-you/) - Unleash the mad scientist within.
 
 [Visual Studio Tip: Open XAML in code only mode | Corey Schuman](http://www.85turns.com/2009/04/23/visual-studio-tip-open-xaml-in-code-only-mode/) – No more annoying waiting for the IDE to update the preview mode. FTW
 

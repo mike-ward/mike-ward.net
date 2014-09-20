@@ -13,7 +13,7 @@ I've taken this opportunity to update the gadget in other areas.
   * Added "Feels like" temperature (hover over Temperature)
   * Chance of precipitation is indicated in the forecast condition when greater than 0%
 
-![FeelsLike](/cdn/images/blog/Simply-Weather-Gadget-Update--Its-Alive_A9EA/FeelsLike.png) ![precip](/cdn/images/blog/Simply-Weather-Gadget-Update--Its-Alive_A9EA/precip.png) ![](/cdn/images/blog/Simply-Weather-Gadget-Update_7A07/color2.png)
+![FeelsLike](http://az667460.vo.msecnd.net/cdn/images/blog/Simply-Weather-Gadget-Update--Its-Alive_A9EA/FeelsLike.png) ![precip](http://az667460.vo.msecnd.net/cdn/images/blog/Simply-Weather-Gadget-Update--Its-Alive_A9EA/precip.png) ![](http://az667460.vo.msecnd.net/cdn/images/blog/Simply-Weather-Gadget-Update_7A07/color2.png)
 
 Weather alerts are not working yet. I've got a plan on how I might get these alerts but it will only be for the US. The Weather Underground's API for alerts is going to a paid subscription model. The only other available source is the National Weather Service.
 

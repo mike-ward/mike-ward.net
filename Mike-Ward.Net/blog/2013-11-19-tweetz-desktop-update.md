@@ -1,6 +1,6 @@
 Tweetz Desktop Update
 2013-11-19T16:11:19
-[![typeahead](/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop-Update_998D/typeahead_thumb.png)](/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop-Update_998D/typeahead_2.png)Been a good week development-wise. Here's what's new with Tweetz Desktop. 
+[![typeahead](http://az667460.vo.msecnd.net/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop-Update_998D/typeahead_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop-Update_998D/typeahead_2.png)Been a good week development-wise. Here's what's new with Tweetz Desktop. 
 
 Type Ahead – Type @ and part of a screen name and a list of matching names is shown. Similar to what twitter does on their web site. Use your arrow keys to select, enter to commit. If only one name is present, enter will select and commit. I'm not convinced this feature is done yet but it's good enough to start testing.
 

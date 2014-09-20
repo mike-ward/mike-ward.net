@@ -8,7 +8,7 @@ XmlResourceManager extends the ResourceManager commonly used in .Net programs. T
 
 The class diagram for XmlResourceManager is as follows:
 
-[![ClassDiagram1](/cdn/images/blog/XmlResourceManager_11321/ClassDiagram1_thumb.png)](/cdn/images/blog/XmlResourceManager_11321/ClassDiagram1.png)
+[![ClassDiagram1](http://az667460.vo.msecnd.net/cdn/images/blog/XmlResourceManager_11321/ClassDiagram1_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/XmlResourceManager_11321/ClassDiagram1.png)
 
 It takes a bit of digging (thank goodness for Reflector) to figure out how resources are located and loaded in .Net. The idea, once you understand it is easy. The **ResourceManager** (and the derived **XmlResourceManager**) contains a list of **XmlResourceSet**. Each **XmlResourceSet** corresponds to a given language. When the **ResourceManager** calls **GetString**() for instance, it first checks if the string exists in the **XmlResourceSet** that corresponds to the UI language of the current thread. If the string is not located, it tries a culture neutral language. The ultimate fallback are the resources bound to the assembly itself.
 

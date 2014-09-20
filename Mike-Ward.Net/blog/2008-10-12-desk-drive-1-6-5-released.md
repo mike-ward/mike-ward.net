@@ -2,7 +2,7 @@ Desk Drive 1.6.5 Released
 2008-10-12T22:10:48
 [Desk Drive](/deskdrive) 1.6.5 adds Dutch (Belgium) to its growing list of languages.
 
-[![deskdrive-nl-be](/cdn/images/blog/DeskDrive1.6.5Released_FEEE/deskdrivenlbe_thumb.png)](/cdn/images/blog/DeskDrive1.6.5Released_FEEE/deskdrivenlbe.png)
+[![deskdrive-nl-be](http://az667460.vo.msecnd.net/cdn/images/blog/DeskDrive1.6.5Released_FEEE/deskdrivenlbe_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/DeskDrive1.6.5Released_FEEE/deskdrivenlbe.png)
 
 This latest translation forced me to widen the program’s window size to accommodate the longer strings. And I thought German had long phrases. 14 languages and counting.
 

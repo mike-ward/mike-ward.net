@@ -22,8 +22,8 @@ _Note: the command should all be on one line._
 
 Next, modify the command prompt. You can see Scott’s article for details. Here’s mine:
 
-![prompt](/cdn/images/blog/SlickCommandShellEnhancement_A8C2/prompt.png)
+![prompt](http://az667460.vo.msecnd.net/cdn/images/blog/SlickCommandShellEnhancement_A8C2/prompt.png)
 
 $P$G is the standard prompt. The $+ is what adds the “+” indicating the stack depth. Here’s an example of how it works.
 
-![cmdprompt](/cdn/images/blog/SlickCommandShellEnhancement_A8C2/cmdprompt.png)
+![cmdprompt](http://az667460.vo.msecnd.net/cdn/images/blog/SlickCommandShellEnhancement_A8C2/cmdprompt.png)

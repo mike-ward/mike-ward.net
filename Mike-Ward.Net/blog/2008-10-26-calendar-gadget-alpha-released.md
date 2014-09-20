@@ -1,6 +1,6 @@
 Calendar Gadget Alpha Released
 2008-10-26T01:03:30
-[![image](/cdn/images/blog/CalendarGadgetAlphaReleased_12316/image_thumb.png)](/cdn/images/blog/CalendarGadgetAlphaReleased_12316/image.png)
+[![image](http://az667460.vo.msecnd.net/cdn/images/blog/CalendarGadgetAlphaReleased_12316/image_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/CalendarGadgetAlphaReleased_12316/image.png)
 
 Calendar Gadget is an experiment in window-less controls I started back about 3 years ago. Things were humming along pretty nicely when I got distracted with this whole ASP.Net and blogging thing. I really didn’t think it would be this long of a detour. Hey, it’s not like I get paid to do this :)
 

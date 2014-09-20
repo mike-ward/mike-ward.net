@@ -1,6 +1,6 @@
 Friday Links #16
 2008-09-12T15:00:11
-[![image](/cdn/images/blog/FridayLinks16_907F/image_thumb.png)](/cdn/images/blog/FridayLinks16_907F/image.png)
+[![image](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks16_907F/image_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks16_907F/image.png)
 
 [Weather: Stormpulse Tracks Hurricanes, Projects Paths – ](http://lifehacker.com/5046774/stormpulse-tracks-hurricanes-projects-paths)Nicely done weather site that specializes in storm tracking. The site sports drag and drop map functionality, great visualizations, and a wealth of helpful info about the storm.
 

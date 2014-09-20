@@ -2,7 +2,7 @@ tweetz Update #5
 2009-09-08T22:59:28
 Well, after a week of living with my minimalistic design and feedback from users, I’ve gone back to the older look with icons and dividers. Here’s a peek.
 
-[![tweetz undocked](/cdn/images/blog/tweetzUpdate5_10AA2/tweetz2_thumb.png)](/cdn/images/blog/tweetzUpdate5_10AA2/tweetz2.png) [![tweetz docked](/cdn/images/blog/tweetzUpdate5_10AA2/tweetz_thumb.png)](/cdn/images/blog/tweetzUpdate5_10AA2/tweetz.png)
+[![tweetz undocked](http://az667460.vo.msecnd.net/cdn/images/blog/tweetzUpdate5_10AA2/tweetz2_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/tweetzUpdate5_10AA2/tweetz2.png) [![tweetz docked](http://az667460.vo.msecnd.net/cdn/images/blog/tweetzUpdate5_10AA2/tweetz_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/tweetzUpdate5_10AA2/tweetz.png)
 
 The icons do seem to make it feel a bit more finished.
 

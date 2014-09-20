@@ -32,6 +32,6 @@ Google News - Top Searches in 2006
 9. 2006 nfl draft  
 10. celebrity big brother 2006
   
-Ever been to [Google Zeitgeist](http://www.google.com/intl/en/press/zeitgeist.html)? It’s a fun an interesting view of search patterns and trends Google collects. The top search this year is “bebo”. What is it? Heck if I know and I’m suppose to be informed. Just proves that I’m over 40 and clearly not with it any more. ![](/cdn/images/blog/Blog/smile3.gif) I did recognize most of the scandals although I had no idea Christie Brinkley was embroiled in one (Billy, you should have kept her). Getting old isn’t for sissies but it does beat the alternative. Happy New Year!  
+Ever been to [Google Zeitgeist](http://www.google.com/intl/en/press/zeitgeist.html)? It’s a fun an interesting view of search patterns and trends Google collects. The top search this year is “bebo”. What is it? Heck if I know and I’m suppose to be informed. Just proves that I’m over 40 and clearly not with it any more. ![](http://az667460.vo.msecnd.net/cdn/images/blog/Blog/smile3.gif) I did recognize most of the scandals although I had no idea Christie Brinkley was embroiled in one (Billy, you should have kept her). Getting old isn’t for sissies but it does beat the alternative. Happy New Year!  
   
 

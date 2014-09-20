@@ -2,7 +2,7 @@ tweetc – A Windows command line twitter client
 2009-10-28T01:13:35
 **tweetc** is a twitter client for the Windows command line.
 
-[![2009-10-27_2038](/cdn/images/blog/tweetcAcommandlinetwitterclient_1254A/20091027_2038_thumb.png)](/cdn/images/blog/tweetcAcommandlinetwitterclient_1254A/20091027_2038.png)
+[![2009-10-27_2038](http://az667460.vo.msecnd.net/cdn/images/blog/tweetcAcommandlinetwitterclient_1254A/20091027_2038_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/tweetcAcommandlinetwitterclient_1254A/20091027_2038.png)
 
 It’s functionally straightforward. Want to send a tweet. Type, “**tweetc Hi Mom!**”. Heck you don’t even need to put quotes around the tweet. To get your most recent tweets, type, “**tweetc**”. Tweetc remembers the last message id so it only gets “new” tweets by default. 
 

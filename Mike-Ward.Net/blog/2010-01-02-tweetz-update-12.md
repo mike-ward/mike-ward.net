@@ -11,7 +11,7 @@ tweetz Update #12
   * Version number in settings dialog. 
   * New logo 
 
-![more-link](/cdn/images/blog/tweetzUpdate12_796A/morelink.png)The most visible change are the “More Links”. This works similar to the “More” link on your twitter home page. Scroll to the bottom and click the “More” link to get the next 20 updates.
+![more-link](http://az667460.vo.msecnd.net/cdn/images/blog/tweetzUpdate12_796A/morelink.png)The most visible change are the “More Links”. This works similar to the “More” link on your twitter home page. Scroll to the bottom and click the “More” link to get the next 20 updates.
 
 In the last release I added a “Send on Enter” option to post updates you’re composing by pressing the enter key. It occurred to me afterwards that there is a more standard (and perhaps more appropriate) shortcut for doing this - Ctrl+S. Should have thought of that one sooner.
 
@@ -25,7 +25,7 @@ Fixed a bug in how timestamps were updated. Only the last 20 updates on a given 
 
 I’m planning to add a “More Link” to search results as well. It’s a lower priority. In the meantime, I’ve bumped the number of returned results to 50.
 
-![logo](/cdn/images/blog/tweetzUpdate12_796A/logo.png) There’s a new logo because I never liked the old one and finally did something about it.
+![logo](http://az667460.vo.msecnd.net/cdn/images/blog/tweetzUpdate12_796A/logo.png) There’s a new logo because I never liked the old one and finally did something about it.
 
 Version number appears in the settings dialog for easier reference.
 

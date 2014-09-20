@@ -10,6 +10,6 @@ If you’re unfamiliar with OpenDNS or even what a DNS is, I encourage you to se
 
 Once you have OpenDNS setup, go to the advanced settings and enable SmartCache.
 
-![smartcache](/cdn/images/blog/IcanhazWebfaster_106E7/smartcache.jpg)
+![smartcache](http://az667460.vo.msecnd.net/cdn/images/blog/IcanhazWebfaster_106E7/smartcache.jpg)
 
 It takes about 3 minutes to propagate the settings to their world wide network. Now your enjoying faster, safer Internet access. Cool! 

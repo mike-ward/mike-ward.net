@@ -1,6 +1,6 @@
 Tweetz 2.1 Update
 2010-03-08T00:25:06
-![image](/cdn/images/blog/Tweetz2.1Update_10724/image.png) Now that the rewrite is done, I’m adding new stuff. It’s much easier to do so with the new code structure. Here’s what’s new in this release.
+![image](http://az667460.vo.msecnd.net/cdn/images/blog/Tweetz2.1Update_10724/image.png) Now that the rewrite is done, I’m adding new stuff. It’s much easier to do so with the new code structure. Here’s what’s new in this release.
 
   * No focus tool tips – hover over a link and you’ll see the full link, or the the reverse lookup of the link if it can be found, regardless of whether the gadget has focus or not. I had to implement my own tooltips to do this. Hopefully, they’re not too ugly. 
   * Show links in post – By default, tweetz displays links as “[link]”. Since most links are shortened, seeing the actual link text has little meaning. The “[link]” notation uses less screen real-estate. Still, some have asked to see the actual link in the post, so now there’s an option to do just that. 
