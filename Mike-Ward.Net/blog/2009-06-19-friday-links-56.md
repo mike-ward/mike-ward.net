@@ -22,7 +22,7 @@ Friday Links #56
 
 [Riversimple to Unveil Open Source Car in London This Month](http://ostatic.com/blog/riversimple-to-unveil-open-source-car-in-london-this-month) - The company plans to unveil its first car in London later this month, a small two-seater that weighs roughly 700 pounds. If you agree to lease one for 20 years (yes, 20), Riversimple will [throw in the cost of fuel ](http://www.autobloggreen.com/2009/06/10/riversimple-urban-car-hydrogen-car-revealed/)for the lifetime of the lease.
 
-![Hywind: Siemens und StatoilHydro installieren erste schwimmende Windenergieanlage / Hywind: Siemens and StatoilHydro install first floating wind turbine](/content/images/blog/FridayLinks56_E4BF/FloatingturbineSiemens.jpg) [First floating wind turbine buoyed off Norway | Green Tech](http://news.cnet.com/8301-11128_3-10263462-54.html?part=rss&subj=news&tag=2547-1_3-0-5) - [Siemens](http://w1.siemens.com/press/en/pressrelease/2009/renewable_energy/ere200906064.htm) and energy company StatoilHydro installed what they call the first large-scale floating turbine. The [Hywind turbine](http://news.cnet.com/8301-11128_3-9950231-54.html) will still have a ballast that is tied to the sea floor with cables.
+![Hywind: Siemens und StatoilHydro installieren erste schwimmende Windenergieanlage / Hywind: Siemens and StatoilHydro install first floating wind turbine](/cdn/images/blog/FridayLinks56_E4BF/FloatingturbineSiemens.jpg) [First floating wind turbine buoyed off Norway | Green Tech](http://news.cnet.com/8301-11128_3-10263462-54.html?part=rss&subj=news&tag=2547-1_3-0-5) - [Siemens](http://w1.siemens.com/press/en/pressrelease/2009/renewable_energy/ere200906064.htm) and energy company StatoilHydro installed what they call the first large-scale floating turbine. The [Hywind turbine](http://news.cnet.com/8301-11128_3-9950231-54.html) will still have a ballast that is tied to the sea floor with cables.
 
 [CT Scan Nearly As Good As Regular Colonoscopy / Science News](http://www.sciencenews.org/view/generic/id/44724/title/CT_scan_nearly__as_good_as_regular_colonoscopy) – Having just had one of these the CT option would have been much more pleasant.
 
@@ -42,13 +42,13 @@ Friday Links #56
 
 **Stuff I just Dig**
 
-[](/content/images/blog/FridayLinks56_E4BF/wikipediabook.jpg)
+[](/cdn/images/blog/FridayLinks56_E4BF/wikipediabook.jpg)
 
 [World's Smallest VGA Display is Literally the Size of a Thumbnail | Popular Science](http://www.popsci.com/gear-amp-gadgets/article/2009-06/worlds-smallest-vga-display-literally-size-thumbnail) - tiny displays to make sharp, high-end electronic viewfinders in HD video and still cameras.
 
-![kopin-vga-lcd-strip](/content/images/blog/FridayLinks56_E4BF/kopinvgalcdstrip.jpg)
+![kopin-vga-lcd-strip](/cdn/images/blog/FridayLinks56_E4BF/kopinvgalcdstrip.jpg)
 
-[![wikipedia-book](/content/images/blog/FridayLinks56_E4BF/wikipediabook_thumb.jpg)](/content/images/blog/FridayLinks56_E4BF/wikipediabook.jpg)
+[![wikipedia-book](/cdn/images/blog/FridayLinks56_E4BF/wikipediabook_thumb.jpg)](/cdn/images/blog/FridayLinks56_E4BF/wikipediabook.jpg)
 
 [Wikipedia as a Printed Book - Seriously!](http://www.labnol.org/internet/wikipedia-printed-book/9136/) – This Wikipedia book has some 5,000 pages and it’s a compilation of 400+ [featured articles](http://en.wikipedia.org/wiki/Wikipedia:Featured_articles) all picked from Wikipedia. Now this is some serious bookage…
 

@@ -6,7 +6,7 @@ Friday Links #19
 
 [Give Your Presentations A Boost With ZoomIt | MakeUseOf.com](http://www.makeuseof.com/tag/give-your-presentations-a-boost-with-zoomit-windows-only/) – From the guys at SysInternals comes a cool tool for zooming and drawing on your computer screen. Great for doing presentations.
 
-[Gizmo's - Bored With Google? | Gizmo's Tech Support Alert](http://www.techsupportalert.com/content/bored-google.htm) – Search engine (powered by Google) that includes lots of extras like Wikipedia articles and related images. It’s easier to see and understand than to explain. Looks like it may be very useful once it is tuned.
+[Gizmo's - Bored With Google? | Gizmo's Tech Support Alert](http://www.techsupportalert.com/cdn/bored-google.htm) – Search engine (powered by Google) that includes lots of extras like Wikipedia articles and related images. It’s easier to see and understand than to explain. Looks like it may be very useful once it is tuned.
 
 [PrinterShare: share any printer over the internet – review](http://www.freewaregenius.com/2008/09/26/printershare-share-printers-over-the-internet/) - Free service that allows your computer to share printers with any other computer, given that both are online and running the PrinterShare software. Runs on Windows, Mac, and Linux.
 

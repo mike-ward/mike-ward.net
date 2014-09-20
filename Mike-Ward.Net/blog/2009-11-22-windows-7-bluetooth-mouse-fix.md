@@ -4,14 +4,14 @@ I’ve had this weird problem on my new laptop where the Bluetooth mouse stops w
 
 Right click on “Computer” on the desktop or in the start menu and select properties. You should see a something similar to below:
 
-![Windows 7 properties windows](/content/images/blog/Windows7BluetoothMouseFix_8F55/Capture.jpg)
+![Windows 7 properties windows](/cdn/images/blog/Windows7BluetoothMouseFix_8F55/Capture.jpg)
 
 Select Device Manager (yellow highlight). Expand the Bluetooth Radios item and select the Bluetooth device.
 
-![Capture2](/content/images/blog/Windows7BluetoothMouseFix_8F55/Capture2.jpg)
+![Capture2](/cdn/images/blog/Windows7BluetoothMouseFix_8F55/Capture2.jpg)
 
 Uncheck the “Allow the computer to turn off this device to save power”
 
-![Capture3](/content/images/blog/Windows7BluetoothMouseFix_8F55/Capture3.jpg)
+![Capture3](/cdn/images/blog/Windows7BluetoothMouseFix_8F55/Capture3.jpg)
 
 It’s likely the dialog windows on your computer will be slightly different than the ones pictured here but the general idea is the same.

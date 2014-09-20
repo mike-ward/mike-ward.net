@@ -1,6 +1,6 @@
 tweetz Desktop
 2013-06-22T15:34:29
-[![image](/content/images/blog/Windows-Live-Writer/tweetz-Desktop_9B6D/image_thumb.png)](/content/images/blog/Windows-Live-Writer/tweetz-Desktop_9B6D/image_2.png)As many of you already know, Microsoft killed the gadget platform in Windows 8 because they wanted to make the new Metro applications as awesome as possible (yeah, right). Tweetz Desktop is the reincarnation of [tweetz](/tweetz), the gadget (RIP).
+[![image](/cdn/images/blog/Windows-Live-Writer/tweetz-Desktop_9B6D/image_thumb.png)](/cdn/images/blog/Windows-Live-Writer/tweetz-Desktop_9B6D/image_2.png)As many of you already know, Microsoft killed the gadget platform in Windows 8 because they wanted to make the new Metro applications as awesome as possible (yeah, right). Tweetz Desktop is the reincarnation of [tweetz](/tweetz), the gadget (RIP).
 
 Tweetz Desktop is alpha quality software at this point so expect bugs and features that don’t work. It should handle most of the day to day tasks although there will be times when you’ll have to fall back to the web site (Blocking, reporting spam, etc.)
 

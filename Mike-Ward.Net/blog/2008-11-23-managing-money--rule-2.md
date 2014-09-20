@@ -1,6 +1,6 @@
 Managing Money – Rule #2
 2008-11-23T16:49:36
-![image](/content/images/blog/ManagingMoneyRule2_10B1D/image.png)
+![image](/cdn/images/blog/ManagingMoneyRule2_10B1D/image.png)
 
 This is the second article in my occasional Managing Money Series.
 

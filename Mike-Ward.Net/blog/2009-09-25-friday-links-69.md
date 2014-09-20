@@ -16,7 +16,7 @@ Friday Links #69
 [iRex Announces e-Reader with Barnes & Noble Catalog, Verizon 3G | Popular Science](http://www.popsci.com/gear-amp-gadgets/article/2009-09/irex-announces-e-reader-barnes-amp-noble-catalog-verizon-3g)   
 [Intel reveals world’s first four-screen laptop | News | PC Pro ](http://www.pcpro.co.uk/news/351841/intel-reveals-world-s-first-four-screen-laptop)   
 [USB Car Adapter Charges Any USB Device On-the-Go - Gadgets – Lifehacker](http://lifehacker.com/5367016/usb-car-adapter-charges-any-usb-device-on+the+go)   
-[A Free Utility that Really Does Speed Up Firefox ](http://www.techsupportalert.com/content/free-utility-really-does-speed-firefox.htm)   
+[A Free Utility that Really Does Speed Up Firefox ](http://www.techsupportalert.com/cdn/free-utility-really-does-speed-firefox.htm)   
 [Video: Phoenix Instant Boot BIOS starts loading Windows in under a second](http://www.engadget.com/2009/09/24/video-phoenix-instant-boot-bios-starts-loading-windows-in-under/)
 
 **Science and the Environment**

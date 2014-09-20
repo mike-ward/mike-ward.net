@@ -66,11 +66,11 @@ Google Cloud print lets you print to your printer through the Internet. It’s t
 
 It’s surprisingly good. For your $225, you get a decent bit of hardware. The keyboard is solid and the key spacing generous enough to accommodate my adult size fingers. There are dedicated arrow and page up/page down keys. The screen is adequate and is perhaps a generation behind the current crop of laptops. That means the viewing angle is narrower and the color saturation is diminished. Very usable, just not stunning. You also get the stupid and annoying “Intel Inside” sticker (how I hate those things).
 
-[![100_5811 (Small)](/content/images/blog/Google-Chrome-Book-Review--C7-Acer_FFB4/100_5811-Small_thumb.jpg)](/content/images/blog/Google-Chrome-Book-Review--C7-Acer_FFB4/100_5811-Small.jpg)
+[![100_5811 (Small)](/cdn/images/blog/Google-Chrome-Book-Review--C7-Acer_FFB4/100_5811-Small_thumb.jpg)](/cdn/images/blog/Google-Chrome-Book-Review--C7-Acer_FFB4/100_5811-Small.jpg)
 
-[![100_5810 (Small)](/content/images/blog/Google-Chrome-Book-Review--C7-Acer_FFB4/100_5810-Small_thumb.jpg)](/content/images/blog/Google-Chrome-Book-Review--C7-Acer_FFB4/100_5810-Small.jpg)
+[![100_5810 (Small)](/cdn/images/blog/Google-Chrome-Book-Review--C7-Acer_FFB4/100_5810-Small_thumb.jpg)](/cdn/images/blog/Google-Chrome-Book-Review--C7-Acer_FFB4/100_5810-Small.jpg)
 
-[![100_5813 (Small)](/content/images/blog/Google-Chrome-Book-Review--C7-Acer_FFB4/100_5813-Small_thumb.jpg)](/content/images/blog/Google-Chrome-Book-Review--C7-Acer_FFB4/100_5813-Small.jpg)
+[![100_5813 (Small)](/cdn/images/blog/Google-Chrome-Book-Review--C7-Acer_FFB4/100_5813-Small_thumb.jpg)](/cdn/images/blog/Google-Chrome-Book-Review--C7-Acer_FFB4/100_5813-Small.jpg)
 
 **Will it work with a Mouse?**
 

@@ -1,6 +1,6 @@
 Tweetz Desktop - Windows 7 Support
 2013-12-03T19:03:20
-[![Windows-7-logo](/content/images/blog/Windows-Live-Writer/Tweetz-Desktop---Windows-7-Support_C480/Windows-7-logo_thumb.jpg)](/content/images/blog/Windows-Live-Writer/Tweetz-Desktop---Windows-7-Support_C480/Windows-7-logo_2.jpg)It took a bit of fussing, but I've wrangled support for Windows 7 into Tweetz Desktop.
+[![Windows-7-logo](/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop---Windows-7-Support_C480/Windows-7-logo_thumb.jpg)](/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop---Windows-7-Support_C480/Windows-7-logo_2.jpg)It took a bit of fussing, but I've wrangled support for Windows 7 into Tweetz Desktop.
 
 Windows 7's symbol font is missing glyphs used by Tweetz Desktop. To work around the problem, I'm using the [FontAwesome](http://fontawesome.io/) font when running on Windows 7. Windows 8 will continue to use the Windows symbol font.
 

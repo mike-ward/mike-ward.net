@@ -1,6 +1,6 @@
 (Black) Friday Links #178
 2011-11-25T12:45:01
-Yep, I was up at "Dark 30" this morning standing in line. My excuse? My wife made me do it ![Smile](/content/images/blog/Friday-Links-178_6BE1/wlEmoticon-smile.png)
+Yep, I was up at "Dark 30" this morning standing in line. My excuse? My wife made me do it ![Smile](/cdn/images/blog/Friday-Links-178_6BE1/wlEmoticon-smile.png)
 
 **Programming**
 

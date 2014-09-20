@@ -2,7 +2,7 @@ tweetz Update
 2009-08-17T01:06:53
 Tweetz is a Windows Sidebar twitter client that doesn’t suck (well, at least not too badly). I’ve updated the gadget based on feedback and using it. Here’s a couple of new screen shots of the undocked and docked versions.
 
-![](/content/images/tweetz-expanded.png) ![](/content/images/tweetz.png)
+![](/cdn/images/tweetz-expanded.png) ![](/cdn/images/tweetz.png)
 
 Notable changes include:
 

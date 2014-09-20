@@ -14,7 +14,7 @@ Friday Links #49
 
 [Five Reasons Why Designers are Switching to Mac | How-To | Smashing Magazine](http://www.smashingmagazine.com/2009/04/26/five-reasons-why-designers-are-switching-to-mac/) - It’s no secret that there has been a growing trend in recent years toward developers, especially of the web variety, choosing a Mac as their main dev machine. In this two-part series, we will examine some of the reasons behind this trend.
 
-![26novel2_190](/content/images/blog/FridayLinks49_12B63/26novel2_190.jpg)[Novelties - Eyeglasses With a Digital Dimension - NYTimes.com](http://www.nytimes.com/2009/04/26/business/26novel.html?_r=1&ref=technology) - Ever imagine that eyeglasses or contact lenses could deliver digital images directly from a smartphone to the retina? Contact lens created by Babak A. Parviz and a team at the University of Washington in Seattle offers built-in electronics to create displays.
+![26novel2_190](/cdn/images/blog/FridayLinks49_12B63/26novel2_190.jpg)[Novelties - Eyeglasses With a Digital Dimension - NYTimes.com](http://www.nytimes.com/2009/04/26/business/26novel.html?_r=1&ref=technology) - Ever imagine that eyeglasses or contact lenses could deliver digital images directly from a smartphone to the retina? Contact lens created by Babak A. Parviz and a team at the University of Washington in Seattle offers built-in electronics to create displays.
 
 [CodeProject: LINQ to World Wide Web (www) - A different flavor of LINQ.](http://www.codeproject.com/KB/linq/LINQ2www.aspx) - 'LINQ to www' is LINQ to query data from complying (REST like)web sites.
 
@@ -40,6 +40,6 @@ Friday Links #49
 
 [QuakeLive: Quake3 re-incarnated in your browser, completely free | freewaregenius.com](http://www.freewaregenius.com/2009/05/01/quakelive-quake3-re-incarnated-in-your-browser-completely-free/) -Quake III is back! And completely free to play, right here in your web browser.
 
-![Fire dude](/content/images/blog/FridayLinks49_12B63/images.jpg)**Pick of the Week**
+![Fire dude](/cdn/images/blog/FridayLinks49_12B63/images.jpg)**Pick of the Week**
 
 [TestDriven.NET](http://www.testdriven.net/) - If you do unit testing, then you want this tool. Takes all the pain out of running and debugging .NET unit tests and coverage reports. Makes for friction free development. Download it now, I'll wait.

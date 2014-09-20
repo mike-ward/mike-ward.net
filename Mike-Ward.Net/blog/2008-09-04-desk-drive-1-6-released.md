@@ -1,6 +1,6 @@
 Desk Drive 1.6 Released
 2008-09-04T16:30:12
-[![usb memory stick](/content/images/blog/DeskDrive1.6Released_974A/usb.jpg)](/deskdrive) Desk Drive 1.6 features the option to open Windows Explorer when it detects a new drive. In addition, you should notice that Desk Drive memory usage as indicated by the Task Manager is considerably less.
+[![usb memory stick](/cdn/images/blog/DeskDrive1.6Released_974A/usb.jpg)](/deskdrive) Desk Drive 1.6 features the option to open Windows Explorer when it detects a new drive. In addition, you should notice that Desk Drive memory usage as indicated by the Task Manager is considerably less.
 
 Several updates to the translations have been added to this release. Thanks to everyone who has helped with the translations. Currently, Desk Drive supports 11 languages. That’s pretty amazing considering it was only a month ago that I started asking for translations.
 

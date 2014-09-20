@@ -31,7 +31,7 @@ First off, Chocolatey in not an installer. It automates the process of downloadi
         <tags>#example #awesome</tags>
         <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <iconUrl>http://chocolatey.org/Content/Images/packageDefaultIcon-50x50.png
+        <iconUrl>http://chocolatey.org/cdn/Images/packageDefaultIcon-50x50.png
         </iconUrl>
         <dependencies>
           <dependency id="DotNet4.5.1" />

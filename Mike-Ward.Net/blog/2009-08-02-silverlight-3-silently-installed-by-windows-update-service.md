@@ -2,7 +2,7 @@ Silverlight 3 Silently Installed by Windows Update Service
 2009-08-02T13:35:17
 I logged into my laptop this morning and noticed the little tray icon that indicates Windows Update ran. Checking the install history I found this:
 
-![2009-08-02_0909](/content/images/blog/Silverlight3SilentlyInstalledbyWindowsUp_81C7/20090802_0909.png)
+![2009-08-02_0909](/cdn/images/blog/Silverlight3SilentlyInstalledbyWindowsUp_81C7/20090802_0909.png)
 
 Navigate to the [link](http://support.microsoft.com/kb/970363) for this update and you’ll discover that the “update” is Silverlight 3. While technically an update, I view Silverlight 3 as an entirely new version and as such, should be something that I opt into. Not that I don’t want Silverlight 3 and all its new goodness, I’m just saying ask the next time.
 

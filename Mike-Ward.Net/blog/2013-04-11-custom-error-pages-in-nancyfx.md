@@ -4,7 +4,7 @@ Custom Error Pages in NancyFx
 
 One of the things I like about this framework is how easy it is to override default behavior. Here’s the default 404 page.
 
-[![Nancy404](/content/images/blog/Windows-Live-Writer/Custom-Error-Pages_F75F/Nancy404_thumb.png)](/content/images/blog/Windows-Live-Writer/Custom-Error-Pages_F75F/Nancy404_2.png)
+[![Nancy404](/cdn/images/blog/Windows-Live-Writer/Custom-Error-Pages_F75F/Nancy404_thumb.png)](/cdn/images/blog/Windows-Live-Writer/Custom-Error-Pages_F75F/Nancy404_2.png)
 
 Cute, but we had a customer that wanted something a bit more “Corporate”.
 

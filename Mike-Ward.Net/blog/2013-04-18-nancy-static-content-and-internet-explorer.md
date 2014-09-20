@@ -48,7 +48,7 @@ Since there's no "Helper" method in Nancy to construct a response with the addit
     {  
         public DownloadsModule(IRootPathProvider rootPathProvider)  
         {          
-            Get["/content/downloads/(?<file>(tweetz31|stopwatch|simplyweather|marketreport|calculator))"]   
+            Get["/cdn/downloads/(?<file>(tweetz31|stopwatch|simplyweather|marketreport|calculator))"]   
                 = pars => new GadgetResponse(pars.file.Value, rootPathProvider);  
         }  
        

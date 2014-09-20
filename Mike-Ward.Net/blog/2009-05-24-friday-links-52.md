@@ -32,7 +32,7 @@ Hey, it’s been a year of links already. Hard to believe. To celebrate the even
 
 [Svchost Process Analyzer - a svchost.exe file checker](http://www.neuber.com/free/svchost-analyzer/index.html) – Ever wonder what all those svchost.exe program’s are running when open the task manager? 100% freeware program from [www.neuber.com](http://www.neuber.com). There is absolutely no installation required. Simply download and run the software.
 
-![svchost](/content/images/blog/FridayLinks52_570F/svchost.gif)
+![svchost](/cdn/images/blog/FridayLinks52_570F/svchost.gif)
 
 [Nimi adds visual effects, arrangement features to Windows](http://www.downloadsquad.com/2009/05/15/nimi-adds-visual-effects-arrangement-features-to-windows/) – A fun if not very useful collection of visual effects for Windows.
 
@@ -46,7 +46,7 @@ Hey, it’s been a year of links already. Hard to believe. To celebrate the even
 
 **On the Web**
 
-![wolframalpha](/content/images/blog/FridayLinks52_570F/wolframalpha.png)[Fun with Knowledge Computation at Wolfram|Alpha | Smarterware](http://smarterware.org/1538/fun-with-computations-at-wolframalpha) - What’s the unemployment rate of San Diego versus New York? How many football fields would fit between the Earth and the sun? What’s the likelihood of getting 2 heads in 10 coin flips? As of tonight, one web search engine can calculate all that for you on the fly and more.
+![wolframalpha](/cdn/images/blog/FridayLinks52_570F/wolframalpha.png)[Fun with Knowledge Computation at Wolfram|Alpha | Smarterware](http://smarterware.org/1538/fun-with-computations-at-wolframalpha) - What’s the unemployment rate of San Diego versus New York? How many football fields would fit between the Earth and the sun? What’s the likelihood of getting 2 heads in 10 coin flips? As of tonight, one web search engine can calculate all that for you on the fly and more.
 
 [Wolfram Alpha Google :: Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/12006) - Just do a search on Google and the Wolfram Alpha result for that search will appear on the right side. Very cool and useful.
 
@@ -54,6 +54,6 @@ Hey, it’s been a year of links already. Hard to believe. To celebrate the even
 
 [Microsoft dumps 3-app limit from Windows 7 Starter](http://www.downloadsquad.com/2009/05/22/microsoft-dumps-3-app-limit-on-windows-7-starter/) – File this one under, “The incredible lameness of being.”
 
-![](/content/images/blog/FridayLinks49_12B63/images.jpg) Pick of the Week
+![](/cdn/images/blog/FridayLinks49_12B63/images.jpg) Pick of the Week
 
 [AxCrypt](http://www.axantum.com/AxCrypt/) - Forget password vaults. Put all your important information in a text file and encrypt it with AxCrypt. It will encrypt any document and also has a self-extracting feature so you can send to others without them needing the software. Integrates with the shell. Open source and uses the latest AES standards for encryption.

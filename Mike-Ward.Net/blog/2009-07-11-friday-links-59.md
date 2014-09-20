@@ -4,7 +4,7 @@ Friday Links #59
 
 [Prism Silverlight - 10 Things to Know](http://www.sparklingclient.com/prism-silverlight/) - [Prism ](http://compositewpf.codeplex.com/)is one of the hottest topics in Silverlight. Here, are 10 things that every developer should know about Prism. For a great write-up on Prism, read: [Shawn Wildermuth’s MSDN article.](http://msdn.microsoft.com/en-us/magazine/dd943055.aspx)
 
-![logo](/content/images/blog/FridayLinks59_D815/logo.gif)[WiX v3.0 released. - RobMensching.com /Blog](http://robmensching.com/blog/posts/2009/7/4/WiX-v3.0-released) - [WiX toolset v3.0](http://wix.sourceforge.net/) is now officially declared Production/Stable. I’ve used this toolset to build some really solid installers.
+![logo](/cdn/images/blog/FridayLinks59_D815/logo.gif)[WiX v3.0 released. - RobMensching.com /Blog](http://robmensching.com/blog/posts/2009/7/4/WiX-v3.0-released) - [WiX toolset v3.0](http://wix.sourceforge.net/) is now officially declared Production/Stable. I’ve used this toolset to build some really solid installers.
 
 [How to avoid switch-case syndrome - James Padolsey](http://james.padolsey.com/javascript/how-to-avoid-switch-case-syndrome/) - This is the first post of a hopeful series dubbed “JavaScript, tip of the week“.
 
@@ -20,7 +20,7 @@ Friday Links #59
 
 **Science and the Environment**
 
-![090702080358](/content/images/blog/FridayLinks59_D815/090702080358.jpg)[Inexpensive Thin Printable Batteries Developed](http://www.sciencedaily.com/releases/2009/07/090702080358.htm) - The characteristics of the battery differ significantly from those of conventional batteries. The printable version weighs less than one gram on the scales, is not even one millimeter thick and can therefore be integrated into bank cards, for example. 
+![090702080358](/cdn/images/blog/FridayLinks59_D815/090702080358.jpg)[Inexpensive Thin Printable Batteries Developed](http://www.sciencedaily.com/releases/2009/07/090702080358.htm) - The characteristics of the battery differ significantly from those of conventional batteries. The printable version weighs less than one gram on the scales, is not even one millimeter thick and can therefore be integrated into bank cards, for example. 
 
 [Lighting Revolution Forecast By Top Scientist](http://www.sciencedaily.com/releases/2009/07/090702080116.htm) - A GaN LED can burn for 100,000hours - one hundred times longer than a conventional light bulb. In practice this means it only needs replacing after 60 years of normal household use. Also, unlike the energy-saving compact fluorescent lights now in use, GaN LEDs don't contain mercury so disposal is not such an environmental headache.
 

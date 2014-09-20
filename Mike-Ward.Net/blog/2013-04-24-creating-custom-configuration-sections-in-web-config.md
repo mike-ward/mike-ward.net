@@ -24,7 +24,7 @@ Custom configuration sections allow for a more rigorous specification of configu
       title="Mike Ward's Technology Blog"   
       description=".Net, Technology, Life, Whatever... "   
       link="/blog"   
-      images="/content/images/blog"   
+      images="/cdn/images/blog"   
       postsPerPage="4"   
       adsPerPage="2"   
       email="mike@mike-ward.net"   

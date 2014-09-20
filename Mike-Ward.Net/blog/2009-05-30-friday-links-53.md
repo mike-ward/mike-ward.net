@@ -18,7 +18,7 @@ Friday Links #53
 
 [Microsoft releases Windows Vista SP2](http://www.downloadsquad.com/2009/05/26/microsoft-releases-windows-vista-sp2/) - The update also includes Windows Search 4.0, which is the latest version of Microsoft's desktop search client, plus improved WiFi performance after resuming from sleep mode. Should be “pushed” via Windows Update around the end of June.
 
-![tinyspell](/content/images/blog/FridayLinks53_6385/tinyspell.gif)[tinySpell: the spell check tool for apps that don’t have spell check](http://www.freedownloadaday.com/2009/05/27/tinyspell-the-spell-check-tool-for-apps-that-dont-have-spell-check/) - Tell tinySpell which apps to pay attention to and which to ignore. You can use it to check your spelling in real time as you type, or you can check in batches by copying your text to the clipboard. 
+![tinyspell](/cdn/images/blog/FridayLinks53_6385/tinyspell.gif)[tinySpell: the spell check tool for apps that don’t have spell check](http://www.freedownloadaday.com/2009/05/27/tinyspell-the-spell-check-tool-for-apps-that-dont-have-spell-check/) - Tell tinySpell which apps to pay attention to and which to ignore. You can use it to check your spelling in real time as you type, or you can check in batches by copying your text to the clipboard. 
 
 [Outlook Attachment Reminder - Never Forget an Email Attachment Again](http://www.labnol.org/software/outlook-email-attachment-reminder/8839/) - Attachment Detector plug-in on Office Labs will pop-up a message if you accidentally try sending an email in Outlook that is supposed to contain file attachments.
 
@@ -34,12 +34,12 @@ Friday Links #53
 
 **Stuff I just Dig**
 
-![newyorker](/content/images/blog/FridayLinks53_6385/newyorker.jpg)[Gizmodo - June 1st New Yorker Cover Drawn Entirely on the iPhone](http://gizmodo.com/5268926/june-1st-new-yorker-cover-drawn-entirely-on-the-iphone) – Artist Jorge Colombo took about an hour to fingerpaint an intricate Times Square scene on his iPhone using [Brushes](http://brushesapp.com/), a $4.99 iPhone drawing app. Now, it's the June 1st cover for The New Yorker.
+![newyorker](/cdn/images/blog/FridayLinks53_6385/newyorker.jpg)[Gizmodo - June 1st New Yorker Cover Drawn Entirely on the iPhone](http://gizmodo.com/5268926/june-1st-new-yorker-cover-drawn-entirely-on-the-iphone) – Artist Jorge Colombo took about an hour to fingerpaint an intricate Times Square scene on his iPhone using [Brushes](http://brushesapp.com/), a $4.99 iPhone drawing app. Now, it's the June 1st cover for The New Yorker.
 
 [Gizmodo - Zune HD Hands On: Photos and Video Tour - Zune hd preview](http://gizmodo.com/5272228/zune-hd-hands-on-photos-and-video-tour) – The Zune HD is shaping up to be a very nice looking device. Some say it’s a real competitor to the iPod Touch.
 
 [plastic logic ebook on Vimeo](http://vimeo.com/4875333?pg=embed&sec=4875333) – A new eBook reader that is aimed at business documents. The video is a bit odd but device is just awesome.
 
-![](/content/images/blog/FridayLinks49_12B63/images.jpg) Pick of the Week
+![](/cdn/images/blog/FridayLinks49_12B63/images.jpg) Pick of the Week
 
 [CCleaner](http://www.ccleaner.com/) - Formerly Crap Cleaner, it does just that. It cleans the crap out of your system and does it better than anyone else. It's also free.

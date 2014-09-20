@@ -10,7 +10,7 @@ Friday Links #72
 **Using your Personal Computer**
 
 [45 Beautiful Dual-Screen Wallpapers](http://sixrevisions.com/resources/45-beautiful-dual-screen-wallpapers/)   
-[TG Daily - Windows 7 boots fast enough for normal people ](http://www.tgdaily.com/content/view/44257/141/)   
+[TG Daily - Windows 7 boots fast enough for normal people ](http://www.tgdaily.com/cdn/view/44257/141/)   
 [Coding Horror: The State of Solid State Hard Drives ](http://www.codinghorror.com/blog/archives/001304.html)   
 [ignore the code: 10/GUI](http://ignorethecode.net/blog/2009/10/13/10_gui/)   
 [The Future of Wi-Fi is Routerless | Popular Science](http://www.popsci.com/technology/article/2009-10/future-wi-fi-routerless)

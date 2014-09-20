@@ -4,9 +4,9 @@ When it comes to computer desktops, most people fall into two categories. Those 
 
 Deskview changes the desktop view to the equivalent of Windows explorer's list view. As a result, the icon density increases significantly allowing you to more stuff on your desktop. Here's a couple of before and after pictures from both XP and Vista.
 
-[![xp_desktop](/content/images/blog/DeskviewChangesyourdesktopiconsfromlarge_7E96/xp_desktop_thumb.jpg)](/content/images/blog/DeskviewChangesyourdesktopiconsfromlarge_7E96/xp_desktop.jpg)
+[![xp_desktop](/cdn/images/blog/DeskviewChangesyourdesktopiconsfromlarge_7E96/xp_desktop_thumb.jpg)](/cdn/images/blog/DeskviewChangesyourdesktopiconsfromlarge_7E96/xp_desktop.jpg)
 
-[![vista_desktop](/content/images/blog/DeskviewChangesyourdesktopiconsfromlarge_7E96/vista_desktop_thumb.jpg)](/content/images/blog/DeskviewChangesyourdesktopiconsfromlarge_7E96/vista_desktop.jpg)
+[![vista_desktop](/cdn/images/blog/DeskviewChangesyourdesktopiconsfromlarge_7E96/vista_desktop_thumb.jpg)](/cdn/images/blog/DeskviewChangesyourdesktopiconsfromlarge_7E96/vista_desktop.jpg)
 
 (original source: [http://jimcofer.com/personal/?p=208](http://jimcofer.com/personal/?p=208))
 

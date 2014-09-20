@@ -1,6 +1,6 @@
 FreeSnap 1.5 Beta 3 Released
 2008-11-22T20:23:19
-![](/content/images/blog/FreeSnap1.5Beta_117EF/beta.jpg) You can read about the new features in my earlier blog posts.
+![](/cdn/images/blog/FreeSnap1.5Beta_117EF/beta.jpg) You can read about the new features in my earlier blog posts.
 
   * [FreeSnap 1.5 Beta 1](/blog/post/2008/11/11/freesnap-1-5-beta)
   * [FreeSnap 1.5 Beta 2](/blog/post/2008/11/17/freesnap-1-5-beta-2)

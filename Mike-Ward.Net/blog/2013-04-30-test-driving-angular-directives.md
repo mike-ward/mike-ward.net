@@ -10,7 +10,7 @@ Extending the HTML vocabulary you say? Well, in a sense, yes. Here's an example:
   
 
 
-The _combobox_ tag renders a control that functions much like a desktop combo-box widget. I've written the [demo](/content/samples/angulardirective.html) as a single HTML file, including scripts, to make it easier to grok.
+The _combobox_ tag renders a control that functions much like a desktop combo-box widget. I've written the [demo](/cdn/samples/angulardirective.html) as a single HTML file, including scripts, to make it easier to grok.
 
 I'll give you a moment to pickup yourself up off the floor.
 

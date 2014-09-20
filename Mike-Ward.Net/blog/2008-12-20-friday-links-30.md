@@ -10,7 +10,7 @@ Friday Links #30
 
 [IPhone: LogMeIn Ignition Brings Simple Remote Control to the iPhone](http://lifehacker.com/5111315/logmein-ignition-brings-simple-remote-control-to-the-iphone) – LogMeIn.com is my favorite remote control program. This is just icing on the cake.
 
-[Cleveland Clinic Performs First Face Transplant in the United States](http://www.washingtonpost.com/wp-dyn/content/article/2008/12/16/AR2008121600838.html?hpid=topnews) – Obviously not a cosmetic procedure. Amazing technology.
+[Cleveland Clinic Performs First Face Transplant in the United States](http://www.washingtonpost.com/wp-dyn/cdn/article/2008/12/16/AR2008121600838.html?hpid=topnews) – Obviously not a cosmetic procedure. Amazing technology.
 
 [How To Download and Play Flash Games Offline | MakeUseOf.com](http://www.makeuseof.com/tag/download-play-flash-games-offline/) – [Vector TD](http://www.candystand.com/play.do?id=18047) has ruined my life. This just adds to my habit. 
 

@@ -1,6 +1,6 @@
 Tweetz 2.3 – Update Failed
 2010-04-19T15:51:12
-[![Crying_64](/content/images/blog/Tweetz2.3UpdateFailed_A6A3/Crying_64_thumb.png)](/content/images/blog/Tweetz2.3UpdateFailed_A6A3/Crying_64.png) OK, I missed on this release. It happens sometimes. I’ve pulled the tweetz 2.3 release due to bugs and a general dissatisfaction with the way new tweets are indicated.
+[![Crying_64](/cdn/images/blog/Tweetz2.3UpdateFailed_A6A3/Crying_64_thumb.png)](/cdn/images/blog/Tweetz2.3UpdateFailed_A6A3/Crying_64.png) OK, I missed on this release. It happens sometimes. I’ve pulled the tweetz 2.3 release due to bugs and a general dissatisfaction with the way new tweets are indicated.
 
 I’ve have numerous requests to indicate new tweets by highlighting them. I’ve resisted doing this because it requires a change in the way the gadget is used that is a bit too “click” intensive for my tastes.
 

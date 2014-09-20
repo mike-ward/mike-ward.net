@@ -14,7 +14,7 @@ Friday Links #41
 
 [Kindle app for iPhone and iPod Touch in iTunes Store – MobileRead – ](http://www.mobileread.com/forums/showthread.php?t=41015)It’s actually a decent ebook reader from the few minutes I played with it. Not a Kindle killer but definitely a nice addition. Here’s a [good comparison](http://news.cnet.com/8301-17938_105-10187912-1.html?part=rss&subj=news&tag=2547-1_3-0-5) of the Kindle vs. iPhone.
 
-![Project Logo](http://projects.nikhilk.net/Content/Projects/SilverlightFX/Logo.png)[Silverlight.FX](http://projects.nikhilk.net/SilverlightFX) - Silverlight.FX is a light-weight application framework for building Rich Internet Applications with Silverlight 2. It focuses on providing building blocks and controls that allows applications to be naturally well-architected.
+![Project Logo](http://projects.nikhilk.net/cdn/Projects/SilverlightFX/Logo.png)[Silverlight.FX](http://projects.nikhilk.net/SilverlightFX) - Silverlight.FX is a light-weight application framework for building Rich Internet Applications with Silverlight 2. It focuses on providing building blocks and controls that allows applications to be naturally well-architected.
 
 [Firefox 3.1 renamed Firefox 3.5](http://www.downloadsquad.com/2009/03/05/firefox-3-1-renamed-firefox-3-5/) - The development team has decided that "3.1" doesn't adequately describe the significance of this the upcoming release, so the next major version of Firefox [will be called Firefox 3.5](https://wiki.mozilla.org/Firefox3.1/StatusMeetings/2009-03-04#Firefox_3.1_Development).
 

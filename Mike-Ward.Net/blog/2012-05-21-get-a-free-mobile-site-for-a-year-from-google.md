@@ -1,6 +1,6 @@
 Get a Free Mobile Site for a Year from Google
 2012-05-21T19:34:59
-[![US-175x100](/content/images/blog/Google_D650/US-175x100.png)](http://www.howtogomo.com/en/d/why-go-mo/)Not sure how long this has been around, but Google is promoting mobile sites by offering a free year of service from [http://dudamobile.com](http://dudamobile.com).
+[![US-175x100](/cdn/images/blog/Google_D650/US-175x100.png)](http://www.howtogomo.com/en/d/why-go-mo/)Not sure how long this has been around, but Google is promoting mobile sites by offering a free year of service from [http://dudamobile.com](http://dudamobile.com).
 
 DudaMobile will convert your current web site into a mobile friendly version in real time. And it does a nice job of it at that. Check out [http://m.blueonionsoftware.com](http://m.blueonionsoftware.com).
 

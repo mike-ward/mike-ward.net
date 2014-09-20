@@ -2,7 +2,7 @@ HttpWebRequest GetResponse() Gotcha's
 2006-12-18T23:13:02
 If you read the documentation for HttpWebRequest.GetResponse() you'll see that it returns a HttpWebResponse() object. One of the members is Status that tells you the status of the server's response. Fair enough, but there's a gotcha here. If the server returns an response like 403 (Forbidden) or 500 (Server error), a **WebException** is raised. This strikes me as a bit counterintuitive since the server did reply with a valid HTTP response. Fortunately there is a way out of this conundrum. A "note" in the GetResponse() documentation gives you a chance to still determine the status.
 
-> [ ![](/content/images/blog/WindowsLiveWriter/HttpWebRequest.GetResponseGotchas_BC87/note_thumb.png) ](/content/images/blog/WindowsLiveWriter/HttpWebRequest.GetResponseGotchas_BC87/note2.png) ** Note **
+> [ ![](/cdn/images/blog/WindowsLiveWriter/HttpWebRequest.GetResponseGotchas_BC87/note_thumb.png) ](/cdn/images/blog/WindowsLiveWriter/HttpWebRequest.GetResponseGotchas_BC87/note2.png) ** Note **
 > 
 > If a **WebException** is thrown, use the [Response](ms-help://ms.msdnqtr.v80.en/P_System_Net_WebException_Response.htm) and [Status](ms-help://ms.msdnqtr.v80.en/P_System_Net_WebException_Status.htm) properties of the exception to determine the response from the server.
 

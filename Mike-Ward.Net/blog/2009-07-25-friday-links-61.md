@@ -4,7 +4,7 @@ Friday Links #61
 
 [Closures in JavaScript - James Padolsey](http://james.padolsey.com/javascript/closures-in-javascript/) - A closure, in JavaScript, can simply be described as a retained scope; at least, this is how I think of it. The benefit of a closure is in the fact that it retains the scope (the “scope chain”) of the outer (or “parent”) execution context.
 
-![html5_logo](/content/images/blog/FridayLinks61_C793/html5_logo.png)[HTML5 and The Future of the Web | How-To | Smashing Magazine](http://www.smashingmagazine.com/2009/07/16/html5-and-the-future-of-the-web/) - Some tips and insight into HTML5 to help ease the inevitable pain that comes with transitioning to a slightly different syntax.
+![html5_logo](/cdn/images/blog/FridayLinks61_C793/html5_logo.png)[HTML5 and The Future of the Web | How-To | Smashing Magazine](http://www.smashingmagazine.com/2009/07/16/html5-and-the-future-of-the-web/) - Some tips and insight into HTML5 to help ease the inevitable pain that comes with transitioning to a slightly different syntax.
 
 [CodeProject: Bing API in Action - C#](http://www.codeproject.com/KB/IP/BingAPI.aspx) - Microsoft made available its API to public so that we can use it from our own applications. This article explains how to make a sample application which uses a Bing search feature.
 
@@ -16,7 +16,7 @@ Friday Links #61
 
 [Scott Hanselman's Computer Zen - Upgrading my Lenovo W500 to a OCZ Vertex 250GB SATA II Solid State Disk](http://www.hanselman.com/blog/UpgradingMyLenovoW500ToAOCZVertex250GBSATAIISolidStateDiskSSD.aspx) - The difference between an SSD and a regular Hard Drive is the difference between shooting a bullet and throwing it. 
 
-[Free Multi-function Screen Capture / Image Editor Impresses](http://www.techsupportalert.com/content/free-multi-function-screen-capture-image-editor-impresses.htm) - PicPick is a free utility that combines into one package different functions normally handled by several different programs.
+[Free Multi-function Screen Capture / Image Editor Impresses](http://www.techsupportalert.com/cdn/free-multi-function-screen-capture-image-editor-impresses.htm) - PicPick is a free utility that combines into one package different functions normally handled by several different programs.
 
 **Science and the Environment**
 
@@ -40,7 +40,7 @@ Friday Links #61
 
 **Stuff I just Dig**
 
-![califzephyr_485](/content/images/blog/FridayLinks61_C793/califzephyr_485.jpg)[Sailing On the Ground, at 126 MPH | Popular Science](http://www.popsci.com/scitech/article/2009-06/road-runner) - The wind may be restless, but the fastest air-powered ground vehicle is surprisingly steady as it sails over the dusty ground.
+![califzephyr_485](/cdn/images/blog/FridayLinks61_C793/califzephyr_485.jpg)[Sailing On the Ground, at 126 MPH | Popular Science](http://www.popsci.com/scitech/article/2009-06/road-runner) - The wind may be restless, but the fastest air-powered ground vehicle is surprisingly steady as it sails over the dusty ground.
 
 [The Iceorb Keeps Your Chilled Foods Chilly - beat the heat – Lifehacker](http://lifehacker.com/5316944/the-iceorb-keeps-your-chilled-foods-chilly) - Essentially, the iceorb is a nested storage container in which the outside container is full of little ice cubes so that, when in use, the contents of the inner container remains nice and cool for as long as the ice in the outer container lasts.
 

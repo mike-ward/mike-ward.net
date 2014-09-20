@@ -6,7 +6,7 @@ I’m behind this week because of all the [PDC](http://www.microsoftpdc.com) act
 
 [Free ASP.NET and Windows Forms Chart Controls - Visual Studio 2008](http://davidhayden.com/blog/dave/archive/2008/10/26/FreeASPNETWindowsFormsChartControlsVisualStudio2008.aspx) – These are from the Data Visualization Group at Microsoft
 
-[Photojojo » Four Reasons to Love Phoenix](http://photojojo.com/content/websites/free-aviary-phoenix-image-editor/) – Web based image editor with features similar to Photoshop
+[Photojojo » Four Reasons to Love Phoenix](http://photojojo.com/cdn/websites/free-aviary-phoenix-image-editor/) – Web based image editor with features similar to Photoshop
 
 [Sara Ford's WebLog : Did you know… You can create file or item templates](http://blogs.msdn.com/saraford/archive/2008/10/27/did-you-know-you-can-create-file-or-item-templates-343.aspx) – Item templates allow you to make custom template files that show up in the Add Item dialog for projects.
 

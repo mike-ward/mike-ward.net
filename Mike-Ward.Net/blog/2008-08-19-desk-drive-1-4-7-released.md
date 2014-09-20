@@ -7,7 +7,7 @@ Desk Drive 1.4.7 Released
 
 The Chinese translation looks cool.
 
-![ddchinese](/content/images/blog/DeskDrive1.4.7Released_10F40/ddchinese.png)
+![ddchinese](/cdn/images/blog/DeskDrive1.4.7Released_10F40/ddchinese.png)
 
 Anyone up for doing traditional Chinese? It's easy. Just edit the **DeskDrive.exe.xml** file in the distribution. Change the "Default" tags to render in your language of choice. Run the program and see your new translation. Send me the file and I'll add the new translation to the distribution. Don't forget to tell me which language it is since I'll likely not recognize it.
 

@@ -2,7 +2,7 @@ Super Cool Video Phone
 2008-06-05T00:45:19
 Our new video phone just arrived today.
 
-![](/content/images/videophone.jpg)
+![](/cdn/images/videophone.jpg)
 
 This little baby lets callers see each other. It uses a broadband Internet connection (VOIP). If the other caller only has a regular phone, you can still use voice. I literally plugged the power in, attached it to my Internet connection and started dialing (you dial and use it just like a regular phone). The VOIP provider has optimized their network for video and it shows. You can easily read a document displayed on the screen. Voice quality is better than my Vonage setup.
 

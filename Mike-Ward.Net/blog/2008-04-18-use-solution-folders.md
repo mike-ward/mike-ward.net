@@ -1,6 +1,6 @@
 Use Solution Folders
 2008-04-18T13:06:55
-![](http://www.hanselman.com/blog/content/binary/WindowsLiveWriter/TheWeeklySourceCode24ExtensibilityEditio_13756/image_3.png) In reading [Scott Hanselman's blog](http://feeds.feedburner.com/~r/ScottHanselman/~3/272745966/TheWeeklySourceCode24ExtensibilityEditionPlugInsProvidersAttributesAddInsAndModulesInNET.aspx) this morning, I ran across an interesting tid bit.
+![](http://www.hanselman.com/blog/cdn/binary/WindowsLiveWriter/TheWeeklySourceCode24ExtensibilityEditio_13756/image_3.png) In reading [Scott Hanselman's blog](http://feeds.feedburner.com/~r/ScottHanselman/~3/272745966/TheWeeklySourceCode24ExtensibilityEditionPlugInsProvidersAttributesAddInsAndModulesInNET.aspx) this morning, I ran across an interesting tid bit.
 
 > ASIDE: Not enough people use "Solution Folders" in Visual Studio. Seriously, folks, just right-click and "Add | New Solution Folder," start dragging things around and bask in the tidiness
 

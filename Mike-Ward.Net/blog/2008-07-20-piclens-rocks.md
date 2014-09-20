@@ -8,6 +8,6 @@ I don't have a high-end graphics card in my laptop. In fact, it's the integrated
 
 One of the cooler features that has hooked me is the "Discover" mode. Once installed, it places an icon in the right corner of your browser as pictured below (yellow highlighted area).
 
-[![piclens](/content/images/blog/PicLensRocks_12E2E/piclens_thumb.jpg)](/content/images/blog/PicLensRocks_12E2E/piclens.jpg)
+[![piclens](/cdn/images/blog/PicLensRocks_12E2E/piclens_thumb.jpg)](/cdn/images/blog/PicLensRocks_12E2E/piclens.jpg)
 
 Clicking on it puts you in "Discover" mode when the site does not have a PicLens compatible RSS media feed. In Discover mode you get a selection of news and information presented in PicLens' unique image browsing format. It's really cool.

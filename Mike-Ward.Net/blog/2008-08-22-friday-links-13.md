@@ -4,7 +4,7 @@ Friday Links #13
 
 [Screen2: Share Your Browser View](http://www.makeuseof.com/dir/screen2-share-browser-view/) - Web based screen sharing service that lets you share your browser view. The cool thing about this service that there is no installation required, all you need is a browser and internet connection.
 
-[Spectra Visual News Reader](http://msnbcmedia.msn.com/i/msnbc/Components/spectra/index.html) - Interesting idea for a newsreader. Very beta...![image](/content/images/blog/FridayLinks13_B158/image.png)
+[Spectra Visual News Reader](http://msnbcmedia.msn.com/i/msnbc/Components/spectra/index.html) - Interesting idea for a newsreader. Very beta...![image](/cdn/images/blog/FridayLinks13_B158/image.png)
 
 [Clockwatcher Explains Phelps' Win : NPR ](http://www.npr.org/templates/story/story.php?storyId=93666253&ft=1&f=1019)- Visually, it looks like Phelps lost, but the clock doesn't lie.
 

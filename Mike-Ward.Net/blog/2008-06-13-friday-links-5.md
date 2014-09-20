@@ -12,7 +12,7 @@ Friday Links #5
 
 [iPhone 3G is finally official!](http://www.engadget.com/2008/06/09/iphone-3g-is-finally-official/) - Thinner edges, full plastic back, flush headphone jack, and the [iPhone 2.0](http://www.engadget.com/2008/06/09/iphone-2-0-free-in-early-july-for-all-iphone-owners-9-95-for-i/) firmware.
 
-[Paper Stronger Than Cast Iron](http://science.slashdot.org/article.pl?sid=08/06/10/0033201&from=rss) - Researchers in Sweden have have come up with a manufacturing process that keeps the fibers small, resulting in 'nanopaper' with [over 1.6 times the tensile strength of cast iron](http://sciencenow.sciencemag.org/cgi/content/full/2008/609/1?).
+[Paper Stronger Than Cast Iron](http://science.slashdot.org/article.pl?sid=08/06/10/0033201&from=rss) - Researchers in Sweden have have come up with a manufacturing process that keeps the fibers small, resulting in 'nanopaper' with [over 1.6 times the tensile strength of cast iron](http://sciencenow.sciencemag.org/cgi/cdn/full/2008/609/1?).
 
 [PicReflect : Add Pretty Reflections to your Images](http://www.makeuseof.com/dir/picreflect-add-pretty-reflections-images/) - Simple web app where you can upload an image and reflection effect to it.
 

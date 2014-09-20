@@ -18,14 +18,14 @@
 </div>
 <hr />
 @Html.Markdown(@"
-### ![rss](/content/images/rss-icon.png) Keep up to date
+### ![rss](/cdn/images/rss-icon.png) Keep up to date
 
 - [RSS Feed](http://feedproxy.google.com/MikeWardTechnologyBlog)
 - [Email Feed](http://feedburner.google.com/fb/a/mailverify?uri=MikeWardTechnologyBlog&amp;loc=en_US)
 ")
 
 <script>
-  setTimeout(function () { window.location = "/content/downloads/@ViewBag.File"; }, 5000);
+  setTimeout(function () { window.location = "/cdn/downloads/@ViewBag.File"; }, 5000);
 </script>
 
 @section sidebar {

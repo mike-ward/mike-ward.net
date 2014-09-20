@@ -1,6 +1,6 @@
 Friday Links #12
 2008-08-15T18:26:03
-![](/content/images/links.gif)
+![](/cdn/images/links.gif)
 
 [7 Beautiful Themes (Visual Styles) to Customize Windows Vista](http://www.nirmaltv.com/2008/08/07/download-windows-vista-themes/) - Cools Vista themes for, get this, Vista. Who knew?
 
@@ -32,7 +32,7 @@ Friday Links #12
 
 [Brad Abrams : .NET Framework 3.5 SP1 Allows managed code to be launched from a network share! ](http://blogs.msdn.com/brada/archive/2008/08/13/net-framework-3-5-sp1-allows-managed-code-to-be-launched-from-a-network-share.aspx)- Finally!
 
-![the-statistician](/content/images/blog/FridayLinks11_C5B5/thestatistician.png)
+![the-statistician](/cdn/images/blog/FridayLinks11_C5B5/thestatistician.png)
 
 [Physicists Spooked By Faster Than Light Data Transfer](http://www.geeknews.net/2008/08/14/physicists-spooked-by-faster-than-light-data-transfer) - Can FTL drives be far behind? (probably) 
 

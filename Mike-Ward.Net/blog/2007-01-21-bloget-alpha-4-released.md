@@ -1,6 +1,6 @@
 Bloget Alpha 4 Released
 2007-01-21T23:33:07
-![](/content/images/blog/WindowsLiveWriter/BlogetAlpha4Released_C67C/dork%5B5%5D.png) Bloget, alpha 4 is out the door! Some of the changes include:
+![](/cdn/images/blog/WindowsLiveWriter/BlogetAlpha4Released_C67C/dork%5B5%5D.png) Bloget, alpha 4 is out the door! Some of the changes include:
 
   * An integrated log viewer 
   * Enclosures 
