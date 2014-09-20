@@ -5,7 +5,7 @@
     <article>
       <h2><a href="@post.PermaLink">@post.Title</a></h2>
       <div>
-        @Html.Raw(post.Html(@ViewBag.ImagesBaseUri))
+        @Html.Raw(post.Html(ViewBag.ImagesBaseUri))
       </div>
       <button onclick="load_disqus('@post.Slug', '@post.Slug');" class="pure-button blog-comment-button">Comments</button>
       <div id="disqus_thread"></div>
