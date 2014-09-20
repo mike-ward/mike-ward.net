@@ -4,11 +4,11 @@ Using C# to Interact with the Shell Gotcha
 
 Interacting with the Shell in C# is easy because the common language runtime exposes COM objects through a proxy called the runtime callable wrapper (RCW). Although the RCW appears to be an ordinary object to .NET clients, its primary function is to marshal calls between a .NET client and a COM object.
 
-![rcw](http://az667460.vo.msecnd.net/cdn/images/blog/UsingCtoInteractwiththeShellGotcha_8666/rcw.png)
+![rcw](/cdn/images/blog/UsingCtoInteractwiththeShellGotcha_8666/rcw.png)
 
 For instance, to interact with Shell, add a reference to the** Microsoft Shell Controls And Automation** COM object.
 
-[![image](http://az667460.vo.msecnd.net/cdn/images/blog/UsingCtoInteractwiththeShellGotcha_8666/image_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/UsingCtoInteractwiththeShellGotcha_8666/image.png)
+[![image](/cdn/images/blog/UsingCtoInteractwiththeShellGotcha_8666/image_thumb.png)](/cdn/images/blog/UsingCtoInteractwiththeShellGotcha_8666/image.png)
 
 Interacting with the Shell then is as easy as:
     

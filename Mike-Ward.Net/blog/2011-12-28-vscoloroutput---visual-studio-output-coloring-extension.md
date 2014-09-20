@@ -4,7 +4,7 @@ VSColorOutput provides color highlighting for the build and debug output windows
 
 It also highlights build errors and warnings. Here's an example:
 
-![vso](http://az667460.vo.msecnd.net/cdn/images/blog/VSColorOutputA-Visual-Studio-Extension_9C56/vso.png)
+![vso](/cdn/images/blog/VSColorOutputA-Visual-Studio-Extension_9C56/vso.png)
 
 **Installation**
 
@@ -20,9 +20,9 @@ From here, Visual Studio does the heavy lifting of mapping the classification to
 
 Out of the box, VSColorOutput will match most error and warning messages. It uses regular expressions to match lines to output classifier categories. You access these settings from the _Tools|Options|VSColorOutput_ options page.
 
-![op1](http://az667460.vo.msecnd.net/cdn/images/blog/VSColorOutputA-Visual-Studio-Extension_9C56/op1.png)
+![op1](/cdn/images/blog/VSColorOutputA-Visual-Studio-Extension_9C56/op1.png)
 
-![op2](http://az667460.vo.msecnd.net/cdn/images/blog/VSColorOutputA-Visual-Studio-Extension_9C56/op2.png)
+![op2](/cdn/images/blog/VSColorOutputA-Visual-Studio-Extension_9C56/op2.png)
 
 The regular expressions use the .NET form ([http://msdn.microsoft.com/en-us/library/hs600312.aspx](http://msdn.microsoft.com/en-us/library/hs600312.aspx)), which varies slightly from those used by Ruby, JavaScript, Python, etc.
 
@@ -46,6 +46,6 @@ The names reflected their intended use but are entirely arbitrary.
 
 To change the color of the classification go to the _Options|Environment|Fonts and Colors_ dialog. The colors are grouped near the bottom starting with VSColorOutput:
 
-![fc](http://az667460.vo.msecnd.net/cdn/images/blog/VSColorOutputA-Visual-Studio-Extension_9C56/fc.png)
+![fc](/cdn/images/blog/VSColorOutputA-Visual-Studio-Extension_9C56/fc.png)
 
 The is project is open source and available at [http://vscoloroutput.codeplex.com](http://vscoloroutput.codeplex.com). I welcome contributions and suggestions as always. If you have an issue, please try to capture a log, or stack trace, or send me a sample project that reproduces the issue.

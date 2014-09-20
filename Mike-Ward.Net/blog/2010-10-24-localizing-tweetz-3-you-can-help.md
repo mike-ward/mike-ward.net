@@ -2,7 +2,7 @@ Localizing tweetz 3– You can help
 2010-10-24T15:57:42
 [Tweetz](/tweetz) 3 is finished and it’s on to version 3.1. The first order of business is to localize tweetz and so I’m going to need translations. Download [locale.js](/downloads/locale.js), edit it to for your language preference, and send it back to me. I’ll verify the submission and add it to the language matrix for the next release.
 
-![babelfish](http://az667460.vo.msecnd.net/cdn/images/blog/Localizing-tweetz-3-You-can-help_99A9/babelfish.png)
+![babelfish](/cdn/images/blog/Localizing-tweetz-3-You-can-help_99A9/babelfish.png)
 
 If you’re the impatient type, or just want to see how your language layouts in the gadget, you can download the [tweet 3.1 here](/download.aspx?filename=Downloads/tweetz31.gadget). This is preliminary version that uses the locale file. It installs side-by-side with the current release. It won’t nuke your current installed version.
 

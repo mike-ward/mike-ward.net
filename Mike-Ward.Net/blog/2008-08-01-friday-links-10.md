@@ -1,6 +1,6 @@
 Friday Links #10
 2008-08-01T19:30:46
-![](http://az667460.vo.msecnd.net/cdn/images/links.gif) Interesting finds this week.
+![](/cdn/images/links.gif) Interesting finds this week.
 
 [Online HTML Form Build Software](http://wufoo.com/) - Wufoo forms helps you create contact forms, online surveys, and invitations so you can collect the data, registrations and online payments you need without writing a single line of code.
 

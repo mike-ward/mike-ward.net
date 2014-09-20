@@ -2,7 +2,7 @@ SimplyWeather.net
 2009-09-24T01:15:15
 Tens of thousands of you have downloaded my [Simply Weather gadget](/gadgets). It’s time now for a the sequel, Simply Weather the web site.
 
-![2009-09-23_2057](http://az667460.vo.msecnd.net/cdn/images/blog/SimplyWeather.net_12A39/20090923_2057.png)
+![2009-09-23_2057](/cdn/images/blog/SimplyWeather.net_12A39/20090923_2057.png)
 
 [SimplyWeather.net](http://simplyweather.net/) gives you the current conditions and forecast in a simple, no-nonsense, easy to consume format. You’re in and out in seconds and no one gets hurt :).
 

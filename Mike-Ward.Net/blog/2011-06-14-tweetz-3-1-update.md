@@ -6,7 +6,7 @@ A few weeks back I posted a fix for the HTTPS problems some of you encountered. 
 
 And if you didn’t already know, you can set your account to HTTPS only on your twitter accounts page. Here’s a screen shot of what it looks like:
 
-![twitter_https](http://az667460.vo.msecnd.net/cdn/images/blog/0916bb4fcc1a_1223A/twitter_https.jpg)
+![twitter_https](/cdn/images/blog/0916bb4fcc1a_1223A/twitter_https.jpg)
 
 Available on the [downloads page](/downloads).
 

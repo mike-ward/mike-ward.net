@@ -6,7 +6,7 @@ Friday Links #60
 
 [Brad Abrams : Silverlight 3 Controls Sample App](http://blogs.msdn.com/brada/archive/2009/07/13/silverlight-3-controls-sample-app.aspx) – Check out the [Silverlight Toolkit Samples](http://silverlight.net/samples/sl3/toolkitcontrolsamples/run/default.html) The best part is not only can you run it as a quick reference and get a feel for how the controls work, but you can also get easy access to all the source code! Very cool. Very worth visiting.
 
-![image_thumb](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks60_688E/image_thumb.png)[Brad Abrams : MEF Preview 6: V1 Feature Complete Silverlight Support andMore!](http://blogs.msdn.com/brada/archive/2009/07/13/managed-extensibility-framework-mef-preview-6-silverlight-support-and-much-more.aspx) - Today we released [MEF Preview 6 on codeplex](http://mef.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=30098). Not only is this the feature complete build for MEF V1.0 (which will ship with .NET Framework 4) but it also has the first drop of MEF for Silverlight!
+![image_thumb](/cdn/images/blog/FridayLinks60_688E/image_thumb.png)[Brad Abrams : MEF Preview 6: V1 Feature Complete Silverlight Support andMore!](http://blogs.msdn.com/brada/archive/2009/07/13/managed-extensibility-framework-mef-preview-6-silverlight-support-and-much-more.aspx) - Today we released [MEF Preview 6 on codeplex](http://mef.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=30098). Not only is this the feature complete build for MEF V1.0 (which will ship with .NET Framework 4) but it also has the first drop of MEF for Silverlight!
 
 [CodeProject: Propagator in C# - an alternative to the Observer Design Pattern](http://www.codeproject.com/KB/architecture/Propagator.aspx) - Re-usable implementation of the Propagator Design Pattern in C#, a potentially more powerful alternative to the well-known Observer Design Pattern.
 
@@ -22,7 +22,7 @@ Friday Links #60
 
 **On the Web**
 
-![authenticated-icon-2](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks60_688E/authenticatedicon2.jpg)[Gmail Labs Adds Anti-Phishing Key - Gmail Labs – Lifehacker](http://lifehacker.com/5313618/gmail-labs-adds-anti+phishing-key) - "Super-trustworthy" is a technical term I just invented that means: (1) the sender, usually a financial institution, is a target of phishers, (2) all of the sender's email is authenticated with DKIM, and (3) Gmail rejects any fake messages that claim to come from this sender, but actually don't. 
+![authenticated-icon-2](/cdn/images/blog/FridayLinks60_688E/authenticatedicon2.jpg)[Gmail Labs Adds Anti-Phishing Key - Gmail Labs – Lifehacker](http://lifehacker.com/5313618/gmail-labs-adds-anti+phishing-key) - "Super-trustworthy" is a technical term I just invented that means: (1) the sender, usually a financial institution, is a target of phishers, (2) all of the sender's email is authenticated with DKIM, and (3) Gmail rejects any fake messages that claim to come from this sender, but actually don't. 
 
 [windows4all.com – Home](http://windows4all.codeplex.com/) - Windows4all.com is a Silverlight based online virtual operating system. It is is a website that simulates an operating system inside your web browser.
 
@@ -30,7 +30,7 @@ Friday Links #60
 
 **Stuff I just Dig**
 
-![medium](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks60_688E/medium.jpg)[Government honours veterans of Bletchley Park at last - V3.co.uk](http://www.v3.co.uk/v3/news/2245801/government-honours-veterans) - The surviving workers from the [Bletchley Park](http://www.v3.co.uk/vnunet/news/2194121/bletchley-park-national-museum-computing) cryptography unit are to be honored, nearly 70 years after the unit was formed. (If you don’t about Bletchley Park, you’re missing out on some of the greatest heroes of WWII IMHO).
+![medium](/cdn/images/blog/FridayLinks60_688E/medium.jpg)[Government honours veterans of Bletchley Park at last - V3.co.uk](http://www.v3.co.uk/v3/news/2245801/government-honours-veterans) - The surviving workers from the [Bletchley Park](http://www.v3.co.uk/vnunet/news/2194121/bletchley-park-national-museum-computing) cryptography unit are to be honored, nearly 70 years after the unit was formed. (If you don’t about Bletchley Park, you’re missing out on some of the greatest heroes of WWII IMHO).
 
 [The Seven Types of Employees You Meet at Best Buy](http://gizmodo.com/5311140/the-seven-types-of-employees-you-meet-at-best-buy/gallery/?skyline=true&s=x) - Have you ever noticed that no matter which Best Buy you go into, you end up seeing the same people working there? That's because there are seven types of people that work at every single Best Buy, with no exceptions. (Fun charactertures) 
 

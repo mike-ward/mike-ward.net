@@ -16,7 +16,7 @@ Friday Links #46
 
 [Kindle Formatting: The Complete Guide - MobileRead Forums](http://www.mobileread.com/forums/showthread.php?t=44141) - Details of the Kindle's AZW format.
 
-![MP3-Hybrid](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks46_12029/MP3Hybrid.gif)[The $9000 Plug-In Hybrid That Will Beat the Volt to Market | Popular Science](http://www.popsci.com/cars/article/2009-04/9000-plug-hybrid-will-beat-volt-market) - The MP3 500 hybrid is Piaggio's answer to all that. It's got a few things going for it that no other non-car on the road does, including a radical (for scooters) plug-in hybrid engine that a yields a toe-curling 140 miles per gallon, and a unique three-wheel design.
+![MP3-Hybrid](/cdn/images/blog/FridayLinks46_12029/MP3Hybrid.gif)[The $9000 Plug-In Hybrid That Will Beat the Volt to Market | Popular Science](http://www.popsci.com/cars/article/2009-04/9000-plug-hybrid-will-beat-volt-market) - The MP3 500 hybrid is Piaggio's answer to all that. It's got a few things going for it that no other non-car on the road does, including a radical (for scooters) plug-in hybrid engine that a yields a toe-curling 140 miles per gallon, and a unique three-wheel design.
 
 [Pluralsight On-Demand! - Online .NET Training by the Industry Experts](http://www.pluralsight.com/main/olt/Courses.aspx) - Library of online training courses for Microsoft developers delivered by the [best instructors](http://www.pluralsight.com/instructors.aspx) in the industry.
 
@@ -28,7 +28,7 @@ Friday Links #46
 
 [DebuggerDisplay and DebuggerBrowsable – Two Debugger Attributes you should know | Dev102.com](http://www.dev102.com/2009/04/09/debuggerdisplay-and-debuggerbrowsable-two-debugger-attributes-you-should-know/) - Shows the usage of these two very useful debugger [attributes](http://www.dev102.com/2008/06/13/why-should-you-use-the-xkey-attribute-in-wpf-datatemplates/).
 
-![_45644933_star-trek-1](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks46_12029/_45644933_startrek1.jpg)[BBC NEWS | Entertainment | Spock gives fans Star Trek treat](http://news.bbc.co.uk/2/hi/entertainment/7989146.stm) - Spock actor Leonard Nimoy set his phasers to stun at a movie screening on Monday when he switched 1982's Wrath of Khan for the new Star Trek film.
+![_45644933_star-trek-1](/cdn/images/blog/FridayLinks46_12029/_45644933_startrek1.jpg)[BBC NEWS | Entertainment | Spock gives fans Star Trek treat](http://news.bbc.co.uk/2/hi/entertainment/7989146.stm) - Spock actor Leonard Nimoy set his phasers to stun at a movie screening on Monday when he switched 1982's Wrath of Khan for the new Star Trek film.
 
 [Microsoft project code named "Velocity" : Announcing Velocity CTP3 !](http://blogs.msdn.com/velocity/archive/2009/04/08/announcing-velocity-ctp3.aspx) – Scalable cache cluster written .NET.
 

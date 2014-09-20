@@ -8,6 +8,6 @@ But not all is lost. With a bit of JavaScript and a custom build command, you ca
 
 I added Aaron's script and custom build step to Desk Drive's installer. As you can see from the image below, it works quite nicely.
 
-[![launchonexit](http://az667460.vo.msecnd.net/cdn/images/blog/LaunchproductaftersetupfinishesinMSIinst_A0BF/launchonexit_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/LaunchproductaftersetupfinishesinMSIinst_A0BF/launchonexit.png)
+[![launchonexit](/cdn/images/blog/LaunchproductaftersetupfinishesinMSIinst_A0BF/launchonexit_thumb.png)](/cdn/images/blog/LaunchproductaftersetupfinishesinMSIinst_A0BF/launchonexit.png)
 
 Don't forget to keep those translations coming for Desk Drive. I have English, German, Slovakian, Japanese and Finnish.

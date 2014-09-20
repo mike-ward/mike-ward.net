@@ -1,6 +1,6 @@
 Call Stack Tips
 2007-01-18T23:23:29
-![Visual Studio 2005 Banner](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/CallStackTips_CC77/right_bnr_vstudio%5B5%5D.gif) Just in case you've never tried, it - the next time you're looking at a call stack while stopped at a break point in [Visual Studio 2005](http://msdn2.microsoft.com/en-us/vstudio/default.aspx), try_ right clicking_ in the call stack window and investigating some of the context menu options.
+![Visual Studio 2005 Banner](/cdn/images/blog/WindowsLiveWriter/CallStackTips_CC77/right_bnr_vstudio%5B5%5D.gif) Just in case you've never tried, it - the next time you're looking at a call stack while stopped at a break point in [Visual Studio 2005](http://msdn2.microsoft.com/en-us/vstudio/default.aspx), try_ right clicking_ in the call stack window and investigating some of the context menu options.
 
 Here's some that stand out.
 

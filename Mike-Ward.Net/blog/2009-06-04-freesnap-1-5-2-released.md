@@ -6,6 +6,6 @@ Personally, I don’t use the “center window” feature of FreeSnap so I didn�
 
 Win+* (the one located on the number pad) centers the current window in all modes. I’ve updated the help screen to reflect this change.
 
-[![freesnaphelp](http://az667460.vo.msecnd.net/cdn/images/blog/FreeSnap1.5.2Released_1166C/freesnaphelp_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/FreeSnap1.5.2Released_1166C/freesnaphelp.png)
+[![freesnaphelp](/cdn/images/blog/FreeSnap1.5.2Released_1166C/freesnaphelp_thumb.png)](/cdn/images/blog/FreeSnap1.5.2Released_1166C/freesnaphelp.png)
 
 Available on the [downloads page](/downloads) and finer Web sites everywhere.

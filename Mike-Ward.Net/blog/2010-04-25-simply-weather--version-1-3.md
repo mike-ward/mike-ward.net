@@ -6,7 +6,7 @@ The location displayed at the top of the gadget is usually the name of the weath
 
 For those cases I’ve added a setting that allows you to customize location of the name displayed at the top of the gadget.
 
-![Untitled](http://az667460.vo.msecnd.net/cdn/images/blog/SimplyWeatherVersion1.3_8C75/Untitled.jpg)
+![Untitled](/cdn/images/blog/SimplyWeatherVersion1.3_8C75/Untitled.jpg)
 
 This does not change the reporting location, only what’s displayed in the gadget.
 

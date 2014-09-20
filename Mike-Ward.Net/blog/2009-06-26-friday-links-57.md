@@ -26,7 +26,7 @@ Friday Links #57
 
 [BBC NEWS | Science & Environment | 'Oldest musical instrument' found](http://news.bbc.co.uk/2/hi/science/nature/8117915.stm) - Scientists in Germany have published details of flutes dating back to the time that modern humans began colonising Europe, 35,000 years ago.
 
-![_45967547_bone_flutehf_jensen](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks57_CD8D/_45967547_bone_flutehf_jensen.jpg)
+![_45967547_bone_flutehf_jensen](/cdn/images/blog/FridayLinks57_CD8D/_45967547_bone_flutehf_jensen.jpg)
 
 [Slashdot Hardware Story | Beamed Space Solar Power Plant To Open In 2016?](http://hardware.slashdot.org/story/09/06/25/138207/Beamed-Space-Solar-Power-Plant-To-Open-In-2016?from=rss) - The [Pacific Gas and Electricity Company](http://en.wikipedia.org/wiki/PG&E), [per this 'interview'](http://www.next100.com/2009/04/interview-with-solaren-ceo-gar.php) with the CEO of [Solaren](http://en.wikipedia.org/wiki/Solaren) on their affiliated site, announced PG&E;'s plans to buy 200MW of base-load power from a Solaren beamed space solar power plant by 2016." I wish the skeptic in me would be quiet.
 
@@ -48,7 +48,7 @@ Friday Links #57
 
 [Map Label on Package](http://kk.org/ct2/2009/06/map-label-on-package.php) – From KK LIfe Stream - “I thought this was pretty clever. I just received a package from FedEx. On its label was printed a map to my house. So instead of installing a GPS in every truck, FedEx prints out a map label. If the driver can't find the delivery place, they just look on the package itself. Brilliant!”
 
-![](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks57_CD8D/fedexlabelmapsm1.jpg)
+![](/cdn/images/blog/FridayLinks57_CD8D/fedexlabelmapsm1.jpg)
 
 [Toolmonger » Blog Archive » FYI: Why Tape Measure Claws Move Around](http://toolmonger.com/2009/06/26/fyi-why-tape-measure-claws-move-around/) – Only a tool geek like me would find this cool. Today a friend asked me a question that the folks at Stanley tell me they hear all the time: why does the claw — you know, the little catch at the end of your short tape measure — move back and forth? Is it just poorly attached? The short answer: no, the loose claw is no accident of manufacture. It’s loose on purpose.
 

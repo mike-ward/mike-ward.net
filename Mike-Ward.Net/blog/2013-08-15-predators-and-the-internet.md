@@ -4,13 +4,13 @@ My parents, I love them dearly, but sometimes I wonder how they made it through 
 
 Some guy named Steve calls and announces to my parents that there is a problem with their computer. You can see where this is going…
 
-[![online-predator](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/PredatorsandtheInternet_8F4E/online-predator_thumb.jpg)](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/PredatorsandtheInternet_8F4E/online-predator_2.jpg)
+[![online-predator](/cdn/images/blog/WindowsLiveWriter/PredatorsandtheInternet_8F4E/online-predator_thumb.jpg)](/cdn/images/blog/WindowsLiveWriter/PredatorsandtheInternet_8F4E/online-predator_2.jpg)
 
 After allowing him to gain access their computer to "fix" the issues, he convinces them to sign-up for a 3 year, $350 maintenance contract. Naturally, he accepts credit cards.
 
 Only afterwards did my Mom think to call and ask if it was a good idea.
 
-[![screaming_kid](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/PredatorsandtheInternet_8F4E/screaming_kid_thumb.jpg)](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/PredatorsandtheInternet_8F4E/screaming_kid_2.jpg)
+[![screaming_kid](/cdn/images/blog/WindowsLiveWriter/PredatorsandtheInternet_8F4E/screaming_kid_thumb.jpg)](/cdn/images/blog/WindowsLiveWriter/PredatorsandtheInternet_8F4E/screaming_kid_2.jpg)
 
 I was not particularly kind in my response.
 
@@ -26,7 +26,7 @@ I thought about wiping the disk, installing an operating system and giving them 
 
 A colleague of mine made a great suggestion. Get a Chromebook. 
 
-[![chromebook](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/PredatorsandtheInternet_8F4E/chromebook_thumb.jpg)](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/PredatorsandtheInternet_8F4E/chromebook_2.jpg)
+[![chromebook](/cdn/images/blog/WindowsLiveWriter/PredatorsandtheInternet_8F4E/chromebook_thumb.jpg)](/cdn/images/blog/WindowsLiveWriter/PredatorsandtheInternet_8F4E/chromebook_2.jpg)
 
 There's an irony here in that I bought a [Chromebook for my daughter](/blog/post/00801/google-chromebook-review-ndash-c7-acer) about a year ago and it has worked beautifully. Why I didn't think of this for my parents I don't know. We all have our blind spots I suppose.
 

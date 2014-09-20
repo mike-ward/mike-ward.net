@@ -2,7 +2,7 @@ FreeSnap 1.4 Released
 2008-10-07T23:37:44
 [FreeSnap 1.4](/freesnap) is available for download. New features include incremental size, a configuration file for settings, 64 bit support and a help dialog. The help dialog is a handy reference for all the keyboard shortcuts. Press the **Windows Key + ?** combination to bring it up.
 
-![](http://az667460.vo.msecnd.net/cdn/images/freesnap/freesnaphelp.png)
+![](/cdn/images/freesnap/freesnaphelp.png)
 
 Incremental sizing “grows” or “shrinks” a window edge by 10 pixels. This allows you to nudge a window to a slightly larger or smaller size.
 

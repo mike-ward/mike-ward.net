@@ -8,7 +8,7 @@ OK, so it isn't tricky. There are some limitations (aren't there always?). Image
 
 I find backgrounds with subtle transitions look best. Here's the gadget with the image of a blue sky at sunset. The image is much bigger than the gadget but the gradation of the sky in the upper-left corner is just right.
 
-![sw](http://az667460.vo.msecnd.net/cdn/images/blog/Simply-Weather-Gadget--You-can-Haz-Backg_CB78/sw.png)
+![sw](/cdn/images/blog/Simply-Weather-Gadget--You-can-Haz-Backg_CB78/sw.png)
 
 Available on the [downloads page](/downloads).
 

@@ -234,4 +234,4 @@ Thread.Sleep(100);
 
 }
 
-Download: [fileutilities.cs (4 KB)](http://az667460.vo.msecnd.net/cdn/images/blog/fileutilities.css)
+Download: [fileutilities.cs (4 KB)](/cdn/images/blog/fileutilities.css)

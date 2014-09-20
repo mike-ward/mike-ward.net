@@ -12,7 +12,7 @@ Friday Links #28
 
 [The Best Online Storage Service - Windows SkyDrive](http://www.labnol.org/internet/best-online-storage-live-skydrive/5771/) – 25GB is great but they still can’t upload an entire folder which makes it somewhat useless.
 
-![image](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks28_123CF/image.png)
+![image](/cdn/images/blog/FridayLinks28_123CF/image.png)
 
 [Jeff Blankenburg | Blankenthoughts: Keeping Your Head In The Cloud ](http://jeffblankenburg.com/2008/11/keeping-your-head-in-cloud.aspx)- Your applications are hosted inside Microsoft's global datacenters, and are automatically distributed and managed.
 

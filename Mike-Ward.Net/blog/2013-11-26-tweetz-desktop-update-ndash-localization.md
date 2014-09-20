@@ -1,6 +1,6 @@
 Tweetz Desktop Update &ndash; Localization
 2013-11-26T20:01:32
-[![3892](http://az667460.vo.msecnd.net/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop-Update--Localization_CDF9/3892_thumb.jpg)](http://az667460.vo.msecnd.net/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop-Update--Localization_CDF9/3892_2.jpg)Version 0.7.0 introduces one new feature – Localization.
+[![3892](/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop-Update--Localization_CDF9/3892_thumb.jpg)](/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop-Update--Localization_CDF9/3892_2.jpg)Version 0.7.0 introduces one new feature – Localization.
 
 So how many languages does Tweetz Desktop support? Well at the moment, exactly one. This is where you come in.
 

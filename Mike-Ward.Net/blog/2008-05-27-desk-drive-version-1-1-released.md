@@ -1,6 +1,6 @@
 Desk Drive Version 1.1 Released
 2008-05-27T22:05:52
-[![deskdrive](http://az667460.vo.msecnd.net/cdn/images/blog/DeskDriveVersion1.1Released_E33C/deskdrive_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/DeskDriveVersion1.1Released_E33C/deskdrive.png) There were a couple of positive articles on some popular web sites about Desk Drive posted last week. As a result, I've received a ton of email requesting features, fixes, etc. Version 1.1 adds one new feature and removes another.
+[![deskdrive](/cdn/images/blog/DeskDriveVersion1.1Released_E33C/deskdrive_thumb.png)](/cdn/images/blog/DeskDriveVersion1.1Released_E33C/deskdrive.png) There were a couple of positive articles on some popular web sites about Desk Drive posted last week. As a result, I've received a ton of email requesting features, fixes, etc. Version 1.1 adds one new feature and removes another.
 
 The new feature let's you exclude any drive by name. Several people reported issues with having to enable "Fixed" drives to see their removable drives. This sounds like a driver issue to me but of course that doesn't fix the problem. Excluding drives is useful in its own right and may help with unusual issues.
 

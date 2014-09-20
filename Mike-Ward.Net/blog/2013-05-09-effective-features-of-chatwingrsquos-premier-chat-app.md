@@ -8,7 +8,7 @@ This is a guest posting by Aaron Kong
 
 With the Chat Network System, chat rooms can be linked to other chat rooms in the network. Think of the networks as niches, or discoverable groups. Once a chat-app is linked to a group, it can communicate with other users. 
 
-[![clip_image002](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/EffectiveFeaturesofChatwingsPremierChatA_6E71/clip_image002_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/EffectiveFeaturesofChatwingsPremierChatA_6E71/clip_image002_2.png)
+[![clip_image002](/cdn/images/blog/WindowsLiveWriter/EffectiveFeaturesofChatwingsPremierChatA_6E71/clip_image002_thumb.png)](/cdn/images/blog/WindowsLiveWriter/EffectiveFeaturesofChatwingsPremierChatA_6E71/clip_image002_2.png)
 
 **Unlimited Message History**
 

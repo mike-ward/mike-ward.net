@@ -4,11 +4,11 @@ AdSense gadgets are far and few between and the majority of them simply don’t 
 
 So without further ado, here’s a screenshot of my AdSense Vista Sidebar gadget.
 
-![adsensor](http://az667460.vo.msecnd.net/cdn/images/blog/AdsensorAGoogleAdSenseGadgetthatactually_8F79/adsensor.png)
+![adsensor](/cdn/images/blog/AdsensorAGoogleAdSenseGadgetthatactually_8F79/adsensor.png)
 
 If you’re not familiar with AdSense then it may look a bit confusing so here’s an annotated view.
 
-![adsensor-an](http://az667460.vo.msecnd.net/cdn/images/blog/AdsensorAGoogleAdSenseGadgetthatactually_8F79/adsensoran.png)
+![adsensor-an](/cdn/images/blog/AdsensorAGoogleAdSenseGadgetthatactually_8F79/adsensoran.png)
 
 And that’s mostly it (for now). Once you login, it updates every 15 minutes.
 

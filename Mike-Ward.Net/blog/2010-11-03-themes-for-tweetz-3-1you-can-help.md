@@ -2,7 +2,7 @@ Themes for Tweetz 3.1–You can help
 2010-11-03T00:08:50
 I’ve received lots about half a dozen translations for [tweetz](/tweetz) to date. Thanks to everyone who helped. I’ve included the translations in this updated version. Localizations include German, Spanish, Portuguese (BR), Japanese, Swedish, and Turkish. I missed a couple of strings in the original locale.js file. If you see a non-localized string, send me a translation. And of course, other languages are certainly welcome. For non-Latin languages, UTF-8 encoding is required.
 
-![2010-11-02 19h53_06](http://az667460.vo.msecnd.net/cdn/images/blog/Tweetz-3.1_1116C/2010-11-02-19h53_06.png)Also note that I have not localized date and number formats yet.
+![2010-11-02 19h53_06](/cdn/images/blog/Tweetz-3.1_1116C/2010-11-02-19h53_06.png)Also note that I have not localized date and number formats yet.
 
 I’m also introducing themes in this revision. I’ve reworked the style sheets to make it easier to modify colors. You can tweak the layout as well, but that’s much harder. I’ve included two themes, the original and a “White” theme that uses colors similar to Facebook.
 

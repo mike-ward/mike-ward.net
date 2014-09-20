@@ -1,6 +1,6 @@
 Tweetz Desktop Beta
 2013-10-10T15:24:17
-[![tweetzdesktop](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/TweetzDesktopBeta_A15A/tweetzdesktop_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/TweetzDesktopBeta_A15A/tweetzdesktop_2.png) Tweetz Desktop is a desktop version of my twitter gadget **tweetz**. It has many of a the same features as the gadget. Like the gadget, Tweetz Desktop is designed to sit quietly in the corner of your desktop. The design is minimal, quiet and has almost no window chrome. 
+[![tweetzdesktop](/cdn/images/blog/WindowsLiveWriter/TweetzDesktopBeta_A15A/tweetzdesktop_thumb.png)](/cdn/images/blog/WindowsLiveWriter/TweetzDesktopBeta_A15A/tweetzdesktop_2.png) Tweetz Desktop is a desktop version of my twitter gadget **tweetz**. It has many of a the same features as the gadget. Like the gadget, Tweetz Desktop is designed to sit quietly in the corner of your desktop. The design is minimal, quiet and has almost no window chrome. 
 
 One of the best features of Tweetz Desktop (IMHO) is the combined timeline that shows your home timeline, mentions and direct messages in a single view. Mentions and direct messages are shaded to distinguish them. This keeps you current without having to switch views.
 

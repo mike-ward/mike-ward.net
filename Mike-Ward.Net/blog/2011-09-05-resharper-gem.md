@@ -19,7 +19,7 @@ Admittedly, the keyboard shortcut is a bit of a contortion, but after a few time
 
 When you want to rearrange more than a few functions though, this can become tiresome. Instead, press Ctrl+Alt+F. This brings up the "File Structure" dialog.
 
-![2011-09-05 08h33_16](http://az667460.vo.msecnd.net/cdn/images/blog/Resharper-Gems_6EFD/2011-09-05-08h33_16.png)
+![2011-09-05 08h33_16](/cdn/images/blog/Resharper-Gems_6EFD/2011-09-05-08h33_16.png)
 
 Most ReSharper users are probably familiar with the above dialog. It's a quick way to grok the file structure and find functions you don't quite remember the name.
 

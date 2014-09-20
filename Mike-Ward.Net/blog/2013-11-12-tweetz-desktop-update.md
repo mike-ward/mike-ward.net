@@ -5,7 +5,7 @@ Version 0.6.2
   * Font sizing. In the settings dialog.
   * Bug fixes and internal cleanups.
 
-[![Screen shot of font settings](http://az667460.vo.msecnd.net/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop-Update_A087/image_thumb_1.png)](http://az667460.vo.msecnd.net/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop-Update_A087/image_4.png)
+[![Screen shot of font settings](/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop-Update_A087/image_thumb_1.png)](/cdn/images/blog/Windows-Live-Writer/Tweetz-Desktop-Update_A087/image_4.png)
 
 That is all.
 

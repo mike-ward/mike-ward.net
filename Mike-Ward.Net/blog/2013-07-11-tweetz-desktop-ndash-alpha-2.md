@@ -1,6 +1,6 @@
 Tweetz Desktop &ndash; Alpha 2
 2013-07-11T22:56:29
-[![image](http://az667460.vo.msecnd.net/cdn/images/blog/Windows-Live-Writer/TweetzAlpha-2_10285/image_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/Windows-Live-Writer/TweetzAlpha-2_10285/image_2.png)Just when you thought it was safe, another tweetz alpha release appears. Be afraid :)
+[![image](/cdn/images/blog/Windows-Live-Writer/TweetzAlpha-2_10285/image_thumb.png)](/cdn/images/blog/Windows-Live-Writer/TweetzAlpha-2_10285/image_2.png)Just when you thought it was safe, another tweetz alpha release appears. Be afraid :)
 
 For those of you just tuning in, tweetz desktop is the desktop version of tweetz the gadget. It’s written in WPF and has additional fuctionality.
 

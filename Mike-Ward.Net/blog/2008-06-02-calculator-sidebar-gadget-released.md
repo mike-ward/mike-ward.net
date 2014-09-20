@@ -2,11 +2,11 @@ Calculator Sidebar Gadget Released
 2008-06-02T00:15:08
 Yes, just what the world needs, another calculator gadget! Except this is actually a useful and useable calculator gadget. You don't get pretty buttons or bubble gum skins. Instead, you get a calculator that evaluates expressions and remembers what you enter for later use. Like my Stopwatch gadget, it's no frills and to the point. Here's a screen shot.
 
-[![image](http://az667460.vo.msecnd.net/cdn/images/blog/CalculatorSidebarGadgetReleased_10BE6/image_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/CalculatorSidebarGadgetReleased_10BE6/image.png)
+[![image](/cdn/images/blog/CalculatorSidebarGadgetReleased_10BE6/image_thumb.png)](/cdn/images/blog/CalculatorSidebarGadgetReleased_10BE6/image.png)
 
 Like I said, not the most exciting interface, but what it lacks in style it makes up for in usefulness. The settings dialog gives you a good idea of how to use it.
 
-[![image](http://az667460.vo.msecnd.net/cdn/images/blog/CalculatorSidebarGadgetReleased_10BE6/image_thumb_3.png)](http://az667460.vo.msecnd.net/cdn/images/blog/CalculatorSidebarGadgetReleased_10BE6/image_3.png)
+[![image](/cdn/images/blog/CalculatorSidebarGadgetReleased_10BE6/image_thumb_3.png)](/cdn/images/blog/CalculatorSidebarGadgetReleased_10BE6/image_3.png)
 
 There are other shortcuts as well. For instance you can enter
 

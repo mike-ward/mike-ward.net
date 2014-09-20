@@ -2,7 +2,7 @@ Average Response Time on Azure
 2013-08-06T14:28:09
 Out of curiosity, I set up my blog software to run on the new Azure Web sites service and then monitored the response times as compared to my current hosting service. Data centers for both services are located in the US.
 
-[![monitor](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/AverageResponseTimeonAzure_9407/monitor_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/AverageResponseTimeonAzure_9407/monitor_2.png)
+[![monitor](/cdn/images/blog/WindowsLiveWriter/AverageResponseTimeonAzure_9407/monitor_thumb.png)](/cdn/images/blog/WindowsLiveWriter/AverageResponseTimeonAzure_9407/monitor_2.png)
 
 Considering both services are using a shared hosting environment, I'm surprised the Azure site is 3 times slower (in the US).
 

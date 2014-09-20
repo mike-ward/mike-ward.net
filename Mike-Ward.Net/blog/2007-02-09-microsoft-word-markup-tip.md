@@ -4,23 +4,23 @@ I don't particularly care for the **track changes markup** that displays on the 
 
 Open the track changes dialog (Click "Show" on the tool bar) and turn off the Balloons setting shown below.
 
-![](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/MicrosoftWordMarkupTip_102BB/word0%5B4%5D.png)
+![](/cdn/images/blog/WindowsLiveWriter/MicrosoftWordMarkupTip_102BB/word0%5B4%5D.png)
 
-![](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/MicrosoftWordMarkupTip_102BB/word%5B6%5D.png)
+![](/cdn/images/blog/WindowsLiveWriter/MicrosoftWordMarkupTip_102BB/word%5B6%5D.png)
 
 Here are some steps to turn off track changes and the associated markup for any given document.
 
 **Step 1: Turn off track changes.** Go to the tool menu and select track changes. Now in the old days Microsoft used to put a check mark next to the item to show if it was activated or not. Now there are icons. If the icon is highlighted, usually orange or blue, then the item is active. Seems less obvious to me but then I'm no interface guru.
 
-![](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/MicrosoftWordMarkupTip_102BB/word1%5B6%5D.png)
+![](/cdn/images/blog/WindowsLiveWriter/MicrosoftWordMarkupTip_102BB/word1%5B6%5D.png)
 
 **Step 2: Accept all changes.** Next go to the toolbar and select the item indicated in the picture. Click "Accept All Changes in Document".
 
-![](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/MicrosoftWordMarkupTip_102BB/word2%5B4%5D.png)
+![](/cdn/images/blog/WindowsLiveWriter/MicrosoftWordMarkupTip_102BB/word2%5B4%5D.png)
 
 **Step 3: Show Final.** Select "Final" from the drop down list as pictured here.
 
-![](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/MicrosoftWordMarkupTip_102BB/word3%5B4%5D.png)
+![](/cdn/images/blog/WindowsLiveWriter/MicrosoftWordMarkupTip_102BB/word3%5B4%5D.png)
 
 **Step 4: Save the document.**
 

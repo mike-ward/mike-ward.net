@@ -39,7 +39,7 @@ Friday Links #77
 
 **Stuff I Just Dig**
 
-[![StarTrekCommunicatorfinished](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks77_910B/StarTrekCommunicatorfinished.jpg)**Make: Online : How-To: Make a Star Trek Bluetooth Communicator**](http://blog.makezine.com/archive/2009/11/star_trek_bluetooth_communicator.html)   
+[![StarTrekCommunicatorfinished](/cdn/images/blog/FridayLinks77_910B/StarTrekCommunicatorfinished.jpg)**Make: Online : How-To: Make a Star Trek Bluetooth Communicator**](http://blog.makezine.com/archive/2009/11/star_trek_bluetooth_communicator.html)   
 [YouTube - Our jokes aren't like your jokes - Intel Sponsors of Tomorrow](http://www.youtube.com/watch?v=e0FULHGwPkw)   
 [Battle of the anti-virus: What is the best software?](http://www.net-security.org/malware_news.php?id=1137)   
 [Sleek Vega Tablet with Android 2.0, Touchscreen, and 3G Arrives Next Year - Android Tablet Vega ICD – Gizmodo](http://gizmodo.com/5403914/sleek-vega-tablet-with-android-20-touchscreen-and-3g-arrives-next-year)   

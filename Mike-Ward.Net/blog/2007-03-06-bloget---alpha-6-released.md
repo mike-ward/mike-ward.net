@@ -12,6 +12,6 @@ So what did I do with this new found power you ask? Simple, I embedded OpenWYSIW
 
 In addition, I get a wysiwyg text editor with source that I can tweak. I've wanted something like this for [Bloget](/bloget) for quite sometime but was unwilling to ship a bunch of extra files with the distribution. Now I get my source and can embed it to (there's a pun in there somewhere).
 
-![](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/BlogetAlpha6_A2D0/archie%5B3%5D.jpg)
+![](/cdn/images/blog/WindowsLiveWriter/BlogetAlpha6_A2D0/archie%5B3%5D.jpg)
 
 To summarize, Alpha 6 sports a brand new builtin Wysiwyg editor and is a single binary distribution. Download it now and check it out. Alpha 7 will introduce new controls like a blog roll and a second type of archive control so stay tuned and as always, send feedback. - Mike

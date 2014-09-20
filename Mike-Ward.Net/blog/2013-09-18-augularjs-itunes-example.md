@@ -4,7 +4,7 @@ I recently gave a presentation on AnguluarJS to a local user group. It was intro
 
 You can save this to a local file and open it directly in the browser. _iTunes.html_ is a fun example in that it looks good and has a lot of behavior in a smattering of code.
 
-[![image](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/AugularJSiTunesExample_B84D/image_thumb.png)](http://az667460.vo.msecnd.net/cdn/images/blog/WindowsLiveWriter/AugularJSiTunesExample_B84D/image_2.png)
+[![image](/cdn/images/blog/WindowsLiveWriter/AugularJSiTunesExample_B84D/image_thumb.png)](/cdn/images/blog/WindowsLiveWriter/AugularJSiTunesExample_B84D/image_2.png)
 
 It also does an Angular No-No in that it manipulates the DOM directly in the controller (line #117). As a rule, if you're using DOM manipulations in your controller there's likely an better way to express the behavior in an Angular [Directive](http://docs.angularjs.org/guide/directive). This was a compromise I made due to time limitations.
 

@@ -81,6 +81,9 @@ namespace Mike_Ward.Net.Modules
             ViewBag.DisableNext = DisableButton(ViewBag.Next);
             ViewBag.RecentPosts = model.Blog.Posts.Take(7);
             ViewBag.PostCount = model.Blog.Posts.Count().ToString("n0");
+#if !DEBUG
+            ViewBag.ImagesBaseUri = "http://az667460.vo.msecnd.net/";
+#endif
         }
 
         private static string DisableButton(string link)

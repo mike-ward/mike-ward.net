@@ -24,7 +24,7 @@ Friday Links #21
 
 [Make Visual Studio Generate Your Repository : Rob Conery](http://blog.wekeroad.com/blog/make-visual-studio-generate-your-repository/) – Not sure how I missed this one. Visual Studio 2008 comes with a built-in template generator called T4. How cool is that?
 
-![image](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks21_D045/image.png)
+![image](/cdn/images/blog/FridayLinks21_D045/image.png)
 
 An easy way to provide translations for your Web site by including a “Translate My Page”gadget available at [http://translate.google.com/translate_tools](http://translate.google.com/translate_tools). You can exclude sections of your page from translation by adding class=”notranslate” to any HTML element to prevent that element from being translated.
 

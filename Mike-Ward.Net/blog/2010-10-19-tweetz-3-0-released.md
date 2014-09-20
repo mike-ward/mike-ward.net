@@ -4,7 +4,7 @@ Finally broke out the fork and declared it done. The long lapse from the last re
 
 The differences between 2.3.5 and 3.0 are mostly on the inside. I needed to address some structural issues in the code in order to move forward with some new features. One feature of note is the new unified timeline. When I first starting writing [tweetz](/tweetz), I was going to include a unified timeline and then talked myself out of it for some reason. I don’t remember why, but it’s my favorite thing about the gadget now.
 
-![Stick A Fork In It](http://az667460.vo.msecnd.net/cdn/images/blog/Tweetz-3.0-Released_10643/Stick-A-Fork-In-It.jpg)
+![Stick A Fork In It](/cdn/images/blog/Tweetz-3.0-Released_10643/Stick-A-Fork-In-It.jpg)
 
 For version 3.1 I’m planning a complete rewrite (NOT!) Just kidding. Based on feedback the it looks like, localization, spell checking and auto-completion are the top requests. That sounds about right amount for a point release.
 

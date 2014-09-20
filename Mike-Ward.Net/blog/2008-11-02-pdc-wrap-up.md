@@ -13,7 +13,7 @@ Open Space meetings originated back in the mid 1980’s and is a form of meeting
 
 I was not familiar with this format which is why I’m describing it here. Needless to say it was interesting. In fact, the other phrase you hear thrown around from Open Space proponents is “Be prepared to be surprised.” Here’s a picture of the group (Glen Block is the guy closest to the whiteboard on the left).
 
-![MEF heads discussing the Managed Extensiblity Framework](http://az667460.vo.msecnd.net/cdn/images/blog/PDCWrapUp_D83E/openspace.jpg)
+![MEF heads discussing the Managed Extensiblity Framework](/cdn/images/blog/PDCWrapUp_D83E/openspace.jpg)
 
 Pretty informal affairs and yet a lot of good information exchange went on here. In fact, we found out that the Managed Extensibility Framework team is working on an **Inversion of Control (IOC) container** for the next release. This was not announced at the general conference so I guess I got a scoop of sorts. No promises it will ship with the product but their intention is clearly to do so. I was surprised needless to say.
 
@@ -21,13 +21,13 @@ And speaking of the [Managed Extensibility Framework](http://www.google.com/url?
 
 I also had a chance to meet [Laurent Bugnion](http://www.galasoft.ch/), author of the highly anticipated “[Silverlight 2 Unleashed](http://www.amazon.com/Silverlight-2-Unleashed-Laurent-Bugnion/dp/0672330148/ref=sr_1_2?ie=UTF8&s=books&qid=1225659313&sr=1-2).” Here he is pictured with another one of my colleagues (Laurent is on the left).
 
-![lb](http://az667460.vo.msecnd.net/cdn/images/blog/PDCWrapUp_D83E/lb.jpg)
+![lb](/cdn/images/blog/PDCWrapUp_D83E/lb.jpg)
 
 We only talked for about 15 minutes but it was a very interesting talk indeed. It would have been great to grab a beer and talk for a few hours. Needless to say, with the release of his new book, he was a busy guy.
 
 The PDC also has some rather strange publicity stunts as well. For instance, Oracle had guys on motor scooters zipping around with tow behind signs. I’m not sure what I was suppose to get out of it but I sure did notice it.
 
-![oracle scooters](http://az667460.vo.msecnd.net/cdn/images/blog/PDCWrapUp_D83E/oracle.jpg)
+![oracle scooters](/cdn/images/blog/PDCWrapUp_D83E/oracle.jpg)
 
 Usually by the third and fourth days, things have slowed down a bit and the talks are not as interesting. The press has gone home and the keynote speakers are back in their offices doing keynote-ie things I guess. However, some of the most exciting discoveries for me personally came in these last two days.
 

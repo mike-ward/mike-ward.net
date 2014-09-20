@@ -22,7 +22,7 @@ Friday Links #58
 
 [First Electronic Quantum Processor Created](http://www.sciencedaily.com/releases/2009/06/090628171949.htm) - Yale University researchers has created the first rudimentary solid-state quantum processor, taking another step toward the ultimate dream of building a quantum computer.
 
-![090628171949](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks58_894A/090628171949.jpg)
+![090628171949](/cdn/images/blog/FridayLinks58_894A/090628171949.jpg)
 
 [BBC NEWS | Science & Environment | Most complete Earth map published](http://news.bbc.co.uk/2/hi/science/nature/8126197.stm) - The resulting Global Digital Elevation Map covers 99% of the Earth's surface, and will be free to download and use.
 
@@ -42,7 +42,7 @@ Friday Links #58
 
 **Stuff I just Dig**
 
-![greenbox_rocks](http://az667460.vo.msecnd.net/cdn/images/blog/FridayLinks58_894A/greenbox_rocks.jpg)[Zero-power wasted, green phone charger](http://www.riccibitti.com/greenbox/greenbox.htm) - A greenbox works like a fridge light: it powers the charger only when you open it. Close the box, and its hidden switch disconnects the charger from the mains.
+![greenbox_rocks](/cdn/images/blog/FridayLinks58_894A/greenbox_rocks.jpg)[Zero-power wasted, green phone charger](http://www.riccibitti.com/greenbox/greenbox.htm) - A greenbox works like a fridge light: it powers the charger only when you open it. Close the box, and its hidden switch disconnects the charger from the mains.
 
 [Universal Chargers are a Good Start: 5 More Things That Need Conformity](http://www.pcworld.com/article/167578/universal_chargers_are_a_good_start_5_more_things_that_need_conformity.html) - Starting next year, Apple, Nokia, Motorola, Samsung, and RIM [will begin making handsets with a standard phone charger based](http://www.reuters.com/article/marketsNews/idCALT4437920090629?rpc=44) on the [micro-USB connector](http://en.wikipedia.org/wiki/Micro_usb#Mini_and_micro).
 

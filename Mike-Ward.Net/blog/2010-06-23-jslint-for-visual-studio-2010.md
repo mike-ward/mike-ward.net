@@ -101,7 +101,7 @@ You’ll have to modify the path to the jslint.js file.
 
 Next, open “External Tools…” dialog in Visual Studio and add a new tool called JSLint. The specific command path will be different on your machine.
 
-![2010-06-23 18h22_43](http://az667460.vo.msecnd.net/cdn/images/blog/JSLintforVisualStudio2010_FCBB/2010062318h22_43.png)
+![2010-06-23 18h22_43](/cdn/images/blog/JSLintforVisualStudio2010_FCBB/2010062318h22_43.png)
 
 Finally, record a macro to run your new JSLint external tool command. Save it and assign it to a key combo (I like Ctrl+K, Ctrl+J).
 
