@@ -65,9 +65,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Nancy.Hosting.Aspnet.0.23.2\lib\net40\Nancy.Hosting.Aspnet.dll</HintPath>
     </Reference>
-    <Reference Include="Nancy.Markdown.Blog, Version=0.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Nancy.Markdown.Blog, Version=0.4.2.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Nancy.Markdown.Blog.0.4.1.0\lib\net452\Nancy.Markdown.Blog.dll</HintPath>
+      <HintPath>..\packages\Nancy.Markdown.Blog.0.4.2.0\lib\net452\Nancy.Markdown.Blog.dll</HintPath>
     </Reference>
     <Reference Include="Nancy.Pile">
       <HintPath>..\packages\Nancy.Pile.0.5.0.0\lib\net45\Nancy.Pile.dll</HintPath>
