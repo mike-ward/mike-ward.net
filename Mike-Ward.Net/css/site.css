@@ -83,11 +83,6 @@ article {
   border-bottom: black double;
 }
 
-.hljs {
-  font-size: 85%;
-  background-color: #f6f6f9;
-}
-
 .blog-date {
   font-weight: bold;
   text-align: right;
@@ -114,6 +109,16 @@ footer {
   background: #eaf3fa;
   border-top: 1px solid #ccc;
   margin: 0;
+}
+
+pre {
+  padding: 5px;
+  background-color: #f6f6f9;  
+}
+
+code {
+  line-height: 1.2;
+  font-family: helvetica, sans-serif;
 }
 
 @media (max-device-width: 1019px) {

@@ -28,3 +28,22 @@
     <div class="recent-post"><a href="~/blog/archives">More... (@ViewBag.PostCount)</a></div>
   </p>
 }
+
+@section scripts {
+  <script>
+    var disqus_identifier;
+    var disqus_title;
+    function load_disqus(id, title) {
+      var disqus_shortname = 'mikeward';
+      disqus_identifier = id;
+      disqus_title = title;
+      (function () {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    }
+  </script>
+}

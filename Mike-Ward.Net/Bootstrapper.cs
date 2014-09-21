@@ -15,8 +15,7 @@ namespace Mike_Ward.Net
             nancyConventions.StaticContentsConventions.AddDirectory("cdn/static");
             nancyConventions.StaticContentsConventions.AddDirectory("cdn/downloads");
             nancyConventions.StaticContentsConventions.AddDirectoryWithExpiresHeader("cdn/images", TimeSpan.FromDays(365));
-            nancyConventions.StaticContentsConventions.StyleBundle("styles.css", new[] { "css/pure-min.css", "css/*.css" });
-            nancyConventions.StaticContentsConventions.ScriptBundle("scripts.js", new[] { "*.js" });
+            nancyConventions.StaticContentsConventions.StyleBundle("styles.css", new[] { "css/pure-min.css", "css/site.css" });
         }
     }
 }
