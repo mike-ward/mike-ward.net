@@ -44,15 +44,11 @@
         @RenderSection("sidebar", false)
       </div>
       <div>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- Sidebar -->
         <ins class="adsbygoogle"
              style="display:inline-block;width:200px;height:200px"
              data-ad-client="ca-pub-1981154560626519"
              data-ad-slot="3952097780"></ins>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
       </div>
     </div>
   </div>
@@ -77,11 +73,11 @@
       else window.onload = f;
     }
 
-    function loadScript(script) {
-      var element = document.createElement("script");
-      element.async = true;
-      element.src = script;
-      document.body.appendChild(element);
+    function loadScript(script, element) {
+      var scr = document.createElement("script");
+      scr.async = true;
+      scr.src = script;
+      (element || document.body).appendChild(scr);
     }
 
     function analytics() {
@@ -96,8 +92,6 @@
     }
 
     init(analytics);
-    init(loadScript('https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js'));
-    Array.prototype.forEach.call(document.querySelectorAll('pre'), function (e) { e.className += ' prettyprint'; });
 
     function load_disqus(id, title) {
       var disqus_shortname = 'mikeward';
@@ -111,6 +105,10 @@
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       })();
     }
+
+    init(loadScript('//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'));
+    init(function() { (adsbygoogle = window.adsbygoogle || []).push({}); });
   </script>
+  @RenderSection("scripts", false)
 </body>
 </html>

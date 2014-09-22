@@ -733,13 +733,8 @@
     <Content Include="cdn\images\vscoloroutput\vscoloroutputpatterns.png" />
     <Content Include="cdn\static\Michael-R-Ward-Resume.html" />
     <Content Include="cdn\static\PageNotFound.html" />
-    <Content Include="css\highlight-vs.min.css" />
     <Content Include="css\pure-min.css" />
     <Content Include="css\site.css" />
-    <Content Include="js\analytics.js" />
-    <Content Include="js\disqus.js" />
-    <Content Include="js\highlight.min.js" />
-    <Content Include="js\zload.js" />
     <Content Include="NSass.Wrapper\NSass.Wrapper.x64.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -1770,7 +1765,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="js\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

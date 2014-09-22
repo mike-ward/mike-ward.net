@@ -28,3 +28,10 @@
     <div class="recent-post"><a href="~/blog/archives">More... (@ViewBag.PostCount)</a></div>
   </p>
 }
+
+@section scripts {
+  <script>
+    init(loadScript('https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js'));
+    Array.prototype.forEach.call(document.querySelectorAll('pre'), function (e) { e.className += ' prettyprint'; });
+  </script>
+}

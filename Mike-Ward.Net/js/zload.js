@@ -1,1 +1,0 @@
-﻿hljs.initHighlighting();
