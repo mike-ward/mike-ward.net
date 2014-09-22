@@ -79,6 +79,7 @@
 
     function loadScript(script) {
       var element = document.createElement("script");
+      element.async = true;
       element.src = script;
       document.body.appendChild(element);
     }
