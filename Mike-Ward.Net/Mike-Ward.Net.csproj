@@ -1755,6 +1755,7 @@
     <Content Include="blog\2014-09-05-friday-links-319.md" />
     <Content Include="blog\2014-09-09-introducing-nancy-markdown-blog.md" />
     <Content Include="blog\2014-09-19-friday-links-321.md" />
+    <Content Include="blog\2014-09-26-friday-links-322.md" />
     <None Include="Properties\PublishProfiles\mike-ward - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\mike-ward - Web Deploy.pubxml" />
     <Content Include="views\download.cshtml" />
